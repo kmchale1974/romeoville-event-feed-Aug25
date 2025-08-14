@@ -1,33 +1,24 @@
-name: Generate Event Screenshots
+name: Generate PNG Screenshots
 
 on:
   schedule:
-    - cron: "0 * * * *" # Every hour
+    - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
 jobs:
-  build:
+  screenshot:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
+      - uses: actions/checkout@v3
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
-      - name: Install Puppeteer
-        run: npm install puppeteer
-
-      - name: Run screenshot script
-        run: node screenshot.js
-
-      - name: Commit screenshots
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add output/*.png
-          git commit -m "Generated event screenshots"
-          git push
-        continue-on-error: true
+      - run: npm install puppeteer
+      - run: mkdir -p output
+      - run: node screenshot.js
+      - name: Upload screenshots to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
