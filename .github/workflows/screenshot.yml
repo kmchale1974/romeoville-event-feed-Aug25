@@ -1,24 +1,32 @@
-name: Generate PNG Screenshots
+name: Generate Event Images
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
   screenshot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm install puppeteer
-      - run: mkdir -p output
-      - run: node screenshot.js
-      - name: Upload screenshots to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate Screenshots
+        run: node screenshot.js
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/
+          git commit -m "Auto-generate screenshots [skip ci]" || echo "No changes"
+          git push
