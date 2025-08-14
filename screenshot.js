@@ -1,24 +1,23 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
+import fs from 'fs';
 
-const url = 'https://kmchale1974.github.io/romeoville-event-feed/';
-const outputDir = './';
-const viewports = [
-  { width: 1080, height: 1920, name: 'output-1' },
-  { width: 1080, height: 1920, name: 'output-2' },
-  { width: 1080, height: 1920, name: 'output-3' },
-  { width: 1080, height: 1920, name: 'output-4' }
-];
+const BASE_URL = 'https://kmchale1974.github.io/romeoville-event-feed-Aug25/index.html?page=';
 
-(async () => {
-  const browser = await puppeteer.launch({ headless: 'new' });
-  const page = await browser.newPage();
+const browser = await puppeteer.launch({
+  headless: 'new',
+  args: ['--no-sandbox', '--disable-setuid-sandbox'] // <-- this is the fix
+});
 
-  for (const vp of viewports) {
-    await page.setViewport({ width: vp.width, height: vp.height });
-    await page.goto(url + `?page=${vp.name.split('-')[1]}`, { waitUntil: 'networkidle2' });
-    await page.waitForTimeout(3000);
-    await page.screenshot({ path: `${outputDir}${vp.name}.png` });
-  }
+const page = await browser.newPage();
+if (!fs.existsSync('./output')) fs.mkdirSync('./output');
 
-  await browser.close();
-})();
+// Loop through pages 1–4
+for (let i = 1; i <= 4; i++) {
+  const url = `${BASE_URL}${i}`;
+  console.log(`Capturing ${url}`);
+  await page.goto(url, { waitUntil: 'networkidle0', timeout: 60000 });
+  await page.waitForTimeout(2000); // let content fully render
+  await page.screenshot({ path: `output/page-${i}.png`, fullPage: true });
+}
+
+await browser.close();
