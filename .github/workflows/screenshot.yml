@@ -1,32 +1,36 @@
-name: Generate Event Images
+name: Generate Event Page Screenshots
 
 on:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:     # Allows manual trigger from GitHub UI
 
 jobs:
   screenshot:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Install Puppeteer
+        run: npm install puppeteer
 
-      - name: Generate Screenshots
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Run Puppeteer to generate screenshots
         run: node screenshot.js
 
-      - name: Commit and Push
+      - name: Commit screenshots
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git commit -m "Auto-generate screenshots [skip ci]" || echo "No changes"
+          git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
           git push
