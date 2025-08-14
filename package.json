@@ -1,0 +1,12 @@
+{
+  "name": "romeoville-event-feed",
+  "version": "1.0.0",
+  "main": "screenshot.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node screenshot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  }
+}
