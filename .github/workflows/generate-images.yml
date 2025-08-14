@@ -1,0 +1,37 @@
+name: Generate Event PNGs
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+    - cron: '0 6 * * *' # Hard reset every day at 6 AM CST
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate screenshots
+        run: node screenshot.js
+
+      - name: Upload screenshots to output folder
+        run: |
+          mkdir -p output
+          mv output-*.png output/
+
+      - name: Commit and push output images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git commit -m "Update event PNGs [skip ci]" || echo "No changes to commit"
+          git push
