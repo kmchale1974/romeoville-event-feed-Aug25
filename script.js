@@ -13,11 +13,11 @@ window.addEventListener('load', async () => {
       const title = item.querySelector("title")?.textContent || "";
       const description = item.querySelector("description")?.textContent || "";
 
-      console.log(`📄 RAW DESCRIPTION FOR ITEM ${index + 1}:
-${description}
-`);
+      // ✅ DEBUG LOG: Print the raw description content
+      console.log(`📄 RAW DESCRIPTION FOR ITEM ${index + 1}:\n${description}\n`);
 
-      const dateMatch = description.match(/Event date[s]?:\s*([^<\n]+)/i);
+      // Improved RegEx for more robust parsing
+      const dateMatch = description.match(/Event date[s]?:\s*([\w\d\s,–-]+(?: - [\w\d\s,]+)?)/i);
       const timeMatch = description.match(/Event time:\s*([^<\n]+)/i);
       const locationMatch = description.match(/Location:\s*([^<\n]+)/i);
 
@@ -29,6 +29,7 @@ ${description}
       };
     });
 
+    // Pagination
     const eventsPerPage = 5;
     window.pages = [];
     for (let i = 0; i < items.length; i += eventsPerPage) {
@@ -48,6 +49,7 @@ ${description}
     const container = document.getElementById("event-container");
     container.innerHTML = window.pages[window.currentPage];
 
+    // Auto-paginate in browser for visual testing
     setInterval(() => {
       window.currentPage = (window.currentPage + 1) % window.pages.length;
       container.style.opacity = 0;
