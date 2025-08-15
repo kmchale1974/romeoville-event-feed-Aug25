@@ -9,13 +9,12 @@ const puppeteer = require("puppeteer");
   const page = await browser.newPage();
   await page.setViewport({ width: 616, height: 960 });
 
-  // ✅ Directly load the real event viewer, not the repo homepage
   await page.goto("https://kmchale1974.github.io/romeoville-event-feed-Aug25/index.html", {
     waitUntil: "networkidle2",
   });
 
-  // Wait for events to render — adjust this if needed
-  await page.waitForSelector(".event-page");
+  // Fix: Wait for the correct selector
+  await page.waitForSelector("#event-container");
   await page.waitForTimeout(2000); // Let animations and fonts load
 
   for (let i = 0; i < 4; i++) {
@@ -28,7 +27,7 @@ const puppeteer = require("puppeteer");
         document.getElementById("event-container").style.opacity = 1;
       }, 500);
     });
-    await page.waitForTimeout(1500); // Let fade transition complete
+    await page.waitForTimeout(1500);
   }
 
   await browser.close();
