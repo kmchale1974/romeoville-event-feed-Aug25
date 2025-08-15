@@ -15,7 +15,7 @@ const puppeteer = require("puppeteer");
 
   // Fix: Wait for the correct selector
   await page.waitForSelector("#event-container");
-  await page.waitForTimeout(2000); // Let animations and fonts load
+  await new Promise(resolve => setTimeout(resolve, 2000)); // Let animations and fonts load
 
   for (let i = 0; i < 4; i++) {
     await page.screenshot({ path: `output/output-${i + 1}.png` });
