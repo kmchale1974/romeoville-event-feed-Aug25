@@ -8,6 +8,7 @@ on:
 jobs:
   screenshot:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -39,6 +40,7 @@ jobs:
   deploy:
     needs: screenshot
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -56,6 +58,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          personal_token: ${{ secrets.GH_PAT }}
           publish_dir: ./dist
           publish_branch: gh-pages
