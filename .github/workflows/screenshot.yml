@@ -29,7 +29,7 @@ jobs:
       - name: Run Puppeteer to generate screenshots
         run: node screenshot.js
 
-            - name: Commit screenshots
+      - name: Commit screenshots
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
