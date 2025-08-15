@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install Puppeteer
+        run: npm install puppeteer
 
       - name: Clean and recreate output directory
         run: |
