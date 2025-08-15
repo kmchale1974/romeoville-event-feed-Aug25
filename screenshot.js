@@ -9,13 +9,16 @@ const puppeteer = require("puppeteer");
   const page = await browser.newPage();
   await page.setViewport({ width: 616, height: 960 });
 
+  // Load your event display page directly
   await page.goto("https://kmchale1974.github.io/romeoville-event-feed-Aug25/index.html", {
     waitUntil: "networkidle2",
   });
 
-  // Fix: Wait for the correct selector
+  // Wait for your event container to load
   await page.waitForSelector("#event-container");
-  await new Promise(resolve => setTimeout(resolve, 2000)); // Let animations and fonts load
+
+  // Wait a bit for animations, fonts, etc.
+  await new Promise(resolve => setTimeout(resolve, 2000));
 
   for (let i = 0; i < 4; i++) {
     await page.screenshot({ path: `output/output-${i + 1}.png` });
@@ -27,7 +30,7 @@ const puppeteer = require("puppeteer");
         document.getElementById("event-container").style.opacity = 1;
       }, 500);
     });
-    await page.waitForTimeout(1500);
+    await new Promise(resolve => setTimeout(resolve, 1500));
   }
 
   await browser.close();
