@@ -1,18 +1,12 @@
 {
   "name": "romeoville-event-feed",
   "version": "1.0.0",
-  "description": "Romeoville Event Feed Screenshot Generator",
+  "description": "Event display and screenshot generator",
   "main": "screenshot.js",
   "scripts": {
-    "start": "node screenshot.js",
-    "deploy": "gh-pages -d ."
+    "start": "node screenshot.js"
   },
-  "author": "Kevin McHale",
-  "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.3.8"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "puppeteer": "^24.9.0"
   }
 }
