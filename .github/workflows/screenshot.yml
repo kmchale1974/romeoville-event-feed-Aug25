@@ -29,10 +29,13 @@ jobs:
       - name: Run Puppeteer to generate screenshots
         run: node screenshot.js
 
-      - name: Commit screenshots
+            - name: Commit screenshots
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
           git add output/
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
-          git push
+          git push origin HEAD:${{ github.ref }}
