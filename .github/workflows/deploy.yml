@@ -20,16 +20,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Prepare static site for Pages
         run: |
           mkdir -p dist
           cp index.html dist/
           cp script.js dist/
           cp style.css dist/
-          cp -r output dist/output  # <- Copy output folder too
+          cp -r output dist/output
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
