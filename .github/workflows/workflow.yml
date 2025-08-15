@@ -26,11 +26,17 @@ jobs:
           echo "➡️ Loading page..."
           node screenshot.js
 
+      - name: Show Git Remote (debug)
+        run: git remote -v
+
       - name: Commit and push screenshots
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GIT_ASKPASS: echo
         run: |
           git config --global user.name "Kevin McHale"
           git config --global user.email "kmchale1974@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
           git add output/*.png
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
           git push origin HEAD:main
