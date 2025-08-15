@@ -1,31 +1,29 @@
-name: Generate Page Screenshots
+name: Generate Event Page Screenshots
 
 on:
-  schedule:
-    - cron: "0 * * * *"  # Run every hour
   workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *' # Every hour
 
 jobs:
   screenshot:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Clean output folder
-        run: rm -rf output && mkdir output
-
-      - name: Generate screenshots
-        run: node screenshot.js
+      - name: Run screenshot script
+        run: |
+          echo "➡️ Loading page..."
+          node screenshot.js
 
       - name: Commit and push screenshots
         run: |
@@ -34,3 +32,27 @@ jobs:
           git add output/*.png
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
+
+  deploy:
+    needs: screenshot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build dist folder with output files
+        run: |
+          mkdir -p dist
+          cp output/*.png dist/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
