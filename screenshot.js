@@ -14,11 +14,11 @@ const puppeteer = require("puppeteer");
     waitUntil: "networkidle2",
   });
 
-  // Wait for scripts to finish loading
+  // Manual wait to give JS time to load
   console.log("⏳ Waiting 5 seconds for scripts to run...");
   await new Promise(resolve => setTimeout(resolve, 5000));
 
-  // Check window.pages
+  // Check what window.pages looks like
   const debug = await page.evaluate(() => {
     return {
       pagesType: typeof window.pages,
@@ -38,25 +38,21 @@ const puppeteer = require("puppeteer");
 
   for (let i = 0; i < debug.pagesLength; i++) {
     console.log(`📸 Capturing page ${i + 1} of ${debug.pagesLength}`);
+    await page.screenshot({ path: `output/output-${i + 1}.png` });
 
-    // Update the page content and wait until it appears
-    await page.evaluate((i) => {
-      return new Promise((resolve) => {
-        window.currentPage = i;
+    await page.evaluate(() => {
+      if (Array.isArray(window.pages)) {
+        window.currentPage = (window.currentPage + 1) % window.pages.length;
         const container = document.getElementById("event-container");
         container.style.opacity = 0;
         setTimeout(() => {
           container.innerHTML = window.pages[window.currentPage];
           container.style.opacity = 1;
-          resolve();
-        }, 500); // Delay matches your CSS fade-in timing
-      });
-    }, i);
+        }, 500);
+      }
+    });
 
-    // Wait a bit longer to ensure DOM + animation settle
-    await page.waitForTimeout(1000);
-
-    await page.screenshot({ path: `output/output-${i + 1}.png` });
+    await new Promise(resolve => setTimeout(resolve, 1500)); // wait for transition to complete
   }
 
   await browser.close();
