@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT }}  # 👈 Explicitly use your personal token
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -31,16 +31,22 @@ jobs:
       - name: Run Puppeteer to generate screenshots
         run: node screenshot.js
 
-      - name: Debug GH_PAT
-        run: echo "GH_PAT is ${GH_PAT:0:4}****"
+      - name: Checkout gh-pages branch
+        run: |
+          git fetch origin gh-pages
+          git switch gh-pages
+
+      - name: Copy screenshots to gh-pages branch root
+        run: |
+          rm -rf *.png
+          cp output/*.png .
+
+      - name: Commit and push screenshots to gh-pages
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-
-      - name: Commit screenshots
         run: |
-          git config --global user.name "Romeoville Events Bot"
-          git config --global user.email "romeobot@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
-          git add output/
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.png
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
-          git push origin HEAD:main
+          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} gh-pages
