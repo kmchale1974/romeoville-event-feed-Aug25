@@ -2,7 +2,7 @@ name: Generate Event Page Screenshots
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
 jobs:
@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Puppeteer
-        run: npm install puppeteer
+      - name: Install dependencies
+        run: npm install
 
       - name: Clean and recreate output directory
         run: |
@@ -29,7 +29,7 @@ jobs:
       - name: Run Puppeteer to generate screenshots
         run: node screenshot.js
 
-      - name: Commit screenshots
+      - name: Commit and push screenshots
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
