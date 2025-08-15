@@ -30,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "Kevin McHale"
-          git config --global user.email "you@example.com"
+          git config --global user.email "kmchale@romeoville.org"
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
           git add output/*.png
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
