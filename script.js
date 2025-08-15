@@ -6,20 +6,22 @@ async function fetchEvents() {
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(text, "text/xml");
 
-  const items = Array.from(xmlDoc.querySelectorAll("item")).map(item => {
+  const items = Array.from(xmlDoc.querySelectorAll("item")).map((item, index) => {
     const title = item.querySelector("title")?.textContent || "";
     const description = item.querySelector("description")?.textContent || "";
 
-    // Updated pattern with robust fallback
-    const dateMatch = description.match(/Event date[s]?:\s*([^\n<]*)/i);
-    const timeMatch = description.match(/Event time:\s*([^\n<]*)/i);
-    const locationMatch = description.match(/Location:\s*([^\n<]*)/i);
+    // DEBUG: log the description string for inspection
+    console.log(`📄 Item ${index + 1} description:\n${description}\n`);
+
+    const dateMatch = description.match(/Event date[s]?:\s*([^<\n]*)/i);
+    const timeMatch = description.match(/Event time:\s*([^<\n]*)/i);
+    const locationMatch = description.match(/Location:\s*([^<\n]*)/i);
 
     return {
       title,
       date: dateMatch ? dateMatch[1].trim() : "TBA",
       time: timeMatch ? timeMatch[1].trim() : "TBA",
-      location: locationMatch ? locationMatch[1].trim() : "TBA"
+      location: locationMatch ? locationMatch[1].trim() : "TBA",
     };
   });
 
