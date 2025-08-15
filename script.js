@@ -1,4 +1,3 @@
-<script>
 window.addEventListener('load', async () => {
   const feedUrl = 'https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml';
 
@@ -14,13 +13,13 @@ window.addEventListener('load', async () => {
       const title = item.querySelector("title")?.textContent || "";
       const description = item.querySelector("description")?.textContent || "";
 
-      // ✅ DEBUG LOG: Print the raw description content
-      console.log(`📄 RAW DESCRIPTION FOR ITEM ${index + 1}:\n${description}\n`);
+      console.log(`📄 RAW DESCRIPTION FOR ITEM ${index + 1}:
+${description}
+`);
 
-      // Try to extract fields with broad regexes
-      const dateMatch = description.match(/Event date[s]?:\s*([^\n<]+)/i);
-      const timeMatch = description.match(/Event time:\s*([^\n<]+)/i);
-      const locationMatch = description.match(/Location:\s*([^\n<]+)/i);
+      const dateMatch = description.match(/Event date[s]?:\s*([^<\n]+)/i);
+      const timeMatch = description.match(/Event time:\s*([^<\n]+)/i);
+      const locationMatch = description.match(/Location:\s*([^<\n]+)/i);
 
       return {
         title,
@@ -30,7 +29,6 @@ window.addEventListener('load', async () => {
       };
     });
 
-    // Pagination
     const eventsPerPage = 5;
     window.pages = [];
     for (let i = 0; i < items.length; i += eventsPerPage) {
@@ -50,7 +48,6 @@ window.addEventListener('load', async () => {
     const container = document.getElementById("event-container");
     container.innerHTML = window.pages[window.currentPage];
 
-    // Auto-paginate in browser for visual testing
     setInterval(() => {
       window.currentPage = (window.currentPage + 1) % window.pages.length;
       container.style.opacity = 0;
@@ -64,4 +61,3 @@ window.addEventListener('load', async () => {
     console.error("❌ Failed to load or parse RSS feed:", err);
   }
 });
-</script>
