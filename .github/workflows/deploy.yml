@@ -23,12 +23,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build static site (optional)
+      - name: Prepare static site for Pages
         run: |
-          echo "No build step necessary for static HTML."
           mkdir -p dist
-          cp index.html script.js style.css dist/
-          cp -r output dist/output || true
+          cp index.html dist/
+          cp script.js dist/
+          cp style.css dist/
+          cp -r output dist/output  # <- Copy output folder too
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
