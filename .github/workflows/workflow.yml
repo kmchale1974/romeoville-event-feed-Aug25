@@ -26,12 +26,15 @@ jobs:
           node screenshot.js
 
       - name: Commit and push screenshots
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "Kevin McHale"
-          git config --global user.email "kmchale@romeoville.org"
+          git config --global user.email "kmchale@romeoville.org"  # <- REPLACE with your GitHub email
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
           git add output/*.png
           git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
+          git push origin main
 
   deploy:
     needs: screenshot
@@ -53,6 +56,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          personal_token: ${{ secrets.GH_PAT }}
           publish_dir: ./dist
           publish_branch: gh-pages
