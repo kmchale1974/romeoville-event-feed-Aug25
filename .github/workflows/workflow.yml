@@ -8,6 +8,7 @@ on:
 jobs:
   screenshot:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,6 +38,7 @@ jobs:
   deploy:
     needs: screenshot
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
