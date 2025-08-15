@@ -1,0 +1,41 @@
+name: Generate Event Page Screenshots
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+  workflow_dispatch:
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      - name: Clean and recreate output directory
+        run: |
+          rm -rf output
+          mkdir output
+
+      - name: Run Puppeteer to generate screenshots
+        run: node screenshot.js
+
+      - name: Commit screenshots
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git add output/
+          git commit -m "Update screenshots [CI skip]" || echo "No changes to commit"
+          git push origin HEAD:main
