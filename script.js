@@ -1,9 +1,14 @@
-window.addEventListener('load', async () => {
+window.addEventListener("load", async () => {
   const feedUrl = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
 
   try {
+    console.log("📡 Fetching RSS...");
     const response = await fetch(feedUrl);
     const xmlText = await response.text();
+
+    console.log("📜 RSS length:", xmlText.length);
+    console.log("📦 Raw XML preview:", xmlText.slice(0, 300));
+
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, "application/xml");
 
@@ -23,28 +28,30 @@ window.addEventListener('load', async () => {
       };
     });
 
-    const upcoming = items.filter(item => {
-      const datePart = item.date.split("-")[0].trim(); // handles date ranges
-      const parsed = new Date(datePart);
-      return !isNaN(parsed) && parsed >= new Date();
-    });
+    console.log("📆 Parsed items:", items.length);
+    if (items.length === 0) {
+      console.warn("⚠️ No events found in RSS feed. Check formatting or proxy.");
+    }
 
-    const eventsPerPage = 5;
-    window.pages = [];
-    for (let i = 0; i < upcoming.length; i += eventsPerPage) {
-      const group = upcoming.slice(i, i + eventsPerPage);
-      const html = group.map(event => `
+    // Chunk into pages of 5
+    const pageSize = 5;
+    const pages = [];
+    for (let i = 0; i < items.length; i += pageSize) {
+      const chunk = items.slice(i, i + pageSize);
+      const eventsHTML = chunk.map(event => `
         <div class="event">
           <div class="event-title">${event.title}</div>
           <div class="event-date">Date: ${event.date}</div>
           <div class="event-time">Time: ${event.time}</div>
           <div class="event-location">Location: ${event.location}</div>
         </div>
-      `).join('');
-      window.pages.push(html);
+      `).join("");
+      pages.push(eventsHTML);
     }
 
+    window.pages = pages;
     window.currentPage = 0;
+
     const container = document.getElementById("event-container");
     container.innerHTML = window.pages[0];
 
@@ -56,9 +63,7 @@ window.addEventListener('load', async () => {
         container.style.opacity = 1;
       }, 500);
     }, 5000);
-
-  } catch (e) {
-    console.error("❌ Failed to load events:", e);
-    document.getElementById("event-container").innerHTML = "<p>Error loading events</p>";
+  } catch (error) {
+    console.error("❌ Failed to fetch or parse RSS feed:", error);
   }
 });
