@@ -31,17 +31,24 @@ function stripTags(str) {
 
 // Extract from labeled field (first valid occurrence)
 function extractField(desc, label) {
-  const lines = desc.split(/<br\s*\/?>/i);
+  const lines = desc.split(/<br\s*\/?>/i).map(line => line.trim());
+
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    if (line.toLowerCase().includes(label.toLowerCase())) {
-      const nextLines = lines.slice(i + 1, i + 3) // get up to 2 lines after
-        .map(l => stripTags(decodeHTMLEntities(l)).trim())
-        .filter(l => l.length > 0 && !/Romeoville,\s*IL/i.test(l)); // omit city/state
-      return nextLines.join(", ");
+    const plain = stripTags(decodeHTMLEntities(lines[i]));
+    if (plain.toLowerCase().startsWith(label.toLowerCase() + ":")) {
+      const afterLabel = plain.slice(label.length + 1).trim();
+      const nextLine = lines[i + 1] ? stripTags(decodeHTMLEntities(lines[i + 1])).trim() : "";
+
+      if (label.toLowerCase() === "location") {
+        let address = afterLabel || nextLine || "TBA";
+        return address.replace(/Romeoville,\s*IL\s*\d{5}/i, "").trim();
+      }
+
+      return afterLabel || "TBA";
     }
   }
-  return null;
+
+  return "TBA";
 }
 
 (async () => {
