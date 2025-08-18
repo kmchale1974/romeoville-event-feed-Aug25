@@ -3,7 +3,7 @@ window.addEventListener('load', async () => {
     const res = await fetch('events.json');
     const events = await res.json();
 
-    const eventsPerPage = 8;
+    const eventsPerPage = 9;
     window.pages = [];
 
     for (let i = 0; i < events.length; i += eventsPerPage) {
