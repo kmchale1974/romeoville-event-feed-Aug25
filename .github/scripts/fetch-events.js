@@ -24,28 +24,24 @@ function cleanHTML(input) {
 }
 
 function extractFirstMatch(description, label) {
-  const regex = new RegExp(`${label}:\\s*([^\\n]+)`, "i");
+  const regex = new RegExp(`${label}:\\s*([^\n\r<]+)`, "i");
   const match = description.match(regex);
-  return match ? match[1].trim() : "TBA";
+  return match ? match[1].trim() : null;
 }
 
-function extractLocationBlock(description) {
-  const lines = description.split('\n').map(l => l.trim());
-  const locationLines = [];
-  let collecting = false;
+function extractLocation(description) {
+  const lines = description.split(/\r?\n/).map(l => l.trim());
+  let index = lines.findIndex(line => /^Location:/i.test(line));
+  if (index === -1 || index >= lines.length - 1) return "TBA";
 
-  for (const line of lines) {
-    if (/^Location:/i.test(line)) {
-      collecting = true;
-      continue;
-    }
-    if (collecting) {
-      if (!line || /^Event time:/i.test(line) || /^Time:/i.test(line)) break;
-      locationLines.push(line);
-    }
+  const locationLines = [];
+  for (let i = index + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line || /^Event time:/i.test(line) || /^Time:/i.test(line) || /^Location:/i.test(line)) break;
+    locationLines.push(line);
   }
 
-  return locationLines.length ? [...new Set(locationLines)].join(", ") : "TBA";
+  return [...new Set(locationLines)].join(", ") || "TBA";
 }
 
 (async () => {
@@ -68,9 +64,9 @@ function extractLocationBlock(description) {
       const rawDescription = getTag("description");
       const description = cleanHTML(rawDescription);
 
-      const date = extractFirstMatch(description, "Event date") || extractFirstMatch(description, "Event dates");
-      const time = extractFirstMatch(description, "Event time");
-      const location = extractLocationBlock(description);
+      const date = extractFirstMatch(description, "Event date") || extractFirstMatch(description, "Event dates") || "TBA";
+      const time = extractFirstMatch(description, "Event time") || "TBA";
+      const location = extractLocation(description);
 
       items.push({ title, date, time, location });
     }
