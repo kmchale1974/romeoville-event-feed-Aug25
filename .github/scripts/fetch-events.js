@@ -4,7 +4,7 @@ const https = require("https");
 const FEED_URL = "https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
 const PROXY_URL = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/" + FEED_URL;
 
-// Fetch raw XML
+// Fetch raw XML from feed
 function fetchXML(url) {
   return new Promise((resolve, reject) => {
     https.get(url, res => {
@@ -15,24 +15,24 @@ function fetchXML(url) {
   });
 }
 
-// Strip HTML tags from the description
+// Strip HTML tags like <br>, <strong>, etc.
 function stripHTML(html) {
   return html
-    .replace(/<br\s*\/?>/gi, '\n')       // Convert <br> to newline
-    .replace(/<\/?[^>]+(>|$)/g, '')      // Remove all HTML tags
+    .replace(/<br\s*\/?>/gi, '\n')        // Replace <br> with newlines
+    .replace(/<\/?[^>]+(>|$)/g, '')       // Remove all other HTML tags
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .trim();
 }
 
-// Extract a labeled field like "Event Time: ..."
+// Extract "Label: value" from plain text
 function extractField(text, label) {
   const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(?=\\n|$)`, 'i');
   const match = text.match(regex);
   return match ? match[1].trim() : null;
 }
 
-// Main
+// Main logic
 (async () => {
   try {
     console.log("📡 Fetching RSS feed...");
@@ -46,22 +46,22 @@ function extractField(text, label) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const tagMatch = itemXML.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`, "i"));
+        const tagMatch = itemXML.match(new RegExp(`<${tag}>([\\s\\S]*?)<\/${tag}>`, "i"));
         return tagMatch ? tagMatch[1].trim() : "";
       };
 
       const title = stripHTML(getTag("title"));
-      const rawDesc = getTag("description");
-      const cleanedDesc = stripHTML(rawDesc);
+      const rawDescription = getTag("description");
+      const cleanDescription = stripHTML(rawDescription);
 
-      const date = extractField(cleanedDesc, "Event date") || extractField(cleanedDesc, "Event dates") || "TBA";
-      const time = extractField(cleanedDesc, "Event time") || "TBA";
-      const location = extractField(cleanedDesc, "Location") || "TBA";
+      const date = extractField(cleanDescription, "Event date") || extractField(cleanDescription, "Event dates") || "TBA";
+      const time = extractField(cleanDescription, "Event time") || "TBA";
+      const location = extractField(cleanDescription, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
 
-    console.log(`✅ Parsed ${items.length} events`);
+    console.log(`✅ Parsed ${items.length} events.`);
     fs.writeFileSync("events.json", JSON.stringify(items, null, 2));
     console.log("💾 Saved events.json");
   } catch (err) {
