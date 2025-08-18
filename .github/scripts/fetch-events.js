@@ -29,25 +29,18 @@ function stripTags(str) {
   return str.replace(/<[^>]*>/g, "").trim();
 }
 
-// Extract field from RSS description
+// Extract from labeled field (first valid occurrence)
 function extractField(desc, label) {
-  const regex = new RegExp(`${label}\\s*:?\\s*</?strong>?\\s*:?\\s*([\\s\\S]*?)(<br\\s*/?>|$)`, "i");
-  const match = desc.match(regex);
-  if (match) {
-    return stripTags(decodeHTMLEntities(match[1])).trim();
-  }
-
-  // fallback: search line-by-line
   const lines = desc.split(/<br\s*\/?>/i);
   for (const line of lines) {
     if (line.toLowerCase().includes(label.toLowerCase())) {
-      const parts = line.split(/:<\/?strong>?/i);
-      if (parts.length > 1) {
-        return stripTags(decodeHTMLEntities(parts[1])).trim();
+      const clean = stripTags(decodeHTMLEntities(line)).trim();
+      const parts = clean.split(":");
+      if (parts.length > 1 && parts[1].trim()) {
+        return parts.slice(1).join(":").trim();
       }
     }
   }
-
   return null;
 }
 
@@ -73,13 +66,15 @@ function extractField(desc, label) {
 
       const date = extractField(desc, "Event date") || extractField(desc, "Event dates") || "TBA";
       const time = extractField(desc, "Event time") || "TBA";
+
       let locationRaw = extractField(desc, "Location");
       if (locationRaw) {
         locationRaw = locationRaw
-          .replace(/Romeoville,\s*IL\s*\d{5}/i, "")
-          .replace(/\s+/g, " ")
+          .replace(/Romeoville,\s*IL\s*\d{5}/i, "") // remove "Romeoville, IL 60446"
+          .replace(/\s+/g, " ")                     // flatten excessive whitespace
           .trim();
       }
+
       const location = locationRaw || "TBA";
 
       items.push({ title, date, time, location });
