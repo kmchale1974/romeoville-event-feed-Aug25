@@ -23,8 +23,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: 🔧 Install dependencies
-        run: npm install
+      # ⛔️ Remove this step entirely
+      # - name: 🔧 Install dependencies
+      #   run: npm install
 
       - name: 🛠 Run fetch-events.js to build events.json
         run: node .github/scripts/fetch-events.js
