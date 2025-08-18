@@ -14,27 +14,20 @@ function fetchXML(url) {
   });
 }
 
-function stripHTMLandWhitespace(text) {
-  return text
-    .replace(/<[^>]+>/g, "")       // Remove HTML tags like <strong>, <br>
-    .replace(/\s*\n\s*/g, " ")     // Normalize newlines
-    .replace(/\s{2,}/g, " ")       // Collapse extra spaces
+function extractField(desc, label) {
+  // Look for only the first matching line
+  const regex = new RegExp(`${label}:\\s*([^<\\n]+)`, "i");
+  const match = desc.match(regex);
+  return match ? match[1].trim() : null;
+}
+
+function cleanHTML(input) {
+  return input
+    .replace(/<br\s*\/?>/gi, "\n")      // Replace <br> with newlines
+    .replace(/<\/?strong>/gi, "")       // Remove <strong> tags
+    .replace(/&nbsp;/gi, " ")           // Optional: convert &nbsp;
+    .replace(/<\/?[^>]+(>|$)/g, "")     // Remove any other HTML tags
     .trim();
-}
-
-function extractField(description, labels) {
-  const plain = stripHTMLandWhitespace(description);
-
-  for (const label of labels) {
-    const regex = new RegExp(`${label}:\\s*(.*?)(?=\\s{2,}|$)`, "i");
-    const match = plain.match(regex);
-    if (match) return match[1].trim();
-  }
-  return null;
-}
-
-function dedupe(value) {
-  return [...new Set(value.split(/\s*\|\s*|\n/).map(s => s.trim()))].join(" | ");
 }
 
 (async () => {
@@ -45,25 +38,25 @@ function dedupe(value) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
     let match;
-
     while ((match = itemRegex.exec(xml)) !== null) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const tagMatch = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
-        return tagMatch ? tagMatch[1].trim() : "";
+        const match = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
+        return match ? match[1].trim() : "";
       };
 
       const title = getTag("title");
-      const description = getTag("description");
+      let description = getTag("description");
+      description = cleanHTML(description);
 
-      const date = extractField(description, ["Event date", "Event dates"]) || "TBA";
-      let time = extractField(description, ["Event time", "Time"]) || "TBA";
-      let location = extractField(description, ["Location"]) || "TBA";
+      const date = extractField(description, "Event date") ||
+                   extractField(description, "Event dates") || "TBA";
+      const time = extractField(description, "Event time") || "TBA";
 
-      // Deduplicate repeated values
-      time = dedupe(time);
-      location = dedupe(location);
+      // Location can sometimes show multiple times, grab only the first
+      const locationMatch = description.match(/Location:\s*([\s\S]+?)($|\n|Time:)/i);
+      const location = locationMatch ? locationMatch[1].trim() : "TBA";
 
       items.push({ title, date, time, location });
     }
