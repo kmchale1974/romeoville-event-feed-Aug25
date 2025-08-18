@@ -14,20 +14,34 @@ function fetchXML(url) {
   });
 }
 
-function extractField(desc, label) {
-  // Look for only the first matching line
-  const regex = new RegExp(`${label}:\\s*([^<\\n]+)`, "i");
-  const match = desc.match(regex);
+function cleanHTML(input) {
+  return input
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/?strong>/gi, "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/<\/?[^>]+(>|$)/g, "")
+    .trim();
+}
+
+function extractField(description, label) {
+  const regex = new RegExp(`${label}:\\s*([^\n]+)`, "i");
+  const match = description.match(regex);
   return match ? match[1].trim() : null;
 }
 
-function cleanHTML(input) {
-  return input
-    .replace(/<br\s*\/?>/gi, "\n")      // Replace <br> with newlines
-    .replace(/<\/?strong>/gi, "")       // Remove <strong> tags
-    .replace(/&nbsp;/gi, " ")           // Optional: convert &nbsp;
-    .replace(/<\/?[^>]+(>|$)/g, "")     // Remove any other HTML tags
-    .trim();
+function extractLocation(description) {
+  const locStart = description.indexOf("Location:");
+  if (locStart === -1) return "TBA";
+
+  const afterLoc = description.slice(locStart + 9); // skip "Location:"
+  const lines = afterLoc
+    .split("\n")
+    .map(line => line.trim())
+    .filter(line => line && !line.toLowerCase().startsWith("time:"));
+
+  // Limit to 2–3 lines max, avoid repeats
+  const uniqueLines = [...new Set(lines)];
+  return uniqueLines.slice(0, 3).join(", ");
 }
 
 (async () => {
@@ -42,21 +56,18 @@ function cleanHTML(input) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const match = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
-        return match ? match[1].trim() : "";
+        const m = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
+        return m ? m[1].trim() : "";
       };
 
       const title = getTag("title");
-      let description = getTag("description");
-      description = cleanHTML(description);
+      let description = cleanHTML(getTag("description"));
 
       const date = extractField(description, "Event date") ||
                    extractField(description, "Event dates") || "TBA";
-      const time = extractField(description, "Event time") || "TBA";
 
-      // Location can sometimes show multiple times, grab only the first
-      const locationMatch = description.match(/Location:\s*([\s\S]+?)($|\n|Time:)/i);
-      const location = locationMatch ? locationMatch[1].trim() : "TBA";
+      const time = extractField(description, "Event time") || "TBA";
+      const location = extractLocation(description);
 
       items.push({ title, date, time, location });
     }
