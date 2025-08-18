@@ -14,19 +14,16 @@ function fetchXML(url) {
   });
 }
 
-function stripHTML(html) {
-  return html
-    .replace(/<br\s*\/?>/gi, '\n')        // Replace <br> with newlines
-    .replace(/<\/?[^>]+>/g, '')           // Remove all HTML tags
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .trim();
+// Utility: strip HTML tags
+function stripTags(html) {
+  return html.replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ").trim();
 }
 
-function extractField(text, label) {
-  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(?=\\n|$)`, 'i');
-  const match = text.match(regex);
-  return match ? match[1].trim() : null;
+// Utility: extract specific field from a line
+function extractField(desc, label) {
+  const regex = new RegExp(`${label}:\\s*(.*)`, "i");
+  const match = desc.match(regex);
+  return match ? stripTags(match[1]) : null;
 }
 
 (async () => {
@@ -41,19 +38,17 @@ function extractField(text, label) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const tagMatch = itemXML.match(new RegExp(`<${tag}>([\\s\\S]*?)<\/${tag}>`, "i"));
-        return tagMatch ? tagMatch[1].trim() : "";
+        const m = itemXML.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`, "i"));
+        return m ? m[1].trim() : "";
       };
 
-      const title = stripHTML(getTag("title"));
+      const title = stripTags(getTag("title"));
       const rawDescription = getTag("description");
-      const cleanDescription = stripHTML(rawDescription);
 
-      const date = extractField(cleanDescription, "Event date") ||
-                   extractField(cleanDescription, "Event dates") ||
-                   "TBA";
-      const time = extractField(cleanDescription, "Event time") || "TBA";
-      const location = extractField(cleanDescription, "Location") || "TBA";
+      const descText = stripTags(rawDescription); // remove HTML tags
+      const date = extractField(descText, "Event date") || extractField(descText, "Event dates") || "TBA";
+      const time = extractField(descText, "Event time") || "TBA";
+      const location = extractField(descText, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
