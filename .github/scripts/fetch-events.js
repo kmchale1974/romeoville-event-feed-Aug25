@@ -23,33 +23,29 @@ function cleanHTML(input) {
     .trim();
 }
 
-function extractField(description, label) {
-  const regex = new RegExp(`${label}:\\s*([^\n<]+)`, "i");
+function extractFirstMatch(description, label) {
+  const regex = new RegExp(`${label}:\\s*([^\\n]+)`, "i");
   const match = description.match(regex);
-  return match ? match[1].trim() : null;
+  return match ? match[1].trim() : "TBA";
 }
 
-function extractLocation(description) {
-  const locStart = description.indexOf("Location:");
-  if (locStart === -1) return "TBA";
+function extractLocationBlock(description) {
+  const lines = description.split('\n').map(l => l.trim());
+  const locationLines = [];
+  let collecting = false;
 
-  const lines = description
-    .slice(locStart + 9)
-    .split("\n")
-    .map(line => line.trim())
-    .filter(line => line && !line.toLowerCase().startsWith("time:"));
-
-  const uniqueLines = [...new Set(lines)];
-
-  // Stop at the first blank line or after 3 lines
-  const sliced = [];
-  for (const line of uniqueLines) {
-    if (line.toLowerCase().startsWith("event time")) break;
-    sliced.push(line);
-    if (sliced.length >= 3) break;
+  for (const line of lines) {
+    if (/^Location:/i.test(line)) {
+      collecting = true;
+      continue;
+    }
+    if (collecting) {
+      if (!line || /^Event time:/i.test(line) || /^Time:/i.test(line)) break;
+      locationLines.push(line);
+    }
   }
 
-  return sliced.join(", ") || "TBA";
+  return locationLines.length ? [...new Set(locationLines)].join(", ") : "TBA";
 }
 
 (async () => {
@@ -69,12 +65,12 @@ function extractLocation(description) {
       };
 
       const title = getTag("title");
-      let description = cleanHTML(getTag("description"));
+      const rawDescription = getTag("description");
+      const description = cleanHTML(rawDescription);
 
-      const date = extractField(description, "Event date") ||
-                   extractField(description, "Event dates") || "TBA";
-      const time = extractField(description, "Event time") || "TBA";
-      const location = extractLocation(description);
+      const date = extractFirstMatch(description, "Event date") || extractFirstMatch(description, "Event dates");
+      const time = extractFirstMatch(description, "Event time");
+      const location = extractLocationBlock(description);
 
       items.push({ title, date, time, location });
     }
