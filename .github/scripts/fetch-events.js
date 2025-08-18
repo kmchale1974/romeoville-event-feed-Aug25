@@ -29,11 +29,25 @@ function stripTags(str) {
   return str.replace(/<[^>]*>/g, "").trim();
 }
 
-// Extract from labeled field
+// Better extraction for multi-line fields
 function extractField(desc, label) {
-  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(<br>|$)`, "i");
+  const regex = new RegExp(`${label}:\\s*(.*?)((<br\\s*/?>\\s*){1,5})`, "i");
   const match = desc.match(regex);
-  return match ? stripTags(decodeHTMLEntities(match[1])) : null;
+  if (!match) return null;
+
+  const start = match.index + match[0].length;
+  const rest = desc.slice(start);
+  const stopLabels = ["Event date", "Event dates", "Event time", "Location"];
+  const lines = rest.split(/<br\s*\/?>/i);
+  const valueLines = [];
+
+  for (const line of lines) {
+    const clean = stripTags(decodeHTMLEntities(line)).trim();
+    if (!clean || stopLabels.some(lbl => clean.toLowerCase().startsWith(lbl.toLowerCase()))) break;
+    valueLines.push(clean);
+  }
+
+  return valueLines.join(", ");
 }
 
 (async () => {
@@ -59,14 +73,16 @@ function extractField(desc, label) {
       const date = extractField(desc, "Event date") || extractField(desc, "Event dates") || "TBA";
       const time = extractField(desc, "Event time") || "TBA";
       let locationRaw = extractField(desc, "Location");
+
       if (locationRaw) {
-      // Remove city/state if present
-      locationRaw = locationRaw
-      .replace(/Romeoville,\s*IL\s*\d{5}/i, "") // remove "Romeoville, IL 60446"
-      .replace(/\s+/g, " ")                     // flatten whitespace
-      .trim();
-    }
-const location = locationRaw || "TBA";
+        locationRaw = locationRaw
+          .replace(/Romeoville,\s*IL\s*\d{5}/i, "") // Remove city/state
+          .replace(/\s+/g, " ")                     // Normalize spacing
+          .trim()
+          .replace(/,$/, "");                       // Remove trailing commas
+      }
+
+      const location = locationRaw || "TBA";
 
       items.push({ title, date, time, location });
     }
