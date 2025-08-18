@@ -24,7 +24,7 @@ function cleanHTML(input) {
 }
 
 function extractField(description, label) {
-  const regex = new RegExp(`${label}:\\s*([^\n]+)`, "i");
+  const regex = new RegExp(`${label}:\\s*([^\n<]+)`, "i");
   const match = description.match(regex);
   return match ? match[1].trim() : null;
 }
@@ -33,15 +33,23 @@ function extractLocation(description) {
   const locStart = description.indexOf("Location:");
   if (locStart === -1) return "TBA";
 
-  const afterLoc = description.slice(locStart + 9); // skip "Location:"
-  const lines = afterLoc
+  const lines = description
+    .slice(locStart + 9)
     .split("\n")
     .map(line => line.trim())
     .filter(line => line && !line.toLowerCase().startsWith("time:"));
 
-  // Limit to 2–3 lines max, avoid repeats
   const uniqueLines = [...new Set(lines)];
-  return uniqueLines.slice(0, 3).join(", ");
+
+  // Stop at the first blank line or after 3 lines
+  const sliced = [];
+  for (const line of uniqueLines) {
+    if (line.toLowerCase().startsWith("event time")) break;
+    sliced.push(line);
+    if (sliced.length >= 3) break;
+  }
+
+  return sliced.join(", ") || "TBA";
 }
 
 (async () => {
@@ -65,7 +73,6 @@ function extractLocation(description) {
 
       const date = extractField(description, "Event date") ||
                    extractField(description, "Event dates") || "TBA";
-
       const time = extractField(description, "Event time") || "TBA";
       const location = extractLocation(description);
 
