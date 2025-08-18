@@ -4,15 +4,6 @@ const https = require("https");
 const FEED_URL = "https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
 const PROXY_URL = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/" + FEED_URL;
 
-// Strip HTML tags and convert <br> to newlines
-function stripHTML(html) {
-  return html
-    .replace(/<br\s*\/?>/gi, "\n")     // Replace <br> tags with newline
-    .replace(/<\/?strong>/gi, "")      // Remove <strong> tags
-    .replace(/<\/?[^>]+(>|$)/g, "")    // Remove all remaining HTML tags
-    .trim();
-}
-
 function fetchXML(url) {
   return new Promise((resolve, reject) => {
     https.get(url, res => {
@@ -23,8 +14,19 @@ function fetchXML(url) {
   });
 }
 
-function extractField(desc, label) {
-  const match = desc.match(new RegExp(`${label}:\\s*([^\\n<]+)`, "i"));
+// Strip all HTML tags from a string
+function stripHTML(html) {
+  return html
+    .replace(/<br\s*\/?>/gi, '\n')     // convert <br> to line breaks
+    .replace(/<\/?[^>]+(>|$)/g, '')     // remove all other tags
+    .replace(/&nbsp;/g, ' ')            // handle HTML entities
+    .replace(/&amp;/g, '&')
+    .trim();
+}
+
+function extractField(text, label) {
+  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(?:\\n|$)`, 'i');
+  const match = text.match(regex);
   return match ? match[1].trim() : null;
 }
 
@@ -44,27 +46,22 @@ function extractField(desc, label) {
         return tagMatch ? tagMatch[1].trim() : "";
       };
 
-      const title = getTag("title");
+      const title = stripHTML(getTag("title"));
       const rawDescription = getTag("description");
-      const cleanDescription = stripHTML(rawDescription);
+      const description = stripHTML(rawDescription);
 
-      const date =
-        extractField(cleanDescription, "Event date") ||
-        extractField(cleanDescription, "Event dates") ||
-        "TBA";
-
-      const time = extractField(cleanDescription, "Event time") || "TBA";
-
-      // Extract first multiline "Location" block only
-      const locationMatch = cleanDescription.match(/Location:\s*\n?([\s\S]+?)(?:\n[A-Z][a-z]+:|\n?$)/i);
-      const location = locationMatch ? locationMatch[1].trim() : "TBA";
+      const date = extractField(description, "Event date") ||
+                   extractField(description, "Event dates") ||
+                   "TBA";
+      const time = extractField(description, "Event time") || "TBA";
+      const location = extractField(description, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
 
-    console.log(`✅ Found ${items.length} events. Writing to events.json...`);
+    console.log(`✅ Parsed ${items.length} events.`);
     fs.writeFileSync("events.json", JSON.stringify(items, null, 2));
-    console.log("💾 events.json written.");
+    console.log("💾 Saved to events.json");
   } catch (err) {
     console.error("❌ Failed to fetch or parse events:", err);
     process.exit(1);
