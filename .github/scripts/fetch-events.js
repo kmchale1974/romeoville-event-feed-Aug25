@@ -4,6 +4,7 @@ const https = require("https");
 const FEED_URL = "https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
 const PROXY_URL = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/" + FEED_URL;
 
+// Fetch raw XML
 function fetchXML(url) {
   return new Promise((resolve, reject) => {
     https.get(url, res => {
@@ -14,21 +15,24 @@ function fetchXML(url) {
   });
 }
 
+// Strip HTML tags from the description
 function stripHTML(html) {
   return html
-    .replace(/<br\s*\/?>/gi, '\n')         // convert <br> to newlines
-    .replace(/<\/?[^>]+(>|$)/g, '')         // remove all HTML tags
+    .replace(/<br\s*\/?>/gi, '\n')       // Convert <br> to newline
+    .replace(/<\/?[^>]+(>|$)/g, '')      // Remove all HTML tags
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .trim();
 }
 
+// Extract a labeled field like "Event Time: ..."
 function extractField(text, label) {
-  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(?:\\n|$)`, 'i');
+  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(?=\\n|$)`, 'i');
   const match = text.match(regex);
   return match ? match[1].trim() : null;
 }
 
+// Main
 (async () => {
   try {
     console.log("📡 Fetching RSS feed...");
@@ -37,6 +41,7 @@ function extractField(text, label) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
     let match;
+
     while ((match = itemRegex.exec(xml)) !== null) {
       const itemXML = match[1];
 
