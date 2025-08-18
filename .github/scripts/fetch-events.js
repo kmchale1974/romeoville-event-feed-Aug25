@@ -32,13 +32,13 @@ function stripTags(str) {
 // Extract from labeled field (first valid occurrence)
 function extractField(desc, label) {
   const lines = desc.split(/<br\s*\/?>/i);
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     if (line.toLowerCase().includes(label.toLowerCase())) {
-      const clean = stripTags(decodeHTMLEntities(line)).trim();
-      const parts = clean.split(":");
-      if (parts.length > 1 && parts[1].trim()) {
-        return parts.slice(1).join(":").trim();
-      }
+      const nextLines = lines.slice(i + 1, i + 3) // get up to 2 lines after
+        .map(l => stripTags(decodeHTMLEntities(l)).trim())
+        .filter(l => l.length > 0 && !/Romeoville,\s*IL/i.test(l)); // omit city/state
+      return nextLines.join(", ");
     }
   }
   return null;
