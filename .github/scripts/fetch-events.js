@@ -14,12 +14,11 @@ function fetchXML(url) {
   });
 }
 
-// Strip all HTML tags from a string
 function stripHTML(html) {
   return html
-    .replace(/<br\s*\/?>/gi, '\n')     // convert <br> to line breaks
-    .replace(/<\/?[^>]+(>|$)/g, '')     // remove all other tags
-    .replace(/&nbsp;/g, ' ')            // handle HTML entities
+    .replace(/<br\s*\/?>/gi, '\n')         // convert <br> to newlines
+    .replace(/<\/?[^>]+(>|$)/g, '')         // remove all HTML tags
+    .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .trim();
 }
@@ -47,21 +46,19 @@ function extractField(text, label) {
       };
 
       const title = stripHTML(getTag("title"));
-      const rawDescription = getTag("description");
-      const description = stripHTML(rawDescription);
+      const rawDesc = getTag("description");
+      const cleanedDesc = stripHTML(rawDesc);
 
-      const date = extractField(description, "Event date") ||
-                   extractField(description, "Event dates") ||
-                   "TBA";
-      const time = extractField(description, "Event time") || "TBA";
-      const location = extractField(description, "Location") || "TBA";
+      const date = extractField(cleanedDesc, "Event date") || extractField(cleanedDesc, "Event dates") || "TBA";
+      const time = extractField(cleanedDesc, "Event time") || "TBA";
+      const location = extractField(cleanedDesc, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
 
-    console.log(`✅ Parsed ${items.length} events.`);
+    console.log(`✅ Parsed ${items.length} events`);
     fs.writeFileSync("events.json", JSON.stringify(items, null, 2));
-    console.log("💾 Saved to events.json");
+    console.log("💾 Saved events.json");
   } catch (err) {
     console.error("❌ Failed to fetch or parse events:", err);
     process.exit(1);
