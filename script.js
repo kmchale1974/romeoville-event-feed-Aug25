@@ -4,10 +4,13 @@ window.addEventListener('load', async () => {
     const events = await res.json();
 
     const eventsPerPage = 8;
+    const maxEvents = 32; // 👈 Show only up to 32 total
+    const limitedEvents = events.slice(0, maxEvents); // 👈 Trim the event list
+
     window.pages = [];
 
-    for (let i = 0; i < events.length; i += eventsPerPage) {
-      const pageItems = events.slice(i, i + eventsPerPage);
+    for (let i = 0; i < limitedEvents.length; i += eventsPerPage) {
+      const pageItems = limitedEvents.slice(i, i + eventsPerPage);
       const html = pageItems.map(event => `
         <div class="event">
           <div class="event-title">${event.title || 'Untitled Event'}</div>
