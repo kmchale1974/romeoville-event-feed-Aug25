@@ -13,20 +13,25 @@ window.addEventListener('load', async () => {
       const title = item.querySelector("title")?.textContent || "";
       const description = item.querySelector("description")?.textContent || "";
 
-      // ✅ DEBUG LOG: Print the raw description content
-      console.log(`📄 RAW DESCRIPTION FOR ITEM ${index + 1}:\n${description}\n`);
+      // Parse the HTML inside the <description>
+      const descDoc = new DOMParser().parseFromString(description, "text/html");
+      const lines = descDoc.body.innerText.split('\n').map(line => line.trim());
 
-      // Improved RegEx for more robust parsing
-      const dateMatch = description.match(/Event date[s]?:\s*([\w\d\s,–-]+(?: - [\w\d\s,]+)?)/i);
-      const timeMatch = description.match(/Event time:\s*([^<\n]+)/i);
-      const locationMatch = description.match(/Location:\s*([^<\n]+)/i);
+      let date = "TBA";
+      let time = "TBA";
+      let location = "TBA";
 
-      return {
-        title,
-        date: dateMatch ? dateMatch[1].trim() : "TBA",
-        time: timeMatch ? timeMatch[1].trim() : "TBA",
-        location: locationMatch ? locationMatch[1].trim() : "TBA",
-      };
+      for (const line of lines) {
+        if (/^Event date[s]?:/i.test(line)) {
+          date = line.replace(/^Event date[s]?:\s*/i, '').trim();
+        } else if (/^Event time:/i.test(line)) {
+          time = line.replace(/^Event time:\s*/i, '').trim();
+        } else if (/^Location:/i.test(line)) {
+          location = line.replace(/^Location:\s*/i, '').trim();
+        }
+      }
+
+      return { title, date, time, location };
     });
 
     // Pagination
