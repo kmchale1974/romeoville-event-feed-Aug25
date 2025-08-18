@@ -29,25 +29,26 @@ function stripTags(str) {
   return str.replace(/<[^>]*>/g, "").trim();
 }
 
-// Better extraction for multi-line fields
+// Extract field from RSS description
 function extractField(desc, label) {
-  const regex = new RegExp(`${label}:\\s*(.*?)((<br\\s*/?>\\s*){1,5})`, "i");
+  const regex = new RegExp(`${label}\\s*:?\\s*</?strong>?\\s*:?\\s*([\\s\\S]*?)(<br\\s*/?>|$)`, "i");
   const match = desc.match(regex);
-  if (!match) return null;
-
-  const start = match.index + match[0].length;
-  const rest = desc.slice(start);
-  const stopLabels = ["Event date", "Event dates", "Event time", "Location"];
-  const lines = rest.split(/<br\s*\/?>/i);
-  const valueLines = [];
-
-  for (const line of lines) {
-    const clean = stripTags(decodeHTMLEntities(line)).trim();
-    if (!clean || stopLabels.some(lbl => clean.toLowerCase().startsWith(lbl.toLowerCase()))) break;
-    valueLines.push(clean);
+  if (match) {
+    return stripTags(decodeHTMLEntities(match[1])).trim();
   }
 
-  return valueLines.join(", ");
+  // fallback: search line-by-line
+  const lines = desc.split(/<br\s*\/?>/i);
+  for (const line of lines) {
+    if (line.toLowerCase().includes(label.toLowerCase())) {
+      const parts = line.split(/:<\/?strong>?/i);
+      if (parts.length > 1) {
+        return stripTags(decodeHTMLEntities(parts[1])).trim();
+      }
+    }
+  }
+
+  return null;
 }
 
 (async () => {
@@ -73,15 +74,12 @@ function extractField(desc, label) {
       const date = extractField(desc, "Event date") || extractField(desc, "Event dates") || "TBA";
       const time = extractField(desc, "Event time") || "TBA";
       let locationRaw = extractField(desc, "Location");
-
       if (locationRaw) {
         locationRaw = locationRaw
-          .replace(/Romeoville,\s*IL\s*\d{5}/i, "") // Remove city/state
-          .replace(/\s+/g, " ")                     // Normalize spacing
-          .trim()
-          .replace(/,$/, "");                       // Remove trailing commas
+          .replace(/Romeoville,\s*IL\s*\d{5}/i, "")
+          .replace(/\s+/g, " ")
+          .trim();
       }
-
       const location = locationRaw || "TBA";
 
       items.push({ title, date, time, location });
