@@ -1,0 +1,40 @@
+name: Build Events JSON and Deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+
+jobs:
+  build-events:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create dist folder
+        run: mkdir -p dist
+
+      - name: Run fetch-events.js to generate events.json
+        run: node .github/scripts/fetch-events.js
+
+      - name: Move events.json to dist/
+        run: mv events.json dist/
+
+      - name: Copy static site files to dist/
+        run: |
+          cp index.html dist/
+          cp style.css dist/
+          cp script.js dist/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
