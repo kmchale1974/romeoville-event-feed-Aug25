@@ -4,6 +4,15 @@ const https = require("https");
 const FEED_URL = "https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
 const PROXY_URL = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/" + FEED_URL;
 
+// Strip HTML tags and convert <br> to newlines
+function stripHTML(html) {
+  return html
+    .replace(/<br\s*\/?>/gi, "\n")     // Replace <br> tags with newline
+    .replace(/<\/?strong>/gi, "")      // Remove <strong> tags
+    .replace(/<\/?[^>]+(>|$)/g, "")    // Remove all remaining HTML tags
+    .trim();
+}
+
 function fetchXML(url) {
   return new Promise((resolve, reject) => {
     https.get(url, res => {
@@ -14,34 +23,9 @@ function fetchXML(url) {
   });
 }
 
-function cleanHTML(input) {
-  return input
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/?strong>/gi, "")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/<\/?[^>]+(>|$)/g, "")
-    .trim();
-}
-
-function extractFirstMatch(description, label) {
-  const regex = new RegExp(`${label}:\\s*([^\n\r<]+)`, "i");
-  const match = description.match(regex);
+function extractField(desc, label) {
+  const match = desc.match(new RegExp(`${label}:\\s*([^\\n<]+)`, "i"));
   return match ? match[1].trim() : null;
-}
-
-function extractLocation(description) {
-  const lines = description.split(/\r?\n/).map(l => l.trim());
-  let index = lines.findIndex(line => /^Location:/i.test(line));
-  if (index === -1 || index >= lines.length - 1) return "TBA";
-
-  const locationLines = [];
-  for (let i = index + 1; i < lines.length; i++) {
-    const line = lines[i];
-    if (!line || /^Event time:/i.test(line) || /^Time:/i.test(line) || /^Location:/i.test(line)) break;
-    locationLines.push(line);
-  }
-
-  return [...new Set(locationLines)].join(", ") || "TBA";
 }
 
 (async () => {
@@ -56,23 +40,26 @@ function extractLocation(description) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const m = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
-        return m ? m[1].trim() : "";
+        const tagMatch = itemXML.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`, "i"));
+        return tagMatch ? tagMatch[1].trim() : "";
       };
 
       const title = getTag("title");
       const rawDescription = getTag("description");
-      const description = cleanHTML(rawDescription);
+      const cleanDescription = stripHTML(rawDescription);
 
-      const date = extractFirstMatch(description, "Event date") || extractFirstMatch(description, "Event dates") || "TBA";
-      const time = extractFirstMatch(description, "Event time") || "TBA";
-      const rawLocation = extractLocation(description);
+      const date =
+        extractField(cleanDescription, "Event date") ||
+        extractField(cleanDescription, "Event dates") ||
+        "TBA";
 
-      // Sanitize time and location fallbacks to avoid duplication
-      const cleanedTime = (time === "TBA" || /TBA/i.test(time)) ? "TBA" : time;
-      const cleanedLocation = (!rawLocation || /TBA/i.test(rawLocation)) ? "TBA" : rawLocation;
+      const time = extractField(cleanDescription, "Event time") || "TBA";
 
-      items.push({ title, date, time: cleanedTime, location: cleanedLocation });
+      // Extract first multiline "Location" block only
+      const locationMatch = cleanDescription.match(/Location:\s*\n?([\s\S]+?)(?:\n[A-Z][a-z]+:|\n?$)/i);
+      const location = locationMatch ? locationMatch[1].trim() : "TBA";
+
+      items.push({ title, date, time, location });
     }
 
     console.log(`✅ Found ${items.length} events. Writing to events.json...`);
