@@ -58,7 +58,15 @@ function extractField(desc, label) {
 
       const date = extractField(desc, "Event date") || extractField(desc, "Event dates") || "TBA";
       const time = extractField(desc, "Event time") || "TBA";
-      const location = extractField(desc, "Location") || "TBA";
+      let locationRaw = extractField(desc, "Location");
+      if (locationRaw) {
+      // Remove city/state if present
+      locationRaw = locationRaw
+      .replace(/Romeoville,\s*IL\s*\d{5}/i, "") // remove "Romeoville, IL 60446"
+      .replace(/\s+/g, " ")                     // flatten whitespace
+      .trim();
+    }
+const location = locationRaw || "TBA";
 
       items.push({ title, date, time, location });
     }
