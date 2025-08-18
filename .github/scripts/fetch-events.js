@@ -14,19 +14,27 @@ function fetchXML(url) {
   });
 }
 
-// Strip tags and clean text
-function cleanText(html) {
-  return html.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+function stripHTMLandWhitespace(text) {
+  return text
+    .replace(/<[^>]+>/g, "")       // Remove HTML tags like <strong>, <br>
+    .replace(/\s*\n\s*/g, " ")     // Normalize newlines
+    .replace(/\s{2,}/g, " ")       // Collapse extra spaces
+    .trim();
 }
 
-// Get only the first clean match of the label
 function extractField(description, labels) {
+  const plain = stripHTMLandWhitespace(description);
+
   for (const label of labels) {
-    const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(<br\\s*\\/?>|</p>|\\n|$)`, "i");
-    const match = description.match(regex);
-    if (match) return cleanText(match[1]);
+    const regex = new RegExp(`${label}:\\s*(.*?)(?=\\s{2,}|$)`, "i");
+    const match = plain.match(regex);
+    if (match) return match[1].trim();
   }
   return null;
+}
+
+function dedupe(value) {
+  return [...new Set(value.split(/\s*\|\s*|\n/).map(s => s.trim()))].join(" | ");
 }
 
 (async () => {
@@ -42,16 +50,20 @@ function extractField(description, labels) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const m = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
-        return m ? m[1].trim() : "";
+        const tagMatch = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
+        return tagMatch ? tagMatch[1].trim() : "";
       };
 
-      const title = cleanText(getTag("title"));
+      const title = getTag("title");
       const description = getTag("description");
 
       const date = extractField(description, ["Event date", "Event dates"]) || "TBA";
-      const time = extractField(description, ["Event time", "Time"]) || "TBA";
-      const location = extractField(description, ["Location"]) || "TBA";
+      let time = extractField(description, ["Event time", "Time"]) || "TBA";
+      let location = extractField(description, ["Location"]) || "TBA";
+
+      // Deduplicate repeated values
+      time = dedupe(time);
+      location = dedupe(location);
 
       items.push({ title, date, time, location });
     }
