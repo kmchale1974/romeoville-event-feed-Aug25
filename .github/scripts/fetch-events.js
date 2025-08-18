@@ -66,9 +66,13 @@ function extractLocation(description) {
 
       const date = extractFirstMatch(description, "Event date") || extractFirstMatch(description, "Event dates") || "TBA";
       const time = extractFirstMatch(description, "Event time") || "TBA";
-      const location = extractLocation(description);
+      const rawLocation = extractLocation(description);
 
-      items.push({ title, date, time, location });
+      // Sanitize time and location fallbacks to avoid duplication
+      const cleanedTime = (time === "TBA" || /TBA/i.test(time)) ? "TBA" : time;
+      const cleanedLocation = (!rawLocation || /TBA/i.test(rawLocation)) ? "TBA" : rawLocation;
+
+      items.push({ title, date, time: cleanedTime, location: cleanedLocation });
     }
 
     console.log(`✅ Found ${items.length} events. Writing to events.json...`);
