@@ -14,16 +14,26 @@ function fetchXML(url) {
   });
 }
 
-// Utility: strip HTML tags
-function stripTags(html) {
-  return html.replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ").trim();
+// Decode HTML entities
+function decodeHTMLEntities(str) {
+  return str
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'");
 }
 
-// Utility: extract specific field from a line
+// Strip HTML tags
+function stripTags(str) {
+  return str.replace(/<[^>]*>/g, "").trim();
+}
+
+// Extract from labeled field
 function extractField(desc, label) {
-  const regex = new RegExp(`${label}:\\s*(.*)`, "i");
+  const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(<br>|$)`, "i");
   const match = desc.match(regex);
-  return match ? stripTags(match[1]) : null;
+  return match ? stripTags(decodeHTMLEntities(match[1])) : null;
 }
 
 (async () => {
@@ -44,20 +54,20 @@ function extractField(desc, label) {
 
       const title = stripTags(getTag("title"));
       const rawDescription = getTag("description");
+      const desc = decodeHTMLEntities(rawDescription);
 
-      const descText = stripTags(rawDescription); // remove HTML tags
-      const date = extractField(descText, "Event date") || extractField(descText, "Event dates") || "TBA";
-      const time = extractField(descText, "Event time") || "TBA";
-      const location = extractField(descText, "Location") || "TBA";
+      const date = extractField(desc, "Event date") || extractField(desc, "Event dates") || "TBA";
+      const time = extractField(desc, "Event time") || "TBA";
+      const location = extractField(desc, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
 
     console.log(`✅ Parsed ${items.length} events.`);
     fs.writeFileSync("events.json", JSON.stringify(items, null, 2));
-    console.log("💾 events.json saved.");
+    console.log("💾 events.json written.");
   } catch (err) {
-    console.error("❌ Error:", err);
+    console.error("❌ Failed:", err);
     process.exit(1);
   }
 })();
