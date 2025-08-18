@@ -1,41 +1,55 @@
-const fs = require('fs');
-const fetch = require('node-fetch');
-const xml2js = require('xml2js');
+const fs = require("fs");
+const https = require("https");
 
-const FEED_URL = 'https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml';
-const MAX_EVENTS = 20;
+const FEED_URL = "https://www.romeoville.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml";
+const PROXY_URL = "https://soft-madeleine-2c2c86.netlify.app/.netlify/functions/cors-proxy/" + FEED_URL;
+
+function fetchXML(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, res => {
+      let data = "";
+      res.on("data", chunk => (data += chunk));
+      res.on("end", () => resolve(data));
+    }).on("error", reject);
+  });
+}
+
+function extractField(desc, label) {
+  const match = desc.match(new RegExp(`${label}:\\s*([^<\\n]+)`, "i"));
+  return match ? match[1].trim() : null;
+}
 
 (async () => {
   try {
-    const res = await fetch(FEED_URL);
-    const xml = await res.text();
+    console.log("📡 Fetching RSS feed...");
+    const xml = await fetchXML(PROXY_URL);
 
-    const parser = new xml2js.Parser({ explicitArray: false });
-    const result = await parser.parseStringPromise(xml);
-    const items = result.rss.channel.item || [];
+    const items = [];
+    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+    let match;
+    while ((match = itemRegex.exec(xml)) !== null) {
+      const itemXML = match[1];
 
-    const events = items.map(item => {
-      const title = item.title || "Untitled Event";
-      const desc = item.description || "";
-
-      const dateMatch = desc.match(/Event date[s]?:\s*([^\n<]+)/i);
-      const timeMatch = desc.match(/Event time:\s*([^\n<]+)/i);
-      const locationMatch = desc.match(/Location:\s*([^\n<]+)/i);
-
-      return {
-        title,
-        date: dateMatch ? dateMatch[1].trim() : "TBA",
-        time: timeMatch ? timeMatch[1].trim() : "TBA",
-        location: locationMatch ? locationMatch[1].trim() : "TBA",
+      const getTag = tag => {
+        const match = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
+        return match ? match[1].trim() : "";
       };
-    });
 
-    const trimmed = events.slice(0, MAX_EVENTS);
+      const title = getTag("title");
+      const description = getTag("description");
 
-    fs.writeFileSync('events.json', JSON.stringify(trimmed, null, 2));
-    console.log(`✅ Saved ${trimmed.length} events to events.json`);
+      const date = extractField(description, "Event date") || extractField(description, "Event dates") || "TBA";
+      const time = extractField(description, "Event time") || "TBA";
+      const location = extractField(description, "Location") || "TBA";
+
+      items.push({ title, date, time, location });
+    }
+
+    console.log(`✅ Found ${items.length} events. Writing to events.json...`);
+    fs.writeFileSync("events.json", JSON.stringify(items, null, 2));
+    console.log("💾 events.json written.");
   } catch (err) {
-    console.error("❌ Error generating events.json:", err);
+    console.error("❌ Failed to fetch or parse events:", err);
     process.exit(1);
   }
 })();
