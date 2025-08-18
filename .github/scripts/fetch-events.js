@@ -14,14 +14,19 @@ function fetchXML(url) {
   });
 }
 
-// Only grab the first match and strip HTML
-function extractField(desc, label) {
-  const match = desc.match(new RegExp(`${label}:\\s*([\\s\\S]*?)(<br\\s*\\/?>|<\\/p>|\\n|$)`, "i"));
-  return match ? match[1].replace(/<[^>]*>/g, "").trim() : null;
+// Strip tags and clean text
+function cleanText(html) {
+  return html.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 }
 
-function cleanText(html) {
-  return html.replace(/<[^>]*>/g, "").trim();
+// Get only the first clean match of the label
+function extractField(description, labels) {
+  for (const label of labels) {
+    const regex = new RegExp(`${label}:\\s*([\\s\\S]*?)(<br\\s*\\/?>|</p>|\\n|$)`, "i");
+    const match = description.match(regex);
+    if (match) return cleanText(match[1]);
+  }
+  return null;
 }
 
 (async () => {
@@ -32,22 +37,21 @@ function cleanText(html) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
     let match;
+
     while ((match = itemRegex.exec(xml)) !== null) {
       const itemXML = match[1];
 
       const getTag = tag => {
-        const match = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
-        return match ? match[1].trim() : "";
+        const m = itemXML.match(new RegExp(`<${tag}>(.*?)</${tag}>`, "i"));
+        return m ? m[1].trim() : "";
       };
 
       const title = cleanText(getTag("title"));
       const description = getTag("description");
 
-      const date = extractField(description, "Event date") ||
-                   extractField(description, "Event dates") || "TBA";
-
-      const time = extractField(description, "Event time") || "TBA";
-      const location = extractField(description, "Location") || "TBA";
+      const date = extractField(description, ["Event date", "Event dates"]) || "TBA";
+      const time = extractField(description, ["Event time", "Time"]) || "TBA";
+      const location = extractField(description, ["Location"]) || "TBA";
 
       items.push({ title, date, time, location });
     }
