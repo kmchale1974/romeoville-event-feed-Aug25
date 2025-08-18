@@ -14,9 +14,25 @@ function fetchXML(url) {
   });
 }
 
-function extractField(desc, label) {
-  const match = desc.match(new RegExp(`${label}:\\s*([^<\\n]+)`, "i"));
-  return match ? match[1].trim() : null;
+function cleanDescription(raw) {
+  // Remove HTML tags and decode HTML entities (basic)
+  return raw
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/?[^>]+(>|$)/g, "") // Remove all HTML tags
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .trim();
+}
+
+function extractField(desc, labels) {
+  for (const label of labels) {
+    const regex = new RegExp(`${label}:\\s*(.+)`, "i");
+    const match = desc.match(regex);
+    if (match) {
+      return match[1].split('\n')[0].trim();
+    }
+  }
+  return null;
 }
 
 (async () => {
@@ -36,11 +52,12 @@ function extractField(desc, label) {
       };
 
       const title = getTag("title");
-      const description = getTag("description");
+      const rawDescription = getTag("description");
+      const description = cleanDescription(rawDescription);
 
-      const date = extractField(description, "Event date") || extractField(description, "Event dates") || "TBA";
-      const time = extractField(description, "Event time") || "TBA";
-      const location = extractField(description, "Location") || "TBA";
+      const date = extractField(description, ["Event date", "Event dates"]) || "TBA";
+      const time = extractField(description, ["Event time"]) || "TBA";
+      const location = extractField(description, ["Location", "Event location"]) || "TBA";
 
       items.push({ title, date, time, location });
     }
