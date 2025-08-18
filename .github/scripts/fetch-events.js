@@ -14,12 +14,10 @@ function fetchXML(url) {
   });
 }
 
+// Only grab the first match and strip HTML
 function extractField(desc, label) {
-  const matches = desc.match(new RegExp(`${label}:\\s*([^<\\n]+)`, "ig"));
-  if (!matches) return null;
-
-  const raw = matches[0].replace(`${label}:`, "").trim();
-  return raw.replace(/<[^>]*>/g, "").trim(); // Remove HTML tags
+  const match = desc.match(new RegExp(`${label}:\\s*([\\s\\S]*?)(<br\\s*\\/?>|<\\/p>|\\n|$)`, "i"));
+  return match ? match[1].replace(/<[^>]*>/g, "").trim() : null;
 }
 
 function cleanText(html) {
@@ -45,14 +43,11 @@ function cleanText(html) {
       const title = cleanText(getTag("title"));
       const description = getTag("description");
 
-      const date = cleanText(
-        extractField(description, "Event date") ||
-        extractField(description, "Event dates") ||
-        "TBA"
-      );
+      const date = extractField(description, "Event date") ||
+                   extractField(description, "Event dates") || "TBA";
 
-      const time = cleanText(extractField(description, "Event time") || "TBA");
-      const location = cleanText(extractField(description, "Location") || "TBA");
+      const time = extractField(description, "Event time") || "TBA";
+      const location = extractField(description, "Location") || "TBA";
 
       items.push({ title, date, time, location });
     }
