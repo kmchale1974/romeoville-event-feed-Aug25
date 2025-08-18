@@ -16,8 +16,8 @@ function fetchXML(url) {
 
 function stripHTML(html) {
   return html
-    .replace(/<br\s*\/?>/gi, '\n')        // Replace <br> with line break
-    .replace(/<\/?[^>]+>/g, '')           // Remove all other HTML tags
+    .replace(/<br\s*\/?>/gi, '\n')        // Replace <br> with newlines
+    .replace(/<\/?[^>]+>/g, '')           // Remove all HTML tags
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .trim();
@@ -49,7 +49,9 @@ function extractField(text, label) {
       const rawDescription = getTag("description");
       const cleanDescription = stripHTML(rawDescription);
 
-      const date = extractField(cleanDescription, "Event date") || extractField(cleanDescription, "Event dates") || "TBA";
+      const date = extractField(cleanDescription, "Event date") ||
+                   extractField(cleanDescription, "Event dates") ||
+                   "TBA";
       const time = extractField(cleanDescription, "Event time") || "TBA";
       const location = extractField(cleanDescription, "Location") || "TBA";
 
