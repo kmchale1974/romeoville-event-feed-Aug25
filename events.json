@@ -220,5 +220,17 @@
     "date": "September 1, 2025",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Pinochle Club",
+    "date": "September 2, 2025",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Crafting Club",
+    "date": "September 2, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
