@@ -1,16 +1,16 @@
 window.addEventListener('load', async () => {
   try {
     const res = await fetch('events.json');
-    const events = await res.json();
+    let events = await res.json();
+
+    // Limit to 32 events
+    events = events.slice(0, 32);
 
     const eventsPerPage = 8;
-    const maxEvents = 32; // 👈 Show only up to 32 total
-    const limitedEvents = events.slice(0, maxEvents); // 👈 Trim the event list
-
     window.pages = [];
 
-    for (let i = 0; i < limitedEvents.length; i += eventsPerPage) {
-      const pageItems = limitedEvents.slice(i, i + eventsPerPage);
+    for (let i = 0; i < events.length; i += eventsPerPage) {
+      const pageItems = events.slice(i, i + eventsPerPage);
       const html = pageItems.map(event => `
         <div class="event">
           <div class="event-title">${event.title || 'Untitled Event'}</div>
@@ -35,6 +35,23 @@ window.addEventListener('load', async () => {
         container.style.opacity = 1;
       }, 500);
     }, 12000);
+
+    // Hourly soft reload
+    setTimeout(() => {
+      location.reload(true);
+    }, 3600000);
+
+    // Hard reload at midnight
+    function getMillisecondsUntilMidnight() {
+      const now = new Date();
+      const midnight = new Date();
+      midnight.setHours(24, 0, 0, 0);
+      return midnight - now;
+    }
+
+    setTimeout(() => {
+      location.reload(true);
+    }, getMillisecondsUntilMidnight());
 
   } catch (err) {
     document.getElementById("event-container").innerText = "❌ Failed to load events.";
