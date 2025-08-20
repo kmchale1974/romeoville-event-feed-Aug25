@@ -12,16 +12,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "August 20, 2025",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "August 20, 2025",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "August 20, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "The Vietnam Traveling Memorial Wall",
@@ -48,16 +48,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Vietnam Traveling Memorial Wall - Opening Ceremony",
-    "date": "August 21, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents Teen Dungeons &amp; Dragons",
     "date": "August 21, 2025",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Vietnam Traveling Memorial Wall - Opening Ceremony",
+    "date": "August 21, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Resurrection Mary, Chicago’s Most Beloved Spirit: Presented by Ray Johnson",
@@ -219,6 +219,36 @@
     "title": "White Oak Library presents Tween Crafting Club",
     "date": "September 2, 2025",
     "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Souvenirs From the Silurian Sea: Fossils of Will County",
+    "date": "September 3, 2025",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "American Mahjong",
+    "date": "September 3, 2025",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Back to School Party",
+    "date": "September 3, 2025",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "September 3, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Planting Bulbs for Spring: University of Illinois Extension",
+    "date": "September 3, 2025",
+    "time": "07:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
