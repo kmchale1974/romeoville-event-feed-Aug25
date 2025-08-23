@@ -6,12 +6,6 @@
     "location": "1050 W Romeo Road"
   },
   {
-    "title": "Movie Under The Stars: The Wild Robot",
-    "date": "August 22, 2025",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "Vietnam Traveling Memorial Wall - Visiting Hours",
     "date": "August 23, 2025",
     "time": "07:00 AM - 08:00 PM",
@@ -213,6 +207,30 @@
     "title": "LEGO Club",
     "date": "September 5, 2025",
     "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Community Garage Sale",
+    "date": "September 6, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Help Feed the Hungry with the Village of Romeoville, Romeoville Area Chamber of Commerce and Feed 6",
+    "date": "September 6, 2025",
+    "time": "09:00 AM - 11:30 AM",
+    "location": "684 S. Weber Rd."
+  },
+  {
+    "title": "White Oak Library presents Weekend Watch",
+    "date": "September 6, 2025",
+    "time": "01:00 PM - 03:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Microsoft Word",
+    "date": "September 6, 2025",
+    "time": "03:00 PM - 04:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
