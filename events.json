@@ -1,11 +1,5 @@
 [
   {
-    "title": "The Vietnam Traveling Memorial Wall",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "ESL Reading &amp; Conversation Group",
     "date": "August 25, 2025",
     "time": "11:00 AM - 12:00 PM",
@@ -214,5 +208,23 @@
     "date": "September 7, 2025",
     "time": "12:00 PM - 03:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "September 8, 2025",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "ESL Reading &amp; Conversation Group",
+    "date": "September 8, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fall Clean Up Week",
+    "date": "TBA",
+    "time": "07:00 PM - 05:00 PM",
+    "location": "TBA"
   }
 ]
