@@ -2,43 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=616, height=960" />
-  <title>Romeoville Event Feed</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: white;
-      color: #333;
-      height: 960px;
-      width: 616px;
-      overflow: hidden;
-    }
-
-    #event-container {
-      transition: opacity 0.5s ease-in-out;
-      padding: 20px;
-    }
-
-    .event {
-      margin-bottom: 1em;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.5em;
-    }
-
-    .event-title {
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-
-    .event-date, .event-time, .event-location {
-      font-size: 0.9em;
-      margin-top: 4px;
-    }
-  </style>
+  <title>Romeoville Events (Portrait)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css?v=4" />
+  <!-- Silence favicon 404 (empty data URL) -->
+  <link rel="icon" href="data:,">
 </head>
 <body>
-  <div id="event-container">Loading events…</div>
-  <script src="script.js"></script>
+  <!-- Ensure the container exists BEFORE the script loads -->
+  <div id="pages">
+    <div class="page show fade-in">
+      <div class="event">
+        <div class="event-title">Loading events…</div>
+      </div>
+    </div>
+  </div>
+
+  <noscript>
+    <div style="padding:16px;font:16px/1.4 Arial">This page needs JavaScript enabled.</div>
+  </noscript>
+
+  <!-- Load script last so #pages is present -->
+  <script src="./script.js?v=4"></script>
 </body>
 </html>
