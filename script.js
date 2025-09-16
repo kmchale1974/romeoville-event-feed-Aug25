@@ -15,7 +15,19 @@
   var currentPage = 0;
   var cycleTimer = null;
 
-  function $pages(){ return document.getElementById('pages'); }
+  // --- Robust container getter: creates #pages if missing ---
+  function pagesEl() {
+    var el = document.getElementById('pages');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'pages';
+      // Minimal safe placeholder so page is never blank
+      el.innerHTML =
+        '<div class="page show fade-in"><div class="event"><div class="event-title">Loading events…</div></div></div>';
+      document.body.appendChild(el);
+    }
+    return el;
+  }
 
   function withCacheBust(url){ var sep = url.indexOf('?') === -1 ? '?' : '&'; return url + sep + '_=' + Date.now(); }
   function parseDateSafe(val){ if (!val) return null; var d = new Date(val); return isNaN(d.getTime()) ? null : d; }
@@ -40,12 +52,11 @@
 
     if (!end && start) end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
 
-    // Detect all-day events encoded as midnight UTC boundaries (~24h)
+    // Detect all-day (UTC midnight boundaries ~24h)
     var isAllDay = false;
     if (rawStart && isMidnightZ(rawStart)) {
       if (!rawEnd || isMidnightZ(rawEnd)) {
         if (!end || (end.getTime() - start.getTime()) >= 24*60*60*1000 - 60000) {
-          // allow a tiny tolerance
           isAllDay = true;
         }
       }
@@ -67,7 +78,7 @@
   function formatEventDate(e){
     if (e.displayDate) return e.displayDate;
 
-    // For all-day, format using UTC so the calendar date stays the same (no TZ shift)
+    // For all-day, format using UTC to avoid day-shift
     if (e.isAllDay && e.start) {
       try {
         var dUTC = new Date(Date.UTC(
@@ -80,7 +91,6 @@
           timeZone: 'UTC'
         }).format(dUTC);
       } catch (_e) {
-        // Fallback
         return (e.start.getUTCMonth()+1) + '/' + e.start.getUTCDate() + '/' + e.start.getUTCFullYear();
       }
     }
@@ -134,6 +144,7 @@
 
   // ---- Render ALL pages into the DOM (hidden by default) ----
   function renderPaged(events){
+    var root = pagesEl(); // ALWAYS get/create the container
     var groups = chunk(events, CONFIG.EVENTS_PER_PAGE);
     pagesHtml = groups.map(function(group){
       var items = group.map(function(e){
@@ -151,8 +162,7 @@
       return '<div class="page">'+items+'</div>';
     });
 
-    // Inject content
-    $pages().innerHTML = pagesHtml.join('');
+    root.innerHTML = pagesHtml.join('');
     currentPage = 0;
 
     // Show first page (fade in)
@@ -169,11 +179,10 @@
       if (i === idx) {
         n.classList.add('show'); // layout visible at opacity:0
         if (doFadeIn) {
-          // Force a reflow so the next class change animates cleanly
-          void n.offsetWidth;
-          n.classList.add('fade-in');  // fade from 0 -> 1
+          void n.offsetWidth;    // force reflow so fade animates
+          n.classList.add('fade-in');
         } else {
-          n.classList.add('fade-in');  // immediately visible
+          n.classList.add('fade-in');
         }
       }
     }
@@ -245,7 +254,7 @@
       var norm = (Array.isArray(raw)?raw:[]).map(normalizeEvent);
       var upcoming = filterUpcoming(norm).sort(sortByStart).slice(0, CONFIG.MAX_EVENTS);
       if (!upcoming.length){
-        $pages().innerHTML =
+        pagesEl().innerHTML =
           '<div class="page show fade-in"><div class="event"><div class="event-title">No upcoming events found.</div></div></div>';
         return;
       }
@@ -253,7 +262,7 @@
       startCycle();
     }catch(err){
       console.error('Load error:', err);
-      $pages().innerHTML =
+      pagesEl().innerHTML =
         '<div class="page show fade-in"><div class="event"><div class="event-title">Failed to load events.</div></div></div>';
     } finally {
       fitActivePage();
@@ -299,6 +308,7 @@
     }
   }
 
+  // Run after DOM is ready so #pages is present (and we have a fallback anyway)
   window.addEventListener('load', function(){
     loadAndRender();
     scheduleHourlyRefresh();
