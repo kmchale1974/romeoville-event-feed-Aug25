@@ -1,33 +1,20 @@
 (function () {
   // ======= CONFIG =======
   var CONFIG = {
-    EVENTS_URL: 'events.json',      // same-folder JSON
-    EVENTS_PER_PAGE: 4,             // show 4 per page
+    EVENTS_URL: 'events.json',
+    EVENTS_PER_PAGE: 4,             // 4 per page
     MAX_EVENTS: 24,                 // total cap
-    DISPLAY_MS: 12000,              // fully visible time per page
-    FADE_MS: 900,                   // match --fade-ms in CSS
-    REFRESH_EVERY_MINUTES: 60,      // reload data hourly
+    PAGE_DURATION_MS: 12000,        // 12s per page
+    REFRESH_EVERY_MINUTES: 60,      // hourly reload
     HARD_RELOAD_AT_MIDNIGHT: true,  // full reload after midnight
     TIMEZONE: (Intl && Intl.DateTimeFormat ? Intl.DateTimeFormat().resolvedOptions().timeZone : null) || 'America/Chicago'
   };
 
-  var pagesHtml = [];
+  var pages = [];        // HTML strings per page
   var currentPage = 0;
-  var cycleTimer = null;
+  var rotateTimer = null;
 
-  // --- Robust container getter: creates #pages if missing ---
-  function pagesEl() {
-    var el = document.getElementById('pages');
-    if (!el) {
-      el = document.createElement('div');
-      el.id = 'pages';
-      // Minimal safe placeholder so page is never blank
-      el.innerHTML =
-        '<div class="page show fade-in"><div class="event"><div class="event-title">Loading events…</div></div></div>';
-      document.body.appendChild(el);
-    }
-    return el;
-  }
+  function $pages(){ return document.getElementById('pages'); }
 
   function withCacheBust(url){ var sep = url.indexOf('?') === -1 ? '?' : '&'; return url + sep + '_=' + Date.now(); }
   function parseDateSafe(val){ if (!val) return null; var d = new Date(val); return isNaN(d.getTime()) ? null : d; }
@@ -78,7 +65,7 @@
   function formatEventDate(e){
     if (e.displayDate) return e.displayDate;
 
-    // For all-day, format using UTC to avoid day-shift
+    // All-day: format in UTC to avoid day shift
     if (e.isAllDay && e.start) {
       try {
         var dUTC = new Date(Date.UTC(
@@ -129,10 +116,15 @@
   function filterUpcoming(list){
     var now = new Date();
     var sod = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
-    return list.filter(function(e){ if (e.end) return e.end.getTime() >= sod; if (e.start) return e.start.getTime() >= sod; return true; });
+    return list.filter(function(e){
+      if (e.end) return e.end.getTime() >= sod;
+      if (e.start) return e.start.getTime() >= sod;
+      return true;
+    });
   }
 
   function sortByStart(a,b){ var at=a.start?a.start.getTime():9007199254740991; var bt=b.start?b.start.getTime():9007199254740991; return at-bt; }
+
   function chunk(arr,n){ var out=[],i=0; for(;i<arr.length;i+=n) out.push(arr.slice(i,i+n)); return out; }
 
   function escapeHtml(s){
@@ -142,150 +134,54 @@
     return s;
   }
 
-  // ---- Render ALL pages into the DOM (hidden by default) ----
   function renderPaged(events){
-    var root = pagesEl(); // ALWAYS get/create the container
     var groups = chunk(events, CONFIG.EVENTS_PER_PAGE);
-    pagesHtml = groups.map(function(group){
-      var items = group.map(function(e){
+    pages = groups.map(function(group){
+      var itemsHtml = group.map(function(e){
         var dateStr = formatEventDate(e);
         var timeStr = formatEventTime(e);
-        var locLine = e.location ? '<div class="event-detail">Location: '+escapeHtml(e.location)+'</div>' : '';
-        return ''+
-          '<div class="event">'+
-            '<div class="event-title">'+escapeHtml(e.title)+'</div>'+
-            '<div class="event-detail">Date: '+escapeHtml(dateStr)+'</div>'+
-            '<div class="event-detail">Time: '+escapeHtml(timeStr)+'</div>'+
-            locLine+
-          '</div>';
+        var locLine = e.location ? '<div class="event-detail">Location: ' + escapeHtml(e.location) + '</div>' : '';
+        return ''
+          + '<div class="event">'
+          +   '<div class="event-title">' + escapeHtml(e.title) + '</div>'
+          +   '<div class="event-detail">Date: ' + escapeHtml(dateStr) + '</div>'
+          +   '<div class="event-detail">Time: ' + escapeHtml(timeStr) + '</div>'
+          +   locLine
+          + '</div>';
       }).join('');
-      return '<div class="page">'+items+'</div>';
+      return '<div class="page">' + itemsHtml + '</div>';
     });
 
-    root.innerHTML = pagesHtml.join('');
+    $pages().innerHTML = pages.join('');
     currentPage = 0;
+    updateActivePage();
+  }
 
-    // Show first page (fade in)
-    showOnly(currentPage, true);
+  function updateActivePage(){
+    var nodes = Array.prototype.slice.call(document.querySelectorAll('.page'));
+    for (var i=0;i<nodes.length;i++){
+      if (i === currentPage) nodes[i].classList.add('active');
+      else nodes[i].classList.remove('active');
+    }
     fitActivePage();
   }
 
-  // Show index; if doFadeIn, run fade-in; otherwise just show visible
-  function showOnly(idx, doFadeIn){
-    var nodes = Array.prototype.slice.call(document.querySelectorAll('.page'));
-    for (var i=0;i<nodes.length;i++){
-      var n = nodes[i];
-      n.classList.remove('fade-in','fade-out','show');
-      if (i === idx) {
-        n.classList.add('show'); // layout visible at opacity:0
-        if (doFadeIn) {
-          void n.offsetWidth;    // force reflow so fade animates
-          n.classList.add('fade-in');
-        } else {
-          n.classList.add('fade-in');
-        }
-      }
-    }
+  function startRotation(){
+    stopRotation();
+    if (pages.length <= 1) return;
+    rotateTimer = setInterval(function(){
+      currentPage = (currentPage + 1) % pages.length;
+      updateActivePage();
+    }, CONFIG.PAGE_DURATION_MS);
   }
 
-  // Fade the current page out fully, then callback to switch
-  function fadeOutCurrent(callback){
-    var nodes = Array.prototype.slice.call(document.querySelectorAll('.page'));
-    var cur = nodes[currentPage];
-    if (!cur) { if (callback) callback(); return; }
-    cur.classList.remove('fade-in');
-    cur.classList.add('fade-out');
-    setTimeout(function(){
-      cur.classList.remove('fade-out','show');
-      if (callback) callback();
-    }, CONFIG.FADE_MS);
+  function stopRotation(){
+    if (rotateTimer) { clearInterval(rotateTimer); rotateTimer = null; }
   }
 
-  // ---- Full timeline: fade in → display → fade out → switch → repeat ----
-  function startCycle(){
-    stopCycle();
-
-    // ensure first page is visible and fully faded in
-    showOnly(currentPage, true);
-
-    // schedule first loop after initial display+fade-in
-    cycleTimer = setTimeout(loop, CONFIG.DISPLAY_MS + CONFIG.FADE_MS);
-
-    function loop(){
-      fadeOutCurrent(function(){
-        currentPage = (currentPage + 1) % pagesHtml.length;
-        showOnly(currentPage, true);
-        fitActivePage();
-        cycleTimer = setTimeout(loop, CONFIG.DISPLAY_MS + CONFIG.FADE_MS);
-      });
-    }
-  }
-
-  function stopCycle(){ if (cycleTimer){ clearTimeout(cycleTimer); cycleTimer=null; } }
-
-  // --------- Networking (fetch with XHR fallback) ----------
-  function getJson(url){
-    url = withCacheBust(url);
-    if (typeof fetch === 'function'){
-      return fetch(url, { cache:'no-store' }).then(function(res){ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); });
-    }
-    // XHR fallback
-    return new Promise(function(resolve,reject){
-      try{
-        var xhr=new XMLHttpRequest();
-        xhr.open('GET', url, true);
-        xhr.responseType='json';
-        xhr.onreadystatechange=function(){
-          if (xhr.readyState===4){
-            if (xhr.status>=200 && xhr.status<300){
-              if (xhr.response && typeof xhr.response==='object'){ resolve(xhr.response); }
-              else { try{ resolve(JSON.parse(xhr.responseText)); }catch(e){ reject(e);} }
-            } else reject(new Error('HTTP '+xhr.status));
-          }
-        };
-        xhr.send();
-      }catch(e){ reject(e); }
-    });
-  }
-
-  async function loadAndRender(){
-    try{
-      var raw = await getJson(CONFIG.EVENTS_URL);
-      var norm = (Array.isArray(raw)?raw:[]).map(normalizeEvent);
-      var upcoming = filterUpcoming(norm).sort(sortByStart).slice(0, CONFIG.MAX_EVENTS);
-      if (!upcoming.length){
-        pagesEl().innerHTML =
-          '<div class="page show fade-in"><div class="event"><div class="event-title">No upcoming events found.</div></div></div>';
-        return;
-      }
-      renderPaged(upcoming);
-      startCycle();
-    }catch(err){
-      console.error('Load error:', err);
-      pagesEl().innerHTML =
-        '<div class="page show fade-in"><div class="event"><div class="event-title">Failed to load events.</div></div></div>';
-    } finally {
-      fitActivePage();
-    }
-  }
-
-  function scheduleHourlyRefresh(){
-    var ms = CONFIG.REFRESH_EVERY_MINUTES * 60 * 1000;
-    setInterval(function(){ loadAndRender(); }, ms);
-  }
-
-  function scheduleMidnightReload(){
-    if (!CONFIG.HARD_RELOAD_AT_MIDNIGHT) return;
-    var now = new Date();
-    var next = new Date(now.getTime());
-    next.setHours(24,0,2,0);
-    var delay = next.getTime() - now.getTime();
-    setTimeout(function(){ location.reload(); }, delay);
-  }
-
-  // Auto-fit logic (unchanged)
+  // Auto-fit: step down sizes; if still too tall, scale the page without widening
   function fitActivePage(){
-    var active = document.querySelector('.page.show');
+    var active = document.querySelector('.page.active');
     if (!active) return;
 
     active.classList.remove('tight','tighter','scaled');
@@ -300,15 +196,77 @@
     active.classList.add('tighter');
     if (fits()) return;
 
-    var h=active.scrollHeight, H=active.clientHeight;
-    if (h>0 && H>0){
-      var scale=Math.min(1, Math.max(0.7, H/h)); /* don’t shrink below 70% */
+    var h = active.scrollHeight, H = active.clientHeight;
+    if (h > 0 && H > 0) {
+      var scale = Math.min(1, Math.max(0.7, H / h));
       active.classList.add('scaled');
-      active.style.transform='scale('+scale+')';
+      active.style.transform = 'scale(' + scale + ')';
     }
   }
 
-  // Run after DOM is ready so #pages is present (and we have a fallback anyway)
+  // --------- Networking (fetch with XHR fallback) ----------
+  function getJson(url){
+    url = withCacheBust(url);
+    if (typeof fetch === 'function') {
+      return fetch(url, { cache:'no-store' }).then(function(res){
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      });
+    }
+    // XHR fallback
+    return new Promise(function(resolve, reject){
+      try {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'json';
+        xhr.onreadystatechange = function(){
+          if (xhr.readyState === 4) {
+            if (xhr.status >= 200 && xhr.status < 300) {
+              if (xhr.response && typeof xhr.response === 'object') resolve(xhr.response);
+              else { try { resolve(JSON.parse(xhr.responseText)); } catch(e){ reject(e); } }
+            } else {
+              reject(new Error('HTTP ' + xhr.status));
+            }
+          }
+        };
+        xhr.send();
+      } catch (e) { reject(e); }
+    });
+  }
+
+  async function loadAndRender(){
+    try{
+      var raw = await getJson(CONFIG.EVENTS_URL);
+      var norm = (Array.isArray(raw) ? raw : []).map(normalizeEvent);
+      var upcoming = filterUpcoming(norm).sort(sortByStart).slice(0, CONFIG.MAX_EVENTS);
+      if (!upcoming.length){
+        $pages().innerHTML = '<div class="page active"><div class="event"><div class="event-title">No upcoming events found.</div></div></div>';
+        return;
+      }
+      renderPaged(upcoming);
+      startRotation();
+    }catch(err){
+      console.error('Load error:', err);
+      $pages().innerHTML = '<div class="page active"><div class="event"><div class="event-title">Failed to load events.</div></div></div>';
+    } finally {
+      fitActivePage();
+    }
+  }
+
+  function scheduleHourlyRefresh(){
+    var ms = CONFIG.REFRESH_EVERY_MINUTES * 60 * 1000;
+    setInterval(function(){ loadAndRender(); }, ms);
+  }
+
+  function scheduleMidnightReload(){
+    if (!CONFIG.HARD_RELOAD_AT_MIDNIGHT) return;
+    var now = new Date();
+    var next = new Date(now.getTime());
+    next.setHours(24, 0, 2, 0);
+    var delay = next.getTime() - now.getTime();
+    setTimeout(function(){ location.reload(); }, delay);
+  }
+
   window.addEventListener('load', function(){
     loadAndRender();
     scheduleHourlyRefresh();
