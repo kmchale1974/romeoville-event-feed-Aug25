@@ -78,16 +78,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Park Tennis Courts - High School Meet",
-    "date": "September 25, 2025",
-    "time": "04:00 PM - 06:00 PM",
-    "location": "900 W Romeo Road"
-  },
-  {
     "title": "Romeoville Historical Society Fundraiser @ White Fence Farm",
     "date": "September 25, 2025",
     "time": "04:00 PM - 08:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "Village Park Tennis Courts - High School Meet",
+    "date": "September 25, 2025",
+    "time": "04:00 PM - 06:00 PM",
+    "location": "900 W Romeo Road"
   },
   {
     "title": "Will County Card Show",
@@ -213,6 +213,18 @@
     "title": "White Oak Library presents After Hours-Laser Tag",
     "date": "October 3, 2025",
     "time": "04:45 PM - 06:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Autumn Colors Craft Show",
+    "date": "October 4, 2025",
+    "time": "09:00 AM - 04:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Weekend Watch",
+    "date": "October 4, 2025",
+    "time": "01:00 PM - 03:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
