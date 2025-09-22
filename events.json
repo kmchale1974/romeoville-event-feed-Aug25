@@ -1,11 +1,5 @@
 [
   {
-    "title": "Founder&#39;s Day Parade",
-    "date": "September 21, 2025",
-    "time": "02:00 PM - 11:59 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Village Park Tennis Courts - High School Meet",
     "date": "September 22, 2025",
     "time": "04:00 PM - 06:00 PM",
@@ -208,5 +202,17 @@
     "date": "October 5, 2025",
     "time": "03:00 PM - 05:00 PM",
     "location": "400 W Romeo Rd"
+  },
+  {
+    "title": "ESL Reading &amp; Conversation Group",
+    "date": "October 6, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Anime Club",
+    "date": "October 6, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
