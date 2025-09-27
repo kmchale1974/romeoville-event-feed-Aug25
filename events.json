@@ -1,11 +1,5 @@
 [
   {
-    "title": "Will County Card Show",
-    "date": "September 26, 2025",
-    "time": "05:00 PM - 10:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "O’Hara Woods Volunteer Workdays",
     "date": "September 27, 2025",
     "time": "09:00 AM - 11:00 AM",
@@ -204,16 +198,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "October 8, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Leadership",
     "date": "October 8, 2025",
     "time": "06:00 PM - 07:15 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "October 8, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Halloween Puppet Storytime",
