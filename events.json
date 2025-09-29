@@ -232,5 +232,17 @@
     "date": "October 11, 2025",
     "time": "01:00 PM - 02:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "October 13, 2025",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "1125 W. Romeo Rd."
+  },
+  {
+    "title": "ESL Reading &amp; Conversation Group",
+    "date": "October 13, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
