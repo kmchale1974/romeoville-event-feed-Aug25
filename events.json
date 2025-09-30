@@ -220,5 +220,41 @@
     "date": "October 13, 2025",
     "time": "11:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire Pension Board Meeting",
+    "date": "October 14, 2025",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "October 14, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "October 14, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "October 14, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Public Hearing Notice",
+    "date": "October 14, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Fire and Police Commission Meeting",
+    "date": "October 14, 2025",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
