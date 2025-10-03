@@ -234,16 +234,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Board Meeting",
-    "date": "October 15, 2025",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Teen Volunteer Night",
     "date": "October 15, 2025",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "October 15, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "White Oak Library presents Doodle Hour: 3D Pens",
@@ -262,5 +262,29 @@
     "date": "October 16, 2025",
     "time": "06:30 PM - 08:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Chamber of Commerce presents Nonprofit Organization Roundtable",
+    "date": "October 17, 2025",
+    "time": "08:30 AM - 10:00 AM",
+    "location": "349 S. Weber Rd."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "October 17, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "October 17, 2025",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Halloween Fest - Residents Only",
+    "date": "October 17, 2025",
+    "time": "04:30 PM - 08:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
