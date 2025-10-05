@@ -268,5 +268,11 @@
     "date": "October 18, 2025",
     "time": "02:00 PM - 03:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Repair Cafe",
+    "date": "October 19, 2025",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "1125 W. Romeo Rd."
   }
 ]
