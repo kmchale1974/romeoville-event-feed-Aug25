@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Pinochle Club",
-    "date": "October 7, 2025",
-    "time": "09:30 AM - 12:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Tween Crafting Club",
     "date": "October 7, 2025",
     "time": "04:30 PM - 05:30 PM",
@@ -76,6 +70,12 @@
     "date": "October 10, 2025",
     "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "3rd Annual Grand Haven Craft and Bake Sale",
+    "date": "October 11, 2025",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "TBA"
   },
   {
     "title": "Fire Prevention Open House",
