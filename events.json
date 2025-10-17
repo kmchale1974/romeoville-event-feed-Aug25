@@ -1,17 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Teen Dungeons &amp; Dragons",
-    "date": "October 16, 2025",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Mocktober at Isle a la Cache",
-    "date": "October 16, 2025",
-    "time": "06:30 PM - 08:30 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Chamber of Commerce presents Nonprofit Organization Roundtable",
     "date": "October 17, 2025",
     "time": "08:30 AM - 10:00 AM",
@@ -78,16 +66,16 @@
     "location": "1293 Windham Parkway"
   },
   {
-    "title": "Sensory-Friendly Trunk or Treat",
-    "date": "October 21, 2025",
-    "time": "04:00 PM - 06:00 PM",
-    "location": "10 Montrose Dr."
-  },
-  {
     "title": "Veterans Commision Meeting - Canceled",
     "date": "October 21, 2025",
     "time": "04:00 PM - 05:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Sensory-Friendly Trunk or Treat",
+    "date": "October 21, 2025",
+    "time": "04:00 PM - 06:00 PM",
+    "location": "10 Montrose Dr."
   },
   {
     "title": "White Oak Library presents Tween Crafting Club",
