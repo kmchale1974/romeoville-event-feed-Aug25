@@ -220,5 +220,35 @@
     "date": "October 30, 2025",
     "time": "03:00 PM - 06:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Recreation Center - Holiday Hours for Halloween",
+    "date": "October 31, 2025",
+    "time": "05:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Holiday Hours for Halloween",
+    "date": "October 31, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "October 31, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "October 31, 2025",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Recommended Trick or Treat Hours",
+    "date": "October 31, 2025",
+    "time": "04:00 PM - 07:00 PM",
+    "location": "TBA"
   }
 ]
