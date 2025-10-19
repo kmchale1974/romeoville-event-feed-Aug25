@@ -1,1 +1,224 @@
-[]
+[
+  {
+    "title": "Repair Cafe",
+    "date": "October 19, 2025",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "1125 W. Romeo Rd."
+  },
+  {
+    "title": "Sons of the American Legion Squadron 52 Romeoville Annual Meat Raffle",
+    "date": "October 19, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "7 Alexander Circle"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "October 20, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "October 20, 2025",
+    "time": "12:00 PM - 05:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Veterans Commision Meeting - Canceled",
+    "date": "October 21, 2025",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Sensory-Friendly Trunk or Treat",
+    "date": "October 21, 2025",
+    "time": "04:00 PM - 06:00 PM",
+    "location": "10 Montrose Dr."
+  },
+  {
+    "title": "White Oak Library presents Tween Crafting Club",
+    "date": "October 21, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents the Halloween Haunted House &amp; Trunk or Treat",
+    "date": "October 23, 2025",
+    "time": "04:30 PM - 07:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Spooktacular Glow Run 5K",
+    "date": "October 23, 2025",
+    "time": "06:30 PM - 11:59 PM",
+    "location": "1700 W. Renwick Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "October 24, 2025",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "October 24, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Haunted House: Sensory Experience",
+    "date": "October 24, 2025",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "October 24, 2025",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Dive-In Movie: Hotel Transylvania",
+    "date": "October 24, 2025",
+    "time": "05:00 PM - 11:59 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Trick or Treat in the Woods: Isle a la Cache",
+    "date": "October 24, 2025",
+    "time": "06:00 PM - 08:30 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Over 50 Adult Halloween Party",
+    "date": "October 24, 2025",
+    "time": "06:00 PM - 09:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Museum Campus Day",
+    "date": "October 25, 2025",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Trunk or Treat: Demon Hunters Theme",
+    "date": "October 25, 2025",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "1581 W. Normantown Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "October 27, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Computer Class: A Beginner&#39;s Guide to ChatGPT",
+    "date": "October 27, 2025",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "October 28, 2025",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Harvest Saturday Food Drive Autumn Fundraiser",
+    "date": "October 28, 2025",
+    "time": "11:00 AM - 08:00 PM",
+    "location": "646 Independence Blvd."
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "October 28, 2025",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "State Representative Avelar&#39;s Traveling Office Hours",
+    "date": "October 28, 2025",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "October 28, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "October 29, 2025",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Monster Mash Costume Party",
+    "date": "October 29, 2025",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents &quot;Fall Beer Tasting&quot; with Scott Pointon",
+    "date": "October 29, 2025",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Chamber of Commerce Monthly Membership Meeting",
+    "date": "October 30, 2025",
+    "time": "08:15 AM - 09:45 AM",
+    "location": "1700 W. Renwick Rd."
+  },
+  {
+    "title": "Walgreens Flu/Covid Vaccine Clinic for Adults",
+    "date": "October 30, 2025",
+    "time": "03:00 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Recreation Center - Holiday Hours for Halloween",
+    "date": "October 31, 2025",
+    "time": "05:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Holiday Hours for Halloween",
+    "date": "October 31, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "October 31, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "October 31, 2025",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Recommended Trick or Treat Hours",
+    "date": "October 31, 2025",
+    "time": "04:00 PM - 07:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Triple Play: Catapult a Pumpkin, Shred Confidential Documents &amp; Recycle Electronics",
+    "date": "November 1, 2025",
+    "time": "09:00 AM - 12:00 PM",
+    "location": "1 University Pkwy."
+  },
+  {
+    "title": "White Oak Library presents Weekend Watch",
+    "date": "November 1, 2025",
+    "time": "01:00 PM - 03:00 PM",
+    "location": "201 W. Normantown Road"
+  }
+]
