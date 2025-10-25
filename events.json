@@ -1,11 +1,5 @@
 [
   {
-    "title": "Dive-In Movie: Hotel Transylvania",
-    "date": "October 24, 2025",
-    "time": "05:00 PM - 11:59 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Isle a la Cache Museum presents Museum Campus Day",
     "date": "October 25, 2025",
     "time": "10:00 AM - 04:00 PM",
@@ -238,5 +232,23 @@
     "date": "November 7, 2025",
     "time": "06:00 PM - 09:00 PM",
     "location": "2001 Rodeo Dr."
+  },
+  {
+    "title": "Household Hazardous Waste Disposal - By Appointment",
+    "date": "November 8, 2025",
+    "time": "08:00 AM - 03:00 PM",
+    "location": "1125 W. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Stories from the Shelf",
+    "date": "November 8, 2025",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Stories from the Shelf",
+    "date": "November 8, 2025",
+    "time": "01:00 PM - 02:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
