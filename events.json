@@ -250,5 +250,35 @@
     "date": "November 11, 2025",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "November 12, 2025",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "November 12, 2025",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Tween Adventuring Club",
+    "date": "November 12, 2025",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "November 12, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Teen Night: &quot;Chappell Roan&quot;",
+    "date": "November 12, 2025",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
