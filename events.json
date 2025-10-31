@@ -262,5 +262,23 @@
     "date": "November 13, 2025",
     "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "November 14, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Lego Club",
+    "date": "November 14, 2025",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Dive-In Movie: Penguins of Madagascar",
+    "date": "November 14, 2025",
+    "time": "05:00 PM - 11:59 PM",
+    "location": "630 Townhall Drive"
   }
 ]
