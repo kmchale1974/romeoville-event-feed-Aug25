@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "November 7, 2025",
-    "time": "09:30 AM - 11:30 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Lego Club",
     "date": "November 7, 2025",
     "time": "03:00 PM - 04:00 PM",
@@ -84,12 +78,6 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Fire and Police Commission Meeting",
-    "date": "November 11, 2025",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "November 12, 2025",
     "time": "12:30 PM - 02:30 PM",
@@ -111,6 +99,12 @@
     "title": "Conservation and Sustainabitity Committee Meeting",
     "date": "November 12, 2025",
     "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission Meeting - rescheduled from 11/11/25",
+    "date": "November 12, 2025",
+    "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
   },
   {
