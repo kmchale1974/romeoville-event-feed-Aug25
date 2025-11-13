@@ -208,5 +208,23 @@
     "date": "November 26, 2025",
     "time": "12:30 PM - 02:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Thanksgiving",
+    "date": "November 27, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Thanksgiving",
+    "date": "November 27, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Thanksgiving",
+    "date": "November 27, 2025",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
