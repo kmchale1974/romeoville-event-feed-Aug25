@@ -208,5 +208,41 @@
     "date": "November 27, 2025",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed on Black Friday",
+    "date": "November 28, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Thanksgiving",
+    "date": "November 28, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed on Black Friday",
+    "date": "November 28, 2025",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "November 28, 2025",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "November 28, 2025",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Lego Club",
+    "date": "November 28, 2025",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
