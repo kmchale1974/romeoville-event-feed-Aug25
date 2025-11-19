@@ -1,20 +1,8 @@
 [
   {
-    "title": "White Oak Library presents Teen Gaming",
-    "date": "November 19, 2025",
-    "time": "03:00 PM - 04:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Tween Master Chef",
     "date": "November 19, 2025",
     "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "November 19, 2025",
-    "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -22,6 +10,12 @@
     "date": "November 19, 2025",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "November 19, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Chef Maddox Presents French Buche de Noel: Chocolate Yule Log",
