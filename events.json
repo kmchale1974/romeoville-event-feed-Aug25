@@ -178,5 +178,29 @@
     "date": "December 8, 2025",
     "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "December 9, 2025",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "December 9, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission Meeting",
+    "date": "December 9, 2025",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Migrations&quot; by Charlotte McConaghy",
+    "date": "December 9, 2025",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
