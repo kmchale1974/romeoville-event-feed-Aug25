@@ -6,12 +6,6 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "Village Offices Closed - Thanksgiving",
-    "date": "November 27, 2025",
-    "time": "08:00 AM - 04:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Thanksgiving",
     "date": "November 27, 2025",
     "time": "09:00 AM - 09:00 PM",
@@ -30,16 +24,16 @@
     "location": "TBA"
   },
   {
-    "title": "Blood Drive",
-    "date": "November 28, 2025",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "1293 Windham Parkway"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed on Black Friday",
     "date": "November 28, 2025",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "November 28, 2025",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1293 Windham Parkway"
   },
   {
     "title": "White Oak Library presents Budding Builders",
