@@ -12,16 +12,16 @@
     "location": "TBA"
   },
   {
-    "title": "Blood Drive",
-    "date": "November 28, 2025",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "1293 Windham Parkway"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed on Black Friday",
     "date": "November 28, 2025",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "November 28, 2025",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1293 Windham Parkway"
   },
   {
     "title": "White Oak Library presents Budding Builders",
@@ -162,16 +162,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
