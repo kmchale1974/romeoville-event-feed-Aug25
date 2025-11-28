@@ -24,12 +24,6 @@
     "location": "1293 Windham Parkway"
   },
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "November 28, 2025",
-    "time": "09:30 AM - 11:30 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Lego Club",
     "date": "November 28, 2025",
     "time": "03:00 PM - 04:00 PM",
@@ -162,16 +156,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
