@@ -102,16 +102,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: &quot;Migrations&quot; by Charlotte McConaghy",
-    "date": "December 9, 2025",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission Meeting",
     "date": "December 9, 2025",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Migrations&quot; by Charlotte McConaghy",
+    "date": "December 9, 2025",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -166,5 +166,17 @@
     "date": "December 12, 2025",
     "time": "12:00 AM - 11:59 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Birds and Beans",
+    "date": "December 14, 2025",
+    "time": "08:30 AM - 09:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Jingle Bell Splash",
+    "date": "December 14, 2025",
+    "time": "12:00 PM - 02:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
