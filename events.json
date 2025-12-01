@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "December 1, 2025",
-    "time": "11:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Tween Anime Club",
     "date": "December 1, 2025",
     "time": "04:30 PM - 05:30 PM",
@@ -126,16 +120,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
