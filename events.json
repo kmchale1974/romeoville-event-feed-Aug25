@@ -102,16 +102,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
@@ -171,6 +171,30 @@
     "title": "White Oak Library presents Pinochle Club",
     "date": "December 16, 2025",
     "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "December 17, 2025",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Parkinson&#39;s Peer Support Group",
+    "date": "December 17, 2025",
+    "time": "02:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "December 17, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "December 17, 2025",
+    "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
