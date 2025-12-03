@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents American Mahjong",
-    "date": "December 3, 2025",
-    "time": "12:30 PM - 02:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "December 3, 2025",
     "time": "06:00 PM - 08:00 PM",
@@ -102,16 +96,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
