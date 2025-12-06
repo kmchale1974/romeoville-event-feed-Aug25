@@ -72,16 +72,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "December 10, 2025",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Opportunity Matters Workshop - Social Media and Communication",
     "date": "December 10, 2025",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "December 10, 2025",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Candy House Creations",
@@ -184,5 +184,17 @@
     "date": "December 18, 2025",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Forest Bathing for Adults",
+    "date": "December 20, 2025",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Forest Bathing for Adults",
+    "date": "December 20, 2025",
+    "time": "01:30 PM - 03:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
