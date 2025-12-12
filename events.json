@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "title": "Game Changer Card Show",
+    "date": "December 12, 2025",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Birds and Beans",
+    "date": "December 14, 2025",
+    "time": "08:30 AM - 09:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "CANCELLED: Jingle Bell Splash Bash",
+    "date": "December 14, 2025",
+    "time": "12:00 PM - 02:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "December 15, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "December 15, 2025",
+    "time": "12:00 PM - 06:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "December 16, 2025",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "CITGO Community Meetings",
+    "date": "December 16, 2025",
+    "time": "06:00 PM - 07:30 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "December 17, 2025",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "CITGO Community Meetings",
+    "date": "December 17, 2025",
+    "time": "01:00 PM - 02:30 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Parkinson&#39;s Peer Support Group",
+    "date": "December 17, 2025",
+    "time": "02:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "December 17, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "December 17, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Foreign Fire Tax Board Meeting",
+    "date": "December 18, 2025",
+    "time": "09:30 AM - 10:30 AM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "White Oak Library presents Storytime with Santa",
+    "date": "December 18, 2025",
+    "time": "10:00 AM - 10:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Dungeons &amp; Dragons",
+    "date": "December 18, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Forest Bathing for Adults",
+    "date": "December 20, 2025",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Forest Bathing for Adults",
+    "date": "December 20, 2025",
+    "time": "01:30 PM - 03:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "December 22, 2025",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Paint &amp; Sip: Wicked and Five Nights at Freddy&#39;s Themes",
+    "date": "December 22, 2025",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "December 23, 2025",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Christmas Eve",
+    "date": "December 24, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Christmas",
+    "date": "December 24, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Christmas Eve",
+    "date": "December 24, 2025",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Christmas",
+    "date": "December 25, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Christmas",
+    "date": "December 25, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Christmas",
+    "date": "December 25, 2025",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  }
+]
