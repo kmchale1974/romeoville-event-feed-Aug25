@@ -154,5 +154,11 @@
     "date": "December 25, 2025",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "December 26, 2025",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
