@@ -1,11 +1,5 @@
 [
   {
-    "title": "Aquatic Fitness Classes Canceled",
-    "date": "December 16, 2025",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "December 17, 2025",
     "time": "12:30 PM - 02:30 PM",
@@ -148,5 +142,29 @@
     "date": "December 30, 2025",
     "time": "01:00 PM - 06:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for New Year&#39;s Eve",
+    "date": "December 31, 2025",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - New Year&#39;s",
+    "date": "December 31, 2025",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for New Year&#39;s Eve",
+    "date": "December 31, 2025",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Count Down to Noon Year",
+    "date": "December 31, 2025",
+    "time": "11:00 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
