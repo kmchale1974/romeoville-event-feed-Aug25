@@ -82,5 +82,11 @@
     "date": "January 9, 2026",
     "time": "05:00 PM - 11:59 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "January 10, 2026",
+    "time": "09:00 AM - 01:00 PM",
+    "location": "1293 Windham Parkway"
   }
 ]
