@@ -82,5 +82,23 @@
     "date": "January 10, 2026",
     "time": "09:00 AM - 01:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "January 13, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "January 13, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "January 13, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
