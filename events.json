@@ -36,12 +36,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "CITGO Community Meetings",
-    "date": "January 6, 2026",
-    "time": "06:00 PM - 07:30 PM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "January 7, 2026",
     "time": "12:30 PM - 02:30 PM",
@@ -51,6 +45,30 @@
     "title": "White Oak Library presents Adventuring Club",
     "date": "January 7, 2026",
     "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "CITGO Community Meetings",
+    "date": "January 7, 2026",
+    "time": "06:00 PM - 07:30 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "White Oak Library presents Adult &amp; Teen: Taylor Swift Night with Musical Bingo and Trivia",
+    "date": "January 8, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "January 9, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "January 9, 2026",
+    "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -64,6 +82,12 @@
     "date": "January 10, 2026",
     "time": "09:00 AM - 01:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "White Oak Library presents Illinois Tollway&#39;s I-PASS on Demand",
+    "date": "January 10, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Special Events Commission Meeting",
