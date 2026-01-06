@@ -6,12 +6,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Fire Pension Board Meeting",
-    "date": "January 6, 2026",
-    "time": "02:00 PM - 03:00 PM",
-    "location": "18 Montrose Dr."
-  },
-  {
     "title": "White Oak Library presents Tween Crafting Club",
     "date": "January 6, 2026",
     "time": "04:30 PM - 05:30 PM",
@@ -70,6 +64,12 @@
     "date": "January 10, 2026",
     "time": "10:00 AM - 02:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire Pension Board Meeting",
+    "date": "January 13, 2026",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "18 Montrose Dr."
   },
   {
     "title": "Special Events Commission Meeting",
