@@ -72,10 +72,10 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Fire Pension Board Meeting",
+    "title": "White Oak Library presents STEAM Experiment",
     "date": "January 13, 2026",
-    "time": "02:00 PM - 03:00 PM",
-    "location": "18 Montrose Dr."
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Special Events Commission Meeting",
@@ -84,21 +84,9 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "White Oak Library presents STEAM Experiment",
-    "date": "January 13, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Planning and Zoning Commission Meeting",
     "date": "January 13, 2026",
     "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
-    "title": "Fire and Police Commission",
-    "date": "January 13, 2026",
-    "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
   },
   {
@@ -106,6 +94,12 @@
     "date": "January 13, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "January 13, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents ‘I Am Not a Costume!’ Story Exhibit",
