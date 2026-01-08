@@ -1,17 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Adventuring Club",
-    "date": "January 7, 2026",
-    "time": "04:30 PM - 06:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "CITGO Community Meetings",
-    "date": "January 7, 2026",
-    "time": "06:00 PM - 07:30 PM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents Adult &amp; Teen: Taylor Swift Night with Musical Bingo and Trivia",
     "date": "January 8, 2026",
     "time": "06:30 PM - 08:00 PM",
@@ -78,16 +66,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: The House in the Cerulean Sea by T.J. Klune",
-    "date": "January 13, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "January 13, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: The House in the Cerulean Sea by T.J. Klune",
+    "date": "January 13, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Computer Class: Microsoft Word Basics",
