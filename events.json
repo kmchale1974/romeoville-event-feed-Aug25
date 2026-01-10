@@ -1,11 +1,5 @@
 [
   {
-    "title": "Dive In Movie: Frozen (SOLD OUT)",
-    "date": "January 9, 2026",
-    "time": "05:00 PM - 11:59 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Blood Drive",
     "date": "January 10, 2026",
     "time": "09:00 AM - 01:00 PM",
@@ -214,5 +208,23 @@
     "date": "January 23, 2026",
     "time": "09:00 AM - 03:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "January 24, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Crafting a la Cache: Handheld Habitats",
+    "date": "January 24, 2026",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Crafting a la Cache: Handheld Habitats",
+    "date": "January 24, 2026",
+    "time": "01:00 PM - 02:30 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
