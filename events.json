@@ -214,5 +214,17 @@
     "date": "January 24, 2026",
     "time": "01:00 PM - 02:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "January 26, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "January 26, 2026",
+    "time": "12:00 PM - 06:00 PM",
+    "location": "1293 Windham Parkway"
   }
 ]
