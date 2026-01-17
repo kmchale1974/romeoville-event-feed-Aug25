@@ -118,5 +118,11 @@
     "date": "January 27, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Prime Fight Night",
+    "date": "January 31, 2026",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
   }
 ]
