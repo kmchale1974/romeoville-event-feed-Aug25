@@ -6,12 +6,6 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "January 23, 2026",
-    "time": "09:30 AM - 11:30 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Lego Club",
     "date": "January 23, 2026",
     "time": "03:00 PM - 04:30 PM",
@@ -150,9 +144,21 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Tween Crafting Club",
+    "date": "February 3, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "White Oak Library presents American Mahjong",
     "date": "February 4, 2026",
     "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Adventuring Club",
+    "date": "February 4, 2026",
+    "time": "04:30 PM - 06:00 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -162,10 +168,22 @@
     "location": "1050 W. Romeo Road"
   },
   {
+    "title": "White Oak Library presents 1619: The Journey of a People-A Musical by Ted Williams III",
+    "date": "February 4, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Isle a la Cache Museum presents WonderKids: Owls!",
     "date": "February 5, 2026",
     "time": "10:00 AM - 11:30 AM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Microsoft Excel Basics",
+    "date": "February 5, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Budding Builders",
