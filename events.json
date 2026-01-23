@@ -166,5 +166,17 @@
     "date": "February 5, 2026",
     "time": "10:00 AM - 11:30 AM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "February 6, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "February 6, 2026",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
