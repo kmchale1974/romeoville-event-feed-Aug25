@@ -162,16 +162,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Weekend Watch",
-    "date": "February 7, 2026",
-    "time": "01:00 PM - 03:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Track and Scat Hike",
     "date": "February 7, 2026",
     "time": "01:00 PM - 02:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Weekend Watch",
+    "date": "February 7, 2026",
+    "time": "01:00 PM - 03:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Teen Tasters: Pickle Flavored Snacks to Relish",
@@ -189,6 +189,36 @@
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "February 9, 2026",
     "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "February 10, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "February 10, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "February 10, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
