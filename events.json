@@ -208,5 +208,17 @@
     "date": "February 11, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "BIG Classic",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Mocktails at the Museum",
+    "date": "February 12, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
