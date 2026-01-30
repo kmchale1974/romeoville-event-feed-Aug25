@@ -150,16 +150,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
-    "date": "February 10, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "February 10, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -208,5 +208,23 @@
     "date": "February 12, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "February 13, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "February 13, 2026",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Dive In Movie: Monsters, Inc.",
+    "date": "February 13, 2026",
+    "time": "05:00 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
