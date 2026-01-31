@@ -138,16 +138,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "February 10, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
     "date": "February 10, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -214,5 +214,23 @@
     "date": "February 13, 2026",
     "time": "05:00 PM - 09:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Valentine&#39;s Day Drop In",
+    "date": "February 14, 2026",
+    "time": "11:00 AM - 01:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
+    "date": "February 14, 2026",
+    "time": "02:00 PM - 03:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Love Stories",
+    "date": "February 14, 2026",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
