@@ -1,11 +1,5 @@
 [
   {
-    "title": "Prime Fight Night",
-    "date": "January 31, 2026",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "February 2, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -232,5 +226,11 @@
     "date": "February 14, 2026",
     "time": "02:00 PM - 03:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Meat Raffle Sponsored by Romeoville’s American Legion and Hampton Park Social Athletic Club",
+    "date": "February 15, 2026",
+    "time": "11:00 AM - 05:00 PM",
+    "location": "7 Alexander Circle"
   }
 ]
