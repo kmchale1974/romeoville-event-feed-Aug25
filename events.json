@@ -132,16 +132,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
-    "date": "February 10, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "February 10, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -232,5 +232,41 @@
     "date": "February 15, 2026",
     "time": "11:00 AM - 05:00 PM",
     "location": "7 Alexander Circle"
+  },
+  {
+    "title": "Romeoville Recreation Center - Holiday Hours for President&#39;s Day",
+    "date": "February 16, 2026",
+    "time": "05:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Village Offices Closed - President&#39;s Day",
+    "date": "February 16, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "February 16, 2026",
+    "time": "08:30 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "February 16, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents &quot;Hamilton&quot; Sing-Along for Teens",
+    "date": "February 16, 2026",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Winter Library Olympic Games",
+    "date": "February 16, 2026",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
