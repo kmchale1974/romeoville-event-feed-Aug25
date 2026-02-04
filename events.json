@@ -48,16 +48,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Weekend Watch",
-    "date": "February 7, 2026",
-    "time": "01:00 PM - 03:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Track and Scat Hike",
     "date": "February 7, 2026",
     "time": "01:00 PM - 02:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Weekend Watch",
+    "date": "February 7, 2026",
+    "time": "01:00 PM - 03:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Teen Tasters: Pickle Flavored Snacks to Relish",
@@ -96,16 +96,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
-    "date": "February 10, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "February 10, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -180,16 +180,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
-    "date": "February 14, 2026",
-    "time": "02:00 PM - 03:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Love Stories",
     "date": "February 14, 2026",
     "time": "02:00 PM - 03:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
+    "date": "February 14, 2026",
+    "time": "02:00 PM - 03:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Meat Raffle Sponsored by Romeoville’s American Legion and Hampton Park Social Athletic Club",
@@ -244,5 +244,23 @@
     "date": "February 17, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "February 18, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "February 18, 2026",
+    "time": "01:30 PM - 06:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "February 18, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
