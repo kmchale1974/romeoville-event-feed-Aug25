@@ -1,23 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Adventuring Club",
-    "date": "February 4, 2026",
-    "time": "04:30 PM - 06:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Village Board Meeting",
-    "date": "February 4, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
-    "title": "White Oak Library presents 1619: The Journey of a People-A Musical by Ted Williams III",
-    "date": "February 4, 2026",
-    "time": "07:00 PM - 08:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents WonderKids: Owls!",
     "date": "February 5, 2026",
     "time": "10:00 AM - 11:30 AM",
@@ -90,16 +72,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "February 10, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;Book Lovers&quot; by Emily Henry",
     "date": "February 10, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "February 10, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents American Mahjong",
