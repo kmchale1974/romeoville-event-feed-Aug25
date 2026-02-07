@@ -132,16 +132,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
-    "date": "February 14, 2026",
-    "time": "02:00 PM - 03:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Love Stories",
     "date": "February 14, 2026",
     "time": "02:00 PM - 03:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
+    "date": "February 14, 2026",
+    "time": "02:00 PM - 03:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Meat Raffle Sponsored by Romeoville’s American Legion and Hampton Park Social Athletic Club",
@@ -250,5 +250,17 @@
     "date": "February 20, 2026",
     "time": "06:00 PM - 09:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Isle a la Cache Museum presents ‘I Am Not a Costume!’ Reading and Book Signing",
+    "date": "February 21, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Super Saturday",
+    "date": "February 21, 2026",
+    "time": "11:00 AM - 11:45 AM",
+    "location": "201 W. Normantown Road"
   }
 ]
