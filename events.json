@@ -6,12 +6,6 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Isle a la Cache Museum presents Mocktails at the Museum",
-    "date": "February 12, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents Budding Builders",
     "date": "February 13, 2026",
     "time": "09:30 AM - 11:30 AM",
@@ -36,16 +30,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Love Stories",
-    "date": "February 14, 2026",
-    "time": "02:00 PM - 03:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents &quot;Lucille Ball&quot; Portrayed by Leslie Goddard",
     "date": "February 14, 2026",
     "time": "02:00 PM - 03:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Love Stories",
+    "date": "February 14, 2026",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Meat Raffle Sponsored by Romeoville’s American Legion and Hampton Park Social Athletic Club",
