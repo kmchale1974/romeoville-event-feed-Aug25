@@ -1,11 +1,5 @@
 [
   {
-    "title": "BIG Classic",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "Romeoville Recreation Center - Holiday Hours for President&#39;s Day",
     "date": "February 16, 2026",
     "time": "05:00 AM - 09:00 PM",
@@ -214,5 +208,23 @@
     "date": "February 28, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Early Voting for Romeoville Residents",
+    "date": "TBA",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "March 2, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Anime Club",
+    "date": "March 2, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
