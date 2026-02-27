@@ -108,16 +108,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Blood Drive",
-    "date": "March 9, 2026",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "1293 Windham Parkway"
-  },
-  {
     "title": "Early Voting for Romeoville Residents",
     "date": "TBA",
     "time": "09:00 AM - 03:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "March 9, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1293 Windham Parkway"
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -202,5 +202,29 @@
     "date": "March 11, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Beach Party Gymnastics Meet",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "March 13, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "March 13, 2026",
+    "time": "03:00 PM - 04:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Dive In Movie: Vote For Your Favorite Movie!",
+    "date": "March 13, 2026",
+    "time": "05:00 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
