@@ -6,12 +6,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents American Mahjong",
-    "date": "March 4, 2026",
-    "time": "12:30 PM - 02:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Adventuring Club",
     "date": "March 4, 2026",
     "time": "04:30 PM - 06:00 PM",
@@ -60,16 +54,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Early Voting for Romeoville Residents",
-    "date": "TBA",
-    "time": "09:00 AM - 03:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Blood Drive",
     "date": "March 9, 2026",
     "time": "09:00 AM - 02:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Early Voting for Romeoville Residents",
+    "date": "TBA",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
