@@ -60,16 +60,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Early Voting for Romeoville Residents",
-    "date": "TBA",
-    "time": "09:00 AM - 03:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Blood Drive",
     "date": "March 9, 2026",
     "time": "09:00 AM - 02:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Early Voting for Romeoville Residents",
+    "date": "TBA",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -108,16 +108,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "March 10, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;Tom Lake&quot; by Ann Patchett",
     "date": "March 10, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "March 10, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -202,5 +202,35 @@
     "date": "March 17, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "March 18, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Master Chef",
+    "date": "March 18, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents State Representative Avelar&#39;s Traveling Office Hours",
+    "date": "March 18, 2026",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "March 18, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "March 18, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
