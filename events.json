@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents LEGO Club",
-    "date": "March 6, 2026",
-    "time": "03:00 PM - 04:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Weekend Watch",
     "date": "March 7, 2026",
     "time": "01:00 PM - 03:00 PM",
@@ -102,16 +96,16 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "March 11, 2026",
+    "time": "05:00 PM - 06:00 PM",
+    "location": "524 Belmont Drive"
+  },
+  {
     "title": "White Oak Library presents &quot;The Oakscars&quot; Adult Movie Night: &quot;Chicago&quot; (2002)",
     "date": "March 11, 2026",
     "time": "06:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "March 11, 2026",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "524 Belmont Drive"
   },
   {
     "title": "Beach Party Gymnastics Meet",
