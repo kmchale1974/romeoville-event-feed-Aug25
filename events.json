@@ -30,12 +30,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "March 10, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;Tom Lake&quot; by Ann Patchett",
     "date": "March 10, 2026",
     "time": "06:30 PM - 08:00 PM",
@@ -172,6 +166,12 @@
     "date": "March 19, 2026",
     "time": "06:00 PM - 07:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission Meeting - Rescheduled from 3/10 to 3/19",
+    "date": "March 19, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "Blood Drive",
