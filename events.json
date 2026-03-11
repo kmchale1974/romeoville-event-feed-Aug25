@@ -6,12 +6,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents American Mahjong",
-    "date": "March 11, 2026",
-    "time": "12:30 PM - 02:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Teen Gaming",
     "date": "March 11, 2026",
     "time": "03:00 PM - 04:30 PM",
@@ -28,12 +22,6 @@
     "date": "March 11, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Conservation and Sustainabitity Committee Meeting",
-    "date": "March 11, 2026",
-    "time": "05:00 PM - 06:00 PM",
-    "location": "524 Belmont Drive"
   },
   {
     "title": "White Oak Library presents &quot;The Oakscars&quot; Adult Movie Night: &quot;Chicago&quot; (2002)",
@@ -208,5 +196,11 @@
     "date": "March 25, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting - Rescheduled from 3/11/26",
+    "date": "March 25, 2026",
+    "time": "05:00 PM - 06:00 PM",
+    "location": "524 Belmont Drive"
   }
 ]
