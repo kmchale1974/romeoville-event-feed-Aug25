@@ -6,12 +6,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Pathways to Professions Career Expo",
-    "date": "March 10, 2026",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "March 11, 2026",
     "time": "12:30 PM - 02:30 PM",
@@ -202,5 +196,17 @@
     "date": "March 24, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "March 25, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Aspiring Artists",
+    "date": "March 25, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
