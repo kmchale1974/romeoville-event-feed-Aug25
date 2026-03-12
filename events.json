@@ -6,12 +6,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Beach Party Gymnastics Meet",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Budding Builders",
     "date": "March 13, 2026",
     "time": "09:30 AM - 11:30 AM",
@@ -28,6 +22,12 @@
     "date": "March 13, 2026",
     "time": "05:00 PM - 09:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Beach Party Gymnastics Meet",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "900 West Romeo Road"
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
