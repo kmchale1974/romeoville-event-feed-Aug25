@@ -190,5 +190,41 @@
     "date": "March 26, 2026",
     "time": "07:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Prep Hoops - Great Lakes Kickoff",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "No Open Gym",
+    "date": "March 27, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "March 27, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Gaming",
+    "date": "March 27, 2026",
+    "time": "03:00 PM - 04:15 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "March 27, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Basketball Showdown",
+    "date": "March 27, 2026",
+    "time": "05:30 PM - 07:00 PM",
+    "location": "301 W. Normantown Rd."
   }
 ]
