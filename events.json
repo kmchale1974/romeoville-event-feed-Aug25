@@ -244,5 +244,11 @@
     "date": "March 28, 2026",
     "time": "01:00 PM - 02:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Hoppy Hound Egg Hunt",
+    "date": "March 29, 2026",
+    "time": "11:00 AM - 11:59 PM",
+    "location": "400 W Romeo Rd"
   }
 ]
