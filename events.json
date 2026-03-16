@@ -1,11 +1,5 @@
 [
   {
-    "title": "Beach Party Gymnastics Meet",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "March 16, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -250,5 +244,17 @@
     "date": "March 29, 2026",
     "time": "11:00 AM - 11:59 PM",
     "location": "400 W Romeo Rd"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "March 30, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Adult Create &amp; Sip: Women&#39;s History Month Collages",
+    "date": "March 30, 2026",
+    "time": "06:30 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
