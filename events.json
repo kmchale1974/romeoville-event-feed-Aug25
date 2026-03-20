@@ -132,16 +132,16 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "O’Hara Woods Volunteer Workdays",
-    "date": "March 28, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "524 Belmont Drive"
-  },
-  {
     "title": "Springtide Craft Show",
     "date": "March 28, 2026",
     "time": "09:00 AM - 03:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "March 28, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
   },
   {
     "title": "Isle a la Cache Museum presents Jeop-Birdy for Adults",
@@ -226,5 +226,47 @@
     "date": "April 2, 2026",
     "time": "10:00 AM - 11:30 AM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Good Friday",
+    "date": "April 3, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Good Friday",
+    "date": "April 3, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "date": "April 3, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 3, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "April 3, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "April 3, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents After Hours-Laser Tag",
+    "date": "April 3, 2026",
+    "time": "04:45 PM - 06:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
