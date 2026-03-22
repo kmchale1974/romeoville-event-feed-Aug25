@@ -262,5 +262,23 @@
     "date": "April 4, 2026",
     "time": "01:00 PM - 03:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Easter",
+    "date": "April 5, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Easter",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 07:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
