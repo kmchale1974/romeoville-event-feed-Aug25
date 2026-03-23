@@ -1,11 +1,5 @@
 [
   {
-    "title": "Aqua Egg Hunt",
-    "date": "March 22, 2026",
-    "time": "12:00 PM - 11:59 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Blood Drive",
     "date": "March 23, 2026",
     "time": "09:00 AM - 03:00 PM",
@@ -120,16 +114,16 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Springtide Craft Show",
-    "date": "March 28, 2026",
-    "time": "09:00 AM - 03:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "O’Hara Woods Volunteer Workdays",
     "date": "March 28, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Springtide Craft Show",
+    "date": "March 28, 2026",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "900 West Romeo Road"
   },
   {
     "title": "Isle a la Cache Museum presents Jeop-Birdy for Adults",
@@ -280,5 +274,23 @@
     "date": "April 5, 2026",
     "time": "09:00 AM - 07:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Hydrant Flushing",
+    "date": "TBA",
+    "time": "07:30 AM - 04:30 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "April 6, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Anime Club",
+    "date": "April 6, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
