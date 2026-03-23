@@ -1,11 +1,5 @@
 [
   {
-    "title": "Blood Drive",
-    "date": "March 23, 2026",
-    "time": "01:00 PM - 06:00 PM",
-    "location": "1293 Windham Parkway"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "March 24, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -216,13 +210,13 @@
     "location": "TBA"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "title": "No Open Gym",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "No Open Gym",
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
