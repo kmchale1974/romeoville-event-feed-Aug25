@@ -2,12 +2,6 @@
   {
     "title": "Blood Drive",
     "date": "March 23, 2026",
-    "time": "09:00 AM - 03:00 PM",
-    "location": "1125 W. Romeo Rd."
-  },
-  {
-    "title": "Blood Drive",
-    "date": "March 23, 2026",
     "time": "01:00 PM - 06:00 PM",
     "location": "1293 Windham Parkway"
   },
@@ -34,6 +28,12 @@
     "date": "March 24, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Thrift and Art Fair",
+    "date": "March 25, 2026",
+    "time": "11:00 AM - 01:30 PM",
+    "location": "1 University Pkwy."
   },
   {
     "title": "White Oak Library presents American Mahjong",
