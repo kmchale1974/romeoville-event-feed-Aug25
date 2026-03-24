@@ -210,13 +210,13 @@
     "location": "TBA"
   },
   {
-    "title": "No Open Gym",
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "title": "No Open Gym",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
@@ -280,5 +280,23 @@
     "date": "April 6, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "April 7, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Crafting Club",
+    "date": "April 7, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "April 7, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
