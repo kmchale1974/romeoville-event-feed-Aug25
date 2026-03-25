@@ -274,5 +274,29 @@
     "date": "April 7, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "April 8, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "April 8, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Aspiring Artists",
+    "date": "April 8, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "April 8, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
