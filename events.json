@@ -162,13 +162,13 @@
     "location": "TBA"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "title": "No Open Gym",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "No Open Gym",
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
@@ -280,5 +280,17 @@
     "date": "April 8, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Prep Hoops - Chitown Tip-Off",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Glow Night",
+    "date": "April 10, 2026",
+    "time": "05:00 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
