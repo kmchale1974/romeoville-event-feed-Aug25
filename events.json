@@ -12,18 +12,6 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "White Oak Library presents Teen Gaming",
-    "date": "March 27, 2026",
-    "time": "03:00 PM - 04:15 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "White Oak Library presents LEGO Club",
-    "date": "March 27, 2026",
-    "time": "03:00 PM - 04:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Will County Card Show",
     "date": "March 27, 2026",
     "time": "05:00 PM - 10:00 PM",
@@ -204,15 +192,15 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "No Open Gym",
-    "date": "April 5, 2026",
-    "time": "09:00 AM - 07:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Easter",
     "date": "April 5, 2026",
     "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 07:00 PM",
     "location": "900 West Romeo Road"
   },
   {
