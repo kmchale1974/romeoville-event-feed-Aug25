@@ -156,13 +156,13 @@
     "location": "TBA"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "title": "No Open Gym",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "No Open Gym",
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
@@ -204,15 +204,15 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Easter",
-    "date": "April 5, 2026",
-    "time": "09:00 AM - 09:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "No Open Gym",
     "date": "April 5, 2026",
     "time": "09:00 AM - 07:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Easter",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
