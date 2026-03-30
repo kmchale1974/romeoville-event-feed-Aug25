@@ -1,17 +1,5 @@
 [
   {
-    "title": "Prep Hoops - Great Lakes Kickoff",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
-    "title": "Hoppy Hound Egg Hunt",
-    "date": "March 29, 2026",
-    "time": "11:00 AM - 11:59 PM",
-    "location": "400 W Romeo Rd"
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "March 30, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -132,15 +120,15 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "No Open Gym",
-    "date": "April 5, 2026",
-    "time": "09:00 AM - 07:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Easter",
     "date": "April 5, 2026",
     "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 07:00 PM",
     "location": "900 West Romeo Road"
   },
   {
@@ -268,5 +256,17 @@
     "date": "April 11, 2026",
     "time": "02:30 PM - 03:15 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "April 13, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Music Monday: Gimme Gimmie Gimmie A Splash After Midnight",
+    "date": "April 13, 2026",
+    "time": "05:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
