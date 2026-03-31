@@ -120,15 +120,15 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "No Open Gym",
-    "date": "April 5, 2026",
-    "time": "09:00 AM - 07:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Easter",
     "date": "April 5, 2026",
     "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 07:00 PM",
     "location": "900 West Romeo Road"
   },
   {
@@ -280,5 +280,53 @@
     "date": "April 13, 2026",
     "time": "05:00 PM - 08:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "April 14, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents ICash: Office of Illinois State Treasurer Michael W. Frerichs",
+    "date": "April 14, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire Pension Board Meeting",
+    "date": "April 14, 2026",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
+    "date": "April 14, 2026",
+    "time": "04:00 PM - 06:00 PM",
+    "location": "900 W Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "April 14, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;The Anthropocene Reviewed&quot; by John Green",
+    "date": "April 14, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
