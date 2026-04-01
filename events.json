@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Tween Adventuring Club",
-    "date": "April 1, 2026",
-    "time": "04:30 PM - 06:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "April 1, 2026",
     "time": "06:00 PM - 08:00 PM",
@@ -282,16 +276,16 @@
     "location": "900 W Romeo Road"
   },
   {
-    "title": "Special Events Commission Meeting",
-    "date": "April 14, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "White Oak Library presents STEAM Experiment",
     "date": "April 14, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
