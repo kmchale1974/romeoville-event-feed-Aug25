@@ -282,16 +282,16 @@
     "location": "900 W Romeo Road"
   },
   {
-    "title": "White Oak Library presents STEAM Experiment",
-    "date": "April 14, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Special Events Commission Meeting",
     "date": "April 14, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
@@ -304,5 +304,29 @@
     "date": "April 14, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "April 15, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Gaming",
+    "date": "April 15, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Half Day Half Price for Romeoville Residents",
+    "date": "April 15, 2026",
+    "time": "05:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "April 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
