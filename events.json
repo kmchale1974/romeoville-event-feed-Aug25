@@ -1,17 +1,5 @@
 [
   {
-    "title": "Village Board Meeting",
-    "date": "April 1, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
-    "title": "Romeoville&#39;s Aviation Industry with Dr. Kurt Schackmuth and Dr. Ryan Phillips of Lewis University",
-    "date": "April 1, 2026",
-    "time": "07:00 PM - 08:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents WonderKids: Wind!",
     "date": "April 2, 2026",
     "time": "10:00 AM - 11:30 AM",
@@ -36,13 +24,13 @@
     "location": "TBA"
   },
   {
-    "title": "No Open Gym",
+    "title": "Romeoville Recreation Center - Closed for Good Friday",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Romeoville Recreation Center - Closed for Good Friday",
+    "title": "No Open Gym",
     "date": "April 3, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
@@ -276,16 +264,16 @@
     "location": "900 W Romeo Road"
   },
   {
-    "title": "White Oak Library presents STEAM Experiment",
-    "date": "April 14, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Special Events Commission Meeting",
     "date": "April 14, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
