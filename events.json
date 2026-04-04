@@ -18,15 +18,15 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "No Open Gym",
-    "date": "April 5, 2026",
-    "time": "09:00 AM - 07:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Easter",
     "date": "April 5, 2026",
     "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "No Open Gym",
+    "date": "April 5, 2026",
+    "time": "09:00 AM - 07:00 PM",
     "location": "900 West Romeo Road"
   },
   {
@@ -292,5 +292,35 @@
     "date": "April 17, 2026",
     "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Spring Fling &amp; Mother&#39;s Day Craft &amp; Vendor Fair",
+    "date": "April 18, 2026",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "725 Normantown Road"
+  },
+  {
+    "title": "Celebration of Tables: A Tablescape Fundraiser for Our Community",
+    "date": "April 18, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: Super Hero In Motion",
+    "date": "April 18, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Super Saturday",
+    "date": "April 18, 2026",
+    "time": "11:00 AM - 11:45 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Junior Naturalists: Weather",
+    "date": "April 18, 2026",
+    "time": "01:00 PM - 02:30 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
