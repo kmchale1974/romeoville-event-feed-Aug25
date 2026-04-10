@@ -102,22 +102,28 @@
     "location": "18 Montrose Dr."
   },
   {
+    "title": "Veterans Commision Meeting - Rescheduled from 4/21/26",
+    "date": "April 14, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
     "date": "April 14, 2026",
     "time": "04:00 PM - 06:00 PM",
     "location": "900 W Romeo Road"
   },
   {
-    "title": "White Oak Library presents STEAM Experiment",
-    "date": "April 14, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Special Events Commission Meeting",
     "date": "April 14, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "April 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
@@ -262,12 +268,6 @@
     "date": "April 21, 2026",
     "time": "09:30 AM - 12:30 PM",
     "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Veterans Commision Meeting",
-    "date": "April 21, 2026",
-    "time": "04:00 PM - 05:00 PM",
-    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Tween Crafting Club",
