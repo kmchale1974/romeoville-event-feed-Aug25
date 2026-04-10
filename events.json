@@ -286,5 +286,29 @@
     "date": "April 23, 2026",
     "time": "04:00 PM - 06:00 PM",
     "location": "900 W Romeo Road"
+  },
+  {
+    "title": "Prep Hoops - Windy City War",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "April 24, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "April 24, 2026",
+    "time": "11:00 AM - 04:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "April 24, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
