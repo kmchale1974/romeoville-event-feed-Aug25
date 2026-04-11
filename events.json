@@ -30,12 +30,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "We Bring the Zoo to You! presented by the Flying Fox Conservation Fund",
-    "date": "April 11, 2026",
-    "time": "11:30 AM - 12:15 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Nerf &amp; Protect",
     "date": "April 11, 2026",
     "time": "12:00 PM - 03:00 PM",
@@ -120,16 +114,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "April 14, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;The Anthropocene Reviewed&quot; by John Green",
     "date": "April 14, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "April 14, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents American Mahjong",
