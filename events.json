@@ -54,16 +54,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents The Spirited Book Club: &quot;The Anthropocene Reviewed&quot; by John Green",
-    "date": "April 14, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "April 14, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;The Anthropocene Reviewed&quot; by John Green",
+    "date": "April 14, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -286,5 +286,35 @@
     "date": "April 27, 2026",
     "time": "04:00 PM - 06:00 PM",
     "location": "900 W Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "April 28, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "36th Annual State of the Village Address by Mayor John Noak",
+    "date": "April 28, 2026",
+    "time": "11:30 AM - 02:00 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "April 28, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "April 28, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Google Workspace",
+    "date": "April 28, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
