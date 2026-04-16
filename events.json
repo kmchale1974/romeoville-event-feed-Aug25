@@ -262,5 +262,17 @@
     "date": "April 29, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "April 30, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "1 University Pkwy."
+  },
+  {
+    "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
+    "date": "April 30, 2026",
+    "time": "04:00 PM - 06:00 PM",
+    "location": "900 W Romeo Road"
   }
 ]
