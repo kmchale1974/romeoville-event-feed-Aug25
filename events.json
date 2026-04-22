@@ -180,21 +180,33 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "WonderKids Weekend Edition: Turtles!",
-    "date": "May 2, 2026",
-    "time": "10:00 AM - 11:30 AM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Aquatic Fitness Pop-Up: Prom At The Pool",
     "date": "May 2, 2026",
     "time": "10:00 AM - 11:00 AM",
     "location": "630 Townhall Drive"
   },
   {
+    "title": "WonderKids Weekend Edition: Turtles!",
+    "date": "May 2, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
     "date": "May 4, 2026",
     "time": "04:00 PM - 06:00 PM",
     "location": "900 W Romeo Road"
+  },
+  {
+    "title": "Golden Age Club Bunco Night",
+    "date": "May 6, 2026",
+    "time": "05:00 PM - 11:59 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "May 6, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
