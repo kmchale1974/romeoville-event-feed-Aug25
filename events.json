@@ -12,12 +12,6 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "April 24, 2026",
-    "time": "09:30 AM - 11:30 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Blood Drive",
     "date": "April 24, 2026",
     "time": "11:00 AM - 04:00 PM",
@@ -168,16 +162,16 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "Aquatic Fitness Pop-Up: Prom At The Pool",
-    "date": "May 2, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "WonderKids Weekend Edition: Turtles!",
     "date": "May 2, 2026",
     "time": "10:00 AM - 11:30 AM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: Prom At The Pool",
+    "date": "May 2, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
   },
   {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
