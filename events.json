@@ -6,12 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "Prep Hoops - Windy City War",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "April 27, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -160,5 +154,17 @@
     "date": "May 9, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Police Pension Board Meeting",
+    "date": "May 11, 2026",
+    "time": "01:00 PM - 02:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Music Monday: Rock &amp; Roll All Night &amp; Splash Every Day",
+    "date": "May 11, 2026",
+    "time": "05:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
