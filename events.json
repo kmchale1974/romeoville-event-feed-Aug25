@@ -124,5 +124,29 @@
     "date": "May 12, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "No Open Gym",
+    "date": "May 13, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "May 13, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Half Day Half Price for Romeoville Residents",
+    "date": "May 13, 2026",
+    "time": "05:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "May 13, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
