@@ -6,12 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "Blood Drive",
-    "date": "April 30, 2026",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "1 University Pkwy."
-  },
-  {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
     "date": "April 30, 2026",
     "time": "04:00 PM - 06:00 PM",
@@ -27,6 +21,12 @@
     "title": "White Oak Library presents Budding Builders",
     "date": "May 1, 2026",
     "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "May 1, 2026",
+    "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -90,6 +90,30 @@
     "location": "1050 W. Romeo Road"
   },
   {
+    "title": "White Oak Library presents Sourcebooks Book Buzz",
+    "date": "May 6, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "May 7, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Adults &amp; Teens: Therapy Dogs at The Library",
+    "date": "May 7, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "May 8, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Isle a la Cache Museum presents Wake Up with Warblers: Birding and Bird-friendly Coffee",
     "date": "May 9, 2026",
     "time": "07:00 PM - 09:00 PM",
@@ -132,15 +156,33 @@
     "location": "1050 W. Romeo Rd."
   },
   {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Yellowface&quot; by R.F. Kuang",
+    "date": "May 12, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "No Open Gym",
     "date": "May 13, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
   },
   {
+    "title": "ICash: Office of Illinois State Treasurer Michael W. Frerichs",
+    "date": "May 13, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "White Oak Library presents American Mahjong",
     "date": "May 13, 2026",
     "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Gaming",
+    "date": "May 13, 2026",
+    "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -162,9 +204,21 @@
     "location": "1050 W. Romeo Rd."
   },
   {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "May 14, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Shaping Will County’s Next Chapter - Open House",
     "date": "May 14, 2026",
     "time": "05:30 PM - 07:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Microsoft Word Basics",
+    "date": "May 14, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
