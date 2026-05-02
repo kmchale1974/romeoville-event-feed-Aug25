@@ -18,18 +18,6 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "WonderKids Weekend Edition: Turtles!",
-    "date": "May 2, 2026",
-    "time": "10:00 AM - 11:30 AM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Aquatic Fitness Pop-Up: Prom At The Pool",
-    "date": "May 2, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "May 4, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -210,16 +198,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Drive-Thru Shred Event - 5/16/26",
-    "date": "May 16, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Public Works Open House &amp; Touch-a-Truck",
     "date": "May 16, 2026",
     "time": "09:00 AM - 12:00 PM",
     "location": "615 Anderson Dr."
+  },
+  {
+    "title": "Drive-Thru Shred Event - 5/16/26",
+    "date": "May 16, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "White Oak Library presents Teen Tasters: Australian Snacks",
