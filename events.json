@@ -238,5 +238,23 @@
     "date": "May 18, 2026",
     "time": "04:30 PM - 06:30 PM",
     "location": "900 W Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "May 19, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Park Party: Murphy Park",
+    "date": "May 19, 2026",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "11 Montrose"
+  },
+  {
+    "title": "White Oak Library presents World War II Radio Hour with Nostalgia Entertainment",
+    "date": "May 19, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
