@@ -12,12 +12,6 @@
     "location": "TBA"
   },
   {
-    "title": "White Oak Library presents Pinochle Club",
-    "date": "May 5, 2026",
-    "time": "09:30 AM - 12:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "May 6, 2026",
     "time": "12:30 PM - 02:30 PM",
@@ -174,6 +168,12 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "Cop on a Rooftop",
+    "date": "May 15, 2026",
+    "time": "05:00 AM - 12:00 PM",
+    "location": "TBA"
+  },
+  {
     "title": "Blood Drive",
     "date": "May 15, 2026",
     "time": "09:00 AM - 02:00 PM",
@@ -186,16 +186,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Drive-Thru Shred Event - 5/16/26",
-    "date": "May 16, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Public Works Open House &amp; Touch-a-Truck",
     "date": "May 16, 2026",
     "time": "09:00 AM - 12:00 PM",
     "location": "615 Anderson Dr."
+  },
+  {
+    "title": "Drive-Thru Shred Event - 5/16/26",
+    "date": "May 16, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "Pet Adoption Event",
