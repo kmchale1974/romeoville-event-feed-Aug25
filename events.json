@@ -256,5 +256,23 @@
     "date": "May 19, 2026",
     "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "May 20, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "May 20, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "May 20, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
