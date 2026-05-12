@@ -114,16 +114,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Drive-Thru Shred Event - 5/16/26",
-    "date": "May 16, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Public Works Open House &amp; Touch-a-Truck",
     "date": "May 16, 2026",
     "time": "09:00 AM - 12:00 PM",
     "location": "615 Anderson Dr."
+  },
+  {
+    "title": "Drive-Thru Shred Event - 5/16/26",
+    "date": "May 16, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "Pet Adoption Event",
@@ -192,16 +192,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Board Meeting",
-    "date": "May 20, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Teen Volunteer Night",
     "date": "May 20, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "May 20, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "White Oak Library presents Budding Builders",
@@ -268,5 +268,23 @@
     "date": "May 25, 2026",
     "time": "10:00 AM - 11:59 PM",
     "location": "11 Montrose Dr."
+  },
+  {
+    "title": "Summer Reading Kickoff! - Unearth a Story!",
+    "date": "May 26, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "May 26, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "May 26, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
