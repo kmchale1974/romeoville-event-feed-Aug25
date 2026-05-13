@@ -12,12 +12,6 @@
     "location": "TBA"
   },
   {
-    "title": "Planning and Zoning Commission Meeting - Cancelled",
-    "date": "May 12, 2026",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "May 12, 2026",
     "time": "06:30 PM - 07:30 PM",
@@ -186,16 +180,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "May 20, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "May 20, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "May 20, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Budding Builders",
