@@ -262,5 +262,23 @@
     "date": "May 26, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "May 27, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Unearth a story: Dinosaur Party!",
+    "date": "May 27, 2026",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Opportunity Matters Workshop - All I Do is Win!",
+    "date": "May 27, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "55 Phelps Ave."
   }
 ]
