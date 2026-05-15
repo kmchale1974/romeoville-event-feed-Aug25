@@ -220,5 +220,17 @@
     "date": "May 27, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "May 29, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "May 29, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
