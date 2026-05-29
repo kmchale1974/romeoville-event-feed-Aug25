@@ -178,5 +178,17 @@
     "date": "June 11, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Bingo",
+    "date": "June 12, 2026",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Bingo Night",
+    "date": "June 12, 2026",
+    "time": "06:00 PM - 09:00 PM",
+    "location": "55 Phelps Ave."
   }
 ]
