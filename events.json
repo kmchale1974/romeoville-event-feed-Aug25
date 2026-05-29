@@ -1,11 +1,5 @@
 [
   {
-    "title": "Hydrant Flushing",
-    "date": "TBA",
-    "time": "07:30 AM - 04:30 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Romeo&#39;s Bicycle Scavenger Hunt",
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
@@ -16,12 +10,6 @@
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
     "location": "900 West Romeo Road"
-  },
-  {
-    "title": "White Oak Library presents LEGO Club",
-    "date": "May 29, 2026",
-    "time": "03:00 PM - 04:30 PM",
-    "location": "201 W. Normantown Road"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Hula Flow",
@@ -48,9 +36,27 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Unearth a Story: Pasta Paleontology",
+    "date": "June 1, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Create &amp; Sip: Prehistoric Painting",
+    "date": "June 1, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "June 2, 2026",
     "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "June 2, 2026",
+    "time": "10:30 AM - 11:00 AM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -72,16 +78,46 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Unearth a Story: Create your own Petroglyphs",
+    "date": "June 3, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Village Board Meeting",
     "date": "June 3, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
   },
   {
+    "title": "White Oak Library presents The Intricate Riddle of Life: Mary Shelley",
+    "date": "June 3, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Wesglen Park Community Meeting",
     "date": "June 4, 2026",
     "time": "05:30 PM - 06:30 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Microsoft Excel Basics",
+    "date": "June 4, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "June 5, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "June 5, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "June Jamboree",
@@ -114,6 +150,12 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Unearth a Story: Dinosaur Perler Beads",
+    "date": "June 8, 2026",
+    "time": "04:30 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Music Monday: Pool 2K",
     "date": "June 8, 2026",
     "time": "05:00 PM - 08:00 PM",
@@ -132,6 +174,12 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "June 9, 2026",
+    "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Planning and Zoning Commission Meeting",
     "date": "June 9, 2026",
     "time": "06:00 PM - 07:00 PM",
@@ -142,6 +190,12 @@
     "date": "June 9, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: The Emperor of Gladness",
+    "date": "June 9, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
@@ -156,16 +210,40 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "Virsiti Blood Drive",
+    "date": "June 10, 2026",
+    "time": "02:00 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Finance Committee Meeting",
     "date": "June 10, 2026",
     "time": "04:00 PM - 05:00 PM",
     "location": "1050 W. Romeo Rd."
   },
   {
+    "title": "White Oak Library presents Unearth a Story: Pottery Puzzle Hunt",
+    "date": "June 10, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Escape Room: Jurassic Park",
+    "date": "June 10, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Conservation and Sustainabitity Committee Meeting",
     "date": "June 10, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Teen Escape Room: Jurassic Park",
+    "date": "June 10, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Rockin&#39; the Ville: The PriSSilas",
@@ -180,9 +258,27 @@
     "location": "55 Phelps Ave."
   },
   {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "June 12, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "June 12, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Bingo Night",
     "date": "June 12, 2026",
     "time": "06:00 PM - 09:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "White Oak Library presents Teen After Hours: Adventure Through Time!",
+    "date": "June 12, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
