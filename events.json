@@ -6,12 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "Romeoville Recreation Center - Floor Refinishing",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Aquatic Fitness Pop-Up: Hula Flow",
     "date": "May 30, 2026",
     "time": "10:00 AM - 11:00 AM",
@@ -280,5 +274,29 @@
     "date": "June 12, 2026",
     "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Cops &amp; Bobbers",
+    "date": "June 13, 2026",
+    "time": "07:30 AM - 12:00 PM",
+    "location": "120 S Wesglen Parkway"
+  },
+  {
+    "title": "Grand Haven Community Garage Sale",
+    "date": "June 13, 2026",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Pollinator Party",
+    "date": "June 13, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Native Plant Sale",
+    "date": "June 13, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
