@@ -1,17 +1,5 @@
 [
   {
-    "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
-    "date": "June 1, 2026",
-    "time": "09:00 AM - 11:30 AM",
-    "location": "900 W Romeo Road"
-  },
-  {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "June 1, 2026",
-    "time": "11:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Unearth a Story: Pasta Paleontology",
     "date": "June 1, 2026",
     "time": "04:30 PM - 05:30 PM",
@@ -291,6 +279,18 @@
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "June 15, 2026",
     "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Unearth a Story: Dinosaur Trivia",
+    "date": "June 15, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Weather and Storm Chasing 101 presented by Storm Science",
+    "date": "June 15, 2026",
+    "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
   }
 ]
