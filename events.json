@@ -280,5 +280,29 @@
     "date": "June 16, 2026",
     "time": "05:00 PM - 07:00 PM",
     "location": "120 S Wesglen Parkway"
+  },
+  {
+    "title": "Wet &amp; Wacky Wednesday",
+    "date": "June 17, 2026",
+    "time": "12:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "June 17, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Unearth a Story: Cookie Excavation",
+    "date": "June 17, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "June 17, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
