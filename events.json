@@ -274,5 +274,29 @@
     "date": "June 17, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Romeoville Live Shootout",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Foreign Fire Tax Board Meeting",
+    "date": "June 18, 2026",
+    "time": "09:30 AM - 10:30 AM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "White Oak Library presents a Juneteenth Celebration",
+    "date": "June 18, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Rockin&#39; the Ville: Horizon",
+    "date": "June 18, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
