@@ -286,5 +286,35 @@
     "date": "June 18, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Juneteenth",
+    "date": "June 19, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Juneteenth Day",
+    "date": "June 19, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Juneteenth",
+    "date": "June 19, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "June 19, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "June 19, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
