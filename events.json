@@ -6,12 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "Movie Under the Stars - RESCHEDULED",
-    "date": "June 9, 2026",
-    "time": "07:30 PM - 11:59 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "Village Park Tennis Courts closed for RHS Tennis Meet",
     "date": "June 10, 2026",
     "time": "09:00 AM - 11:30 AM",
@@ -274,5 +268,17 @@
     "date": "June 23, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "June 24, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Unearth a Story: Mini Dinosaur Garden in a Jar",
+    "date": "June 24, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
