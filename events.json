@@ -6,12 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "White Oak Library presents Teen Escape Room: Jurassic Park",
-    "date": "June 10, 2026",
-    "time": "07:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Rockin&#39; the Ville: The PriSSilas",
     "date": "June 11, 2026",
     "time": "07:00 PM - 09:00 PM",
@@ -238,5 +232,17 @@
     "date": "June 24, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "June 25, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Rockin&#39; the Ville: Loudernow",
+    "date": "June 25, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
