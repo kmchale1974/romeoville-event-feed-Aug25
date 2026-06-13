@@ -1,11 +1,5 @@
 [
   {
-    "title": "Cops &amp; Bobbers Fishing Derby - REGISTRATION CLOSED",
-    "date": "June 13, 2026",
-    "time": "07:30 AM - 12:00 PM",
-    "location": "120 S Wesglen Parkway"
-  },
-  {
     "title": "Grand Haven Community Garage Sale",
     "date": "June 13, 2026",
     "time": "09:00 AM - 03:00 PM",
@@ -216,15 +210,15 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Aquatic Fitness Pop-Up: Castle Currents",
-    "date": "June 27, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Isle a la Cache Museum presents Museum Campus Day",
     "date": "June 27, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: Castle Currents",
+    "date": "June 27, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
   }
 ]
