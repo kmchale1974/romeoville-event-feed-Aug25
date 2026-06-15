@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Unearth a Story: Dinosaur Trivia",
-    "date": "June 15, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Weather and Storm Chasing 101 presented by Storm Science",
     "date": "June 15, 2026",
     "time": "07:00 PM - 08:30 PM",
@@ -180,16 +174,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Museum Campus Day",
-    "date": "June 27, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Aquatic Fitness Pop-Up: Castle Currents",
     "date": "June 27, 2026",
     "time": "10:00 AM - 11:00 AM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Museum Campus Day",
+    "date": "June 27, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Cars &amp; Coffee",
