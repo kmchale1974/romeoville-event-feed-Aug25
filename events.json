@@ -1,17 +1,5 @@
 [
   {
-    "title": "Wet &amp; Wacky Wednesday",
-    "date": "June 17, 2026",
-    "time": "12:00 PM - 08:00 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
-    "title": "Village Board Meeting",
-    "date": "June 17, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Romeoville Live Shootout",
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
@@ -138,16 +126,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Museum Campus Day",
-    "date": "June 27, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Aquatic Fitness Pop-Up: Castle Currents",
     "date": "June 27, 2026",
     "time": "10:00 AM - 11:00 AM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Museum Campus Day",
+    "date": "June 27, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Cars &amp; Coffee",
@@ -202,5 +190,17 @@
     "date": "July 1, 2026",
     "time": "12:30 PM - 02:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 2, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Rockin&#39; the Ville: Guitarra Azul",
+    "date": "July 2, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
