@@ -6,18 +6,6 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "White Oak Library presents a Juneteenth Celebration",
-    "date": "June 18, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Rockin&#39; the Ville: Horizon",
-    "date": "June 18, 2026",
-    "time": "07:00 PM - 09:00 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "Romeoville Aquatic Center - Closed for Juneteenth",
     "date": "June 19, 2026",
     "time": "06:00 AM - 09:00 PM",
@@ -196,5 +184,29 @@
     "date": "July 2, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Village Offices Closed - Independence Day",
+    "date": "July 3, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for July 3rd",
+    "date": "July 3, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 3, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Independence Day Fireworks July 3rd",
+    "date": "July 3, 2026",
+    "time": "09:30 PM - 11:59 PM",
+    "location": "TBA"
   }
 ]
