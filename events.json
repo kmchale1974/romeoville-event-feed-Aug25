@@ -12,12 +12,6 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "Village Offices Closed - Juneteenth Day",
-    "date": "June 19, 2026",
-    "time": "08:00 AM - 04:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Romeoville Recreation Center - Closed for Juneteenth",
     "date": "June 19, 2026",
     "time": "09:00 AM - 09:00 PM",
@@ -102,16 +96,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Aquatic Fitness Pop-Up: Castle Currents",
-    "date": "June 27, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Isle a la Cache Museum presents Museum Campus Day",
     "date": "June 27, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: Castle Currents",
+    "date": "June 27, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
   },
   {
     "title": "Cars &amp; Coffee",
