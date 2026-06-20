@@ -178,5 +178,17 @@
     "date": "July 3, 2026",
     "time": "09:30 PM - 11:59 PM",
     "location": "TBA"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Independence Day",
+    "date": "July 4, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Independence Day",
+    "date": "July 4, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
