@@ -1,11 +1,5 @@
 [
   {
-    "title": "Romeoville Live Shootout",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "June 22, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -190,5 +184,17 @@
     "date": "July 4, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "July 5, 2026",
+    "time": "08:00 AM - 01:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 5, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
