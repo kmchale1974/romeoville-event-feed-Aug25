@@ -138,6 +138,18 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "White Oak Library presents Unearth a Story: Insects in Amber",
+    "date": "July 1, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 2, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 2, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -162,10 +174,22 @@
     "location": "900 West Romeo Road"
   },
   {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "July 3, 2026",
+    "time": "09:30 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 3, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "July 3, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Independence Day Fireworks July 3rd",
@@ -198,9 +222,21 @@
     "location": "501 E. Romeo Rd."
   },
   {
+    "title": "White Oak Library presents Messy Mondays",
+    "date": "July 6, 2026",
+    "time": "10:45 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "July 6, 2026",
     "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents The Declaration of Independence Through the Centuries",
+    "date": "July 6, 2026",
+    "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
   }
 ]
