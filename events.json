@@ -216,13 +216,13 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Miles of Kindness Blood Drive: 7/8",
+    "title": "Miles of Kindness Blood Drive",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Miles of Kindness Blood Drive",
+    "title": "Miles of Kindness Blood Drive: 7/8",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
@@ -250,5 +250,35 @@
     "date": "July 8, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents WonderKids: Frogs!",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "July 9, 2026",
+    "time": "01:00 PM - 06:00 PM",
+    "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Rockin&#39; the Ville: Tim Gleason Band",
+    "date": "July 9, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
