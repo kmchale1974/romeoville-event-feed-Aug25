@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents LEGO Club",
-    "date": "June 26, 2026",
-    "time": "03:00 PM - 04:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Museum Campus Day",
     "date": "June 27, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -204,13 +198,13 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Miles of Kindness Blood Drive: 7/8",
+    "title": "Miles of Kindness Blood Drive",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Miles of Kindness Blood Drive",
+    "title": "Miles of Kindness Blood Drive: 7/8",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
