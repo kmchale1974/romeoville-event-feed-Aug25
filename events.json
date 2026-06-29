@@ -280,5 +280,29 @@
     "date": "July 12, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Messy Mondays",
+    "date": "July 13, 2026",
+    "time": "10:45 AM - 11:30 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 13, 2026",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Music Monday: Boots, Scoots, &amp; Splashes",
+    "date": "July 13, 2026",
+    "time": "05:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents Bee Gees, Saturday Night Fever &amp; Disco Music",
+    "date": "July 13, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
