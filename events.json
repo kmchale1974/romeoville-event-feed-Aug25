@@ -1,11 +1,5 @@
 [
   {
-    "title": "Romeoville Aquatic Center Closing at 4pm",
-    "date": "June 29, 2026",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "June 30, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -192,16 +186,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 9, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents WonderKids: Frogs!",
     "date": "July 9, 2026",
     "time": "10:00 AM - 11:30 AM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -285,6 +279,48 @@
     "title": "White Oak Library presents Bee Gees, Saturday Night Fever &amp; Disco Music",
     "date": "July 13, 2026",
     "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "July 14, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "July 14, 2026",
+    "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire Pension Board Meeting",
+    "date": "July 14, 2026",
+    "time": "02:00 PM - 03:00 PM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "July 14, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "July 14, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "July 14, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Spirited Book Club &quot;The Shadow of the Wind&quot;",
+    "date": "July 14, 2026",
+    "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
