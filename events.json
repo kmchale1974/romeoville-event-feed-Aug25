@@ -6,15 +6,9 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Romeoville Recreation Center - Closed for July 3rd",
-    "date": "July 3, 2026",
-    "time": "09:00 AM - 09:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Independence Day Fireworks July 3rd",
     "date": "July 3, 2026",
-    "time": "09:30 PM - 11:59 PM",
+    "time": "08:45 PM - 11:59 PM",
     "location": "TBA"
   },
   {
@@ -78,13 +72,13 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Miles of Kindness Blood Drive: 7/8",
+    "title": "Miles of Kindness Blood Drive",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Miles of Kindness Blood Drive",
+    "title": "Miles of Kindness Blood Drive: 7/8",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
@@ -120,16 +114,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "July 9, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "July 9, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Blood Drive",
@@ -282,16 +276,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "July 16, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "July 16, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 16, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Winter in July: Indoor Snow Day-Session 1",
