@@ -1,17 +1,5 @@
 [
   {
-    "title": "Romeoville Aquatic Center - Closed for Independence Day",
-    "date": "July 4, 2026",
-    "time": "06:00 AM - 09:00 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
-    "title": "Romeoville Recreation Center - Closed for Independence Day",
-    "date": "July 4, 2026",
-    "time": "09:00 AM - 09:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "Blood Drive",
     "date": "July 5, 2026",
     "time": "08:00 AM - 01:00 PM",
@@ -60,13 +48,13 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Miles of Kindness Blood Drive: 7/8",
+    "title": "Miles of Kindness Blood Drive",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Miles of Kindness Blood Drive",
+    "title": "Miles of Kindness Blood Drive: 7/8",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
@@ -327,6 +315,12 @@
     "title": "Isle a la Cache Museum presents Native Illinois History and Contemporary Issues",
     "date": "July 18, 2026",
     "time": "01:00 PM - 02:15 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 19, 2026",
+    "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   }
 ]
