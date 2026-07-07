@@ -204,16 +204,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Board Meeting",
-    "date": "July 15, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Teen Volunteer Night",
     "date": "July 15, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "July 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "RecruitLook Hoops: 7/16 - 7/17",
@@ -322,5 +322,23 @@
     "date": "July 20, 2026",
     "time": "07:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "July 21, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Veterans Commision Meeting",
+    "date": "July 21, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Romeoville &amp; Lockport Co-Op Party: Sunset Park",
+    "date": "July 21, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "729 Murphy Drive"
   }
 ]
