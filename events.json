@@ -42,6 +42,12 @@
     "location": "1050 W. Romeo Rd."
   },
   {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
     "title": "Isle a la Cache Museum presents WonderKids: Frogs!",
     "date": "July 9, 2026",
     "time": "10:00 AM - 11:30 AM",
@@ -52,12 +58,6 @@
     "date": "July 9, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 9, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
   },
   {
     "title": "Blood Drive",
@@ -192,16 +192,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "July 15, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "July 15, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "July 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "RecruitLook Hoops: 7/16 - 7/17",
@@ -210,16 +210,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "July 16, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "July 16, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 16, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Winter in July: Indoor Snow Day-Session 1",
@@ -234,16 +234,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Rockin&#39; the Ville: Anthem",
-    "date": "July 16, 2026",
-    "time": "07:00 PM - 09:00 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Moth Mania",
     "date": "July 16, 2026",
     "time": "07:00 PM - 08:30 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Rockin&#39; the Ville: Anthem",
+    "date": "July 16, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   },
   {
     "title": "White Oak Library presents Budding Builders",
@@ -328,5 +328,41 @@
     "date": "July 21, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "729 Murphy Drive"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "July 22, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 22, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Wet &amp; Wacky Wednesday",
+    "date": "July 22, 2026",
+    "time": "12:00 PM - 08:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "July 22, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Craft Night: Shrinky Dinks",
+    "date": "July 22, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Computer Class: Internet &amp; Email Basics",
+    "date": "July 22, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
