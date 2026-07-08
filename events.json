@@ -6,13 +6,13 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Miles of Kindness Blood Drive: 7/8",
+    "title": "Miles of Kindness Blood Drive",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Miles of Kindness Blood Drive",
+    "title": "Miles of Kindness Blood Drive: 7/8",
     "date": "July 8, 2026",
     "time": "10:30 AM - 03:30 PM",
     "location": "55 Phelps Ave."
@@ -42,12 +42,6 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 9, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents WonderKids: Frogs!",
     "date": "July 9, 2026",
     "time": "10:00 AM - 11:30 AM",
@@ -58,6 +52,12 @@
     "date": "July 9, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 9, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Blood Drive",
@@ -162,7 +162,7 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Planning and Zoning Commission Meeting",
+    "title": "Planning and Zoning Commission Meeting - Cancelled",
     "date": "July 14, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
@@ -192,16 +192,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Board Meeting",
-    "date": "July 15, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Teen Volunteer Night",
     "date": "July 15, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "July 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "RecruitLook Hoops: 7/16 - 7/17",
@@ -210,16 +210,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 16, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 16, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 16, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Winter in July: Indoor Snow Day-Session 1",
@@ -234,16 +234,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Moth Mania",
-    "date": "July 16, 2026",
-    "time": "07:00 PM - 08:30 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Rockin&#39; the Ville: Anthem",
     "date": "July 16, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Moth Mania",
+    "date": "July 16, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Budding Builders",
