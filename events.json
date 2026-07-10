@@ -1,11 +1,5 @@
 [
   {
-    "title": "Blood Drive",
-    "date": "July 9, 2026",
-    "time": "01:00 PM - 06:00 PM",
-    "location": "1293 Windham Parkway"
-  },
-  {
     "title": "Rockin&#39; the Ville: Tim Gleason Band",
     "date": "July 9, 2026",
     "time": "07:00 PM - 09:00 PM",
@@ -132,16 +126,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Village Board Meeting",
-    "date": "July 15, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Teen Volunteer Night",
     "date": "July 15, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "July 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "RecruitLook Hoops: 7/16 - 7/17",
