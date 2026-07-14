@@ -1,11 +1,5 @@
 [
   {
-    "title": "Fire Pension Board Meeting",
-    "date": "July 14, 2026",
-    "time": "02:00 PM - 03:00 PM",
-    "location": "18 Montrose Dr."
-  },
-  {
     "title": "Special Events Commission Meeting",
     "date": "July 14, 2026",
     "time": "04:30 PM - 05:30 PM",
@@ -42,16 +36,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "July 15, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Village Board Meeting",
     "date": "July 15, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "July 15, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "RecruitLook Hoops: 7/16 - 7/17",
