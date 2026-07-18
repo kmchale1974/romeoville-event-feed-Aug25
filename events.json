@@ -1,11 +1,5 @@
 [
   {
-    "title": "RecruitLook Hoops: 7/16 - 7/17",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 18, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -261,6 +255,30 @@
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 31, 2026",
     "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Junior National Wheelchair Softball Tournament Hosted by NWCSRA",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "400 W Romeo Rd"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "August 1, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 1, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Art and Artistry: The Pokagon Band of Potawatomi Indians and Black Ash Basketry",
+    "date": "August 1, 2026",
+    "time": "01:00 PM - 02:00 PM",
     "location": "501 E. Romeo Rd."
   }
 ]
