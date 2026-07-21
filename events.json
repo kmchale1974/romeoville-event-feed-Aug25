@@ -60,16 +60,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 23, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 23, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 23, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Congressman Bill Foster Traveling Office Hours",
@@ -168,16 +168,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 30, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 30, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 30, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Unearth a story: Dino Card Party!",
@@ -268,5 +268,23 @@
     "date": "August 3, 2026",
     "time": "07:00 PM - 08:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "August 4, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Mobile Museum of Tolerance",
+    "date": "August 4, 2026",
+    "time": "01:00 PM - 07:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "National Night Out",
+    "date": "August 4, 2026",
+    "time": "05:30 PM - 08:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
