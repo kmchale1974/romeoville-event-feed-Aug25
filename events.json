@@ -24,16 +24,16 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Fresh Produce Pop-Up presented by Will County Executive",
-    "date": "July 29, 2026",
-    "time": "03:00 PM - 05:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents Teen Gaming",
     "date": "July 29, 2026",
     "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fresh Produce Pop-Up presented by Will County Executive",
+    "date": "July 29, 2026",
+    "time": "03:00 PM - 05:00 PM",
+    "location": "TBA"
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -198,6 +198,18 @@
     "location": "TBA"
   },
   {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 6, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents WonderKids: Fireflies!",
+    "date": "August 6, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 6, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -214,18 +226,6 @@
     "date": "August 6, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 6, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents WonderKids: Fireflies!",
-    "date": "August 6, 2026",
-    "time": "10:00 AM - 11:30 AM",
-    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents Potawatomi Beadwork for Beginners",
