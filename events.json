@@ -30,21 +30,15 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Gaming",
-    "date": "July 29, 2026",
-    "time": "03:00 PM - 04:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fresh Produce Pop-Up presented by Will County Executive",
     "date": "July 29, 2026",
     "time": "03:00 PM - 05:00 PM",
     "location": "TBA"
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "July 30, 2026",
-    "time": "10:00 AM - 12:00 PM",
+    "title": "White Oak Library presents Teen Gaming",
+    "date": "July 29, 2026",
+    "time": "03:00 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -52,6 +46,12 @@
     "date": "July 30, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "July 30, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents Unearth a story: Dino Card Party!",
@@ -296,6 +296,30 @@
   {
     "title": "White Oak Library presents Teen DIY Vinyl Record Coasters",
     "date": "August 10, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "August 11, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "August 11, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "August 11, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents The Spirited Book Club: &quot;Last Summer on State Street&quot;",
+    "date": "August 11, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
   }
