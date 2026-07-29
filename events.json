@@ -1,17 +1,5 @@
 [
   {
-    "title": "Opportunity Matters Back to School Unity Picnic",
-    "date": "July 28, 2026",
-    "time": "04:30 PM - 06:30 PM",
-    "location": "300 S. HighPoint Dr."
-  },
-  {
-    "title": "Planning and Zoning Commission Meeting - Cancelled",
-    "date": "July 28, 2026",
-    "time": "06:00 PM - 07:00 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "July 29, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -36,16 +24,16 @@
     "location": "TBA"
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "July 30, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "July 30, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "July 30, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Unearth a story: Dino Card Party!",
@@ -198,18 +186,6 @@
     "location": "TBA"
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 6, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents WonderKids: Fireflies!",
-    "date": "August 6, 2026",
-    "time": "10:00 AM - 11:30 AM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 6, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -226,6 +202,18 @@
     "date": "August 6, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 6, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents WonderKids: Fireflies!",
+    "date": "August 6, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents Potawatomi Beadwork for Beginners",
