@@ -6,12 +6,6 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "White Oak Library presents A Soap Opera History: As The World Turns, Dallas and More!",
-    "date": "August 3, 2026",
-    "time": "07:00 PM - 08:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "August 4, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -84,15 +78,15 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 6, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Isle a la Cache Museum presents WonderKids: Fireflies!",
     "date": "August 6, 2026",
     "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 6, 2026",
+    "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
@@ -228,18 +222,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "August 13, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 13, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents Budding Builders",
     "date": "August 13, 2026",
     "time": "10:00 AM - 11:00 AM",
@@ -252,19 +234,31 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 13, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "August 13, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
     "title": "Ward Parcel Phase 1 Public Meeting",
     "date": "August 13, 2026",
     "time": "05:30 PM - 06:30 PM",
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 14, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 14, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
@@ -282,25 +276,25 @@
     "location": "900 West Romeo Road"
   },
   {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 15, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 15, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 15, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 16, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 16, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
