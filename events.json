@@ -174,16 +174,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "August 11, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents The Spirited Book Club: &quot;Last Summer on State Street&quot;",
     "date": "August 11, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "August 11, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -310,5 +310,17 @@
     "date": "August 17, 2026",
     "time": "01:00 PM - 06:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "August 18, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Adult &amp; Teen Workshop: Comic Book History &amp; Magnets",
+    "date": "August 18, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
