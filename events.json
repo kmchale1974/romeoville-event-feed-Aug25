@@ -1,21 +1,15 @@
 [
   {
-    "title": "Nike Basketball Camp: 8/3 - 8/6",
+    "title": "RomeoFest",
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
+    "location": "TBA"
   },
   {
     "title": "Romeoville Recreation Center Closed for RomeoFest",
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
     "location": "900 West Romeo Road"
-  },
-  {
-    "title": "RomeoFest",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "TBA"
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -156,13 +150,13 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 13, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 13, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
@@ -174,13 +168,13 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 14, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 14, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
@@ -198,25 +192,25 @@
     "location": "900 West Romeo Road"
   },
   {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "August 15, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
     "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 15, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "August 15, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 16, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 16, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
@@ -322,5 +316,29 @@
     "date": "August 20, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "August 21, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 21, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "August 21, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents LEGO Club",
+    "date": "August 21, 2026",
+    "time": "03:00 PM - 04:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
