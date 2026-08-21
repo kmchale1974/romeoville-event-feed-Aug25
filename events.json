@@ -6,12 +6,6 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "White Oak Library presents Teen Dungeons &amp; Dragons: One-shot The Perfect Heist!",
-    "date": "August 20, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Rockin&#39; the Ville: 90s Pop Nation",
     "date": "August 20, 2026",
     "time": "07:00 PM - 09:00 PM",
@@ -90,13 +84,13 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 26, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 26, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
@@ -120,10 +114,10 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "White Oak Library presents Budding Builders",
     "date": "August 27, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
@@ -132,10 +126,10 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents Budding Builders",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 27, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "201 W. Normantown Road"
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Congressman Bill Foster Traveling Office Hours",
