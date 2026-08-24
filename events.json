@@ -1,11 +1,5 @@
 [
   {
-    "title": "Romeoville Aquatic Center - Closed for Annual Facility Maintenance",
-    "date": "TBA",
-    "time": "12:00 AM - 11:59 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "August 24, 2026",
     "time": "11:00 AM - 12:00 PM",
@@ -108,12 +102,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "Aquatic Fitness Pop-Up: P.E. At The Pool",
-    "date": "August 29, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 29, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -124,6 +112,12 @@
     "date": "August 29, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: P.E. At The Pool",
+    "date": "August 29, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -214,5 +208,23 @@
     "date": "September 5, 2026",
     "time": "10:00 AM - 11:00 AM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Labor Day",
+    "date": "September 7, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Labor Day",
+    "date": "September 7, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Labor Day",
+    "date": "September 7, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
