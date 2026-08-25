@@ -36,15 +36,15 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "August 27, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
     "date": "August 27, 2026",
     "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "August 27, 2026",
+    "time": "10:00 AM - 11:00 AM",
     "location": "201 W. Normantown Road"
   },
   {
@@ -108,6 +108,12 @@
     "location": "630 Townhall Drive"
   },
   {
+    "title": "Sensory Swim",
+    "date": "August 30, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 30, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -118,12 +124,6 @@
     "date": "August 30, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Sensory Swim",
-    "date": "August 30, 2026",
-    "time": "10:00 AM - 02:00 PM",
-    "location": "630 Townhall Drive"
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -214,5 +214,47 @@
     "date": "September 7, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "September 8, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "September 8, 2026",
+    "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "September 8, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Community Day of Play",
+    "date": "September 8, 2026",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "2019 W Ashbrooke Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "September 8, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "September 8, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
+    "date": "September 8, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
