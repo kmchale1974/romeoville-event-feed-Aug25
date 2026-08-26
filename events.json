@@ -30,12 +30,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "August 27, 2026",
-    "time": "10:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
     "date": "August 27, 2026",
     "time": "10:00 AM - 04:00 PM",
@@ -46,6 +40,12 @@
     "date": "August 27, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "August 27, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Congressman Bill Foster Traveling Office Hours",
@@ -244,5 +244,29 @@
     "date": "September 8, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "September 9, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "September 9, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Aspiring Artists-Alma Thomas",
+    "date": "September 9, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "September 9, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
