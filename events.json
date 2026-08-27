@@ -1,9 +1,15 @@
 [
   {
-    "title": "White Oak Library presents Teen Workshop: College Essay Writing",
-    "date": "August 26, 2026",
-    "time": "07:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "date": "August 27, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 27, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Budding Builders",
@@ -16,18 +22,6 @@
     "date": "August 27, 2026",
     "time": "10:00 AM - 12:00 PM",
     "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
-    "date": "August 27, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 27, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Congressman Bill Foster Traveling Office Hours",
@@ -250,5 +244,29 @@
     "date": "September 9, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
+    "date": "September 10, 2026",
+    "time": "10:00 AM - 12:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Doodle Hour: 3D Pens",
+    "date": "September 10, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Paranormal 101: The Basics of Paranormal Investigating w/ Carl Crooks",
+    "date": "September 10, 2026",
+    "time": "07:00 PM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Rockin&#39; the VIlle: Anthem (Rescheduled)",
+    "date": "September 10, 2026",
+    "time": "07:00 PM - 09:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
