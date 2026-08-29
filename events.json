@@ -18,16 +18,16 @@
     "location": "630 Townhall Drive"
   },
   {
-    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
-    "date": "August 30, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Sensory Swim",
     "date": "August 30, 2026",
     "time": "10:00 AM - 02:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
+    "date": "August 30, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
@@ -214,5 +214,29 @@
     "date": "September 10, 2026",
     "time": "07:00 PM - 09:00 PM",
     "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Community Garage Sale",
+    "date": "September 12, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 12, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Route 66 Car Show",
+    "date": "September 12, 2026",
+    "time": "09:00 AM - 04:00 PM",
+    "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Illinois Tollway&#39;s I-Pass On Demand",
+    "date": "September 12, 2026",
+    "time": "10:00 AM - 02:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
