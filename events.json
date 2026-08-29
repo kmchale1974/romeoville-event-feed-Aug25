@@ -12,16 +12,10 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Aquatic Fitness Pop-Up: P.E. At The Pool",
-    "date": "August 29, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "630 Townhall Drive"
-  },
-  {
-    "title": "Sensory Swim",
+    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
     "date": "August 30, 2026",
-    "time": "10:00 AM - 02:00 PM",
-    "location": "630 Townhall Drive"
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Isle a la Cache Museum presents Back-to-school Scavenger Hunt",
@@ -30,10 +24,10 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents &#39;Our Storytellers: Pokagon Potawatomi Black Ash Baskets&#39; Exhibit",
+    "title": "Sensory Swim",
     "date": "August 30, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
+    "time": "10:00 AM - 02:00 PM",
+    "location": "630 Townhall Drive"
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -156,16 +150,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "Fire and Police Commission",
-    "date": "September 8, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
     "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
     "date": "September 8, 2026",
     "time": "06:30 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire and Police Commission",
+    "date": "September 8, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
   },
   {
     "title": "White Oak Library presents American Mahjong",
