@@ -220,5 +220,17 @@
     "date": "September 12, 2026",
     "time": "10:00 AM - 02:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 13, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Living History Encounter: Penning the Past",
+    "date": "September 13, 2026",
+    "time": "12:00 PM - 03:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
