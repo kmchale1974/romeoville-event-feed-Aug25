@@ -102,16 +102,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
-    "date": "September 8, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "September 8, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
+    "date": "September 8, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -238,5 +238,47 @@
     "date": "September 15, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 16, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Coffee with a Cop",
+    "date": "September 16, 2026",
+    "time": "09:00 AM - 10:00 AM",
+    "location": "TBA"
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "September 16, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Tween Master Chef",
+    "date": "September 16, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Teen Volunteer Night",
+    "date": "September 16, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "September 16, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Wet &amp; Wacky Wednesday",
+    "date": "September 16, 2026",
+    "time": "06:30 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
