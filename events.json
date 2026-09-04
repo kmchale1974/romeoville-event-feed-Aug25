@@ -66,16 +66,16 @@
     "location": "1050 W. Romeo Rd."
   },
   {
-    "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
-    "date": "September 8, 2026",
-    "time": "06:30 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Fire and Police Commission",
     "date": "September 8, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Steeped in Stories Book Club: &quot;Circe&quot; by Madeline Miller",
+    "date": "September 8, 2026",
+    "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "White Oak Library presents American Mahjong",
@@ -162,16 +162,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Fall Clean Up Week",
-    "date": "TBA",
-    "time": "08:00 AM - 04:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 14, 2026",
     "time": "08:00 AM - 08:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Fall Clean Up Week",
+    "date": "TBA",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -267,6 +267,24 @@
     "title": "White Oak Library presents Teen Dungeons &amp; Dragons: One-shot Eerie Equinox!",
     "date": "September 17, 2026",
     "time": "06:30 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 18, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "September 18, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Test Kitchen",
+    "date": "September 18, 2026",
+    "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
   }
 ]
