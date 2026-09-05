@@ -150,16 +150,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
-    "date": "September 14, 2026",
-    "time": "08:00 AM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Fall Clean Up Week",
     "date": "TBA",
     "time": "08:00 AM - 04:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 14, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
@@ -274,5 +274,29 @@
     "date": "September 18, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 19, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Drive-Thru Shred Event - 9/19/26",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
+    "date": "September 19, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "630 Townhall Drive"
   }
 ]
