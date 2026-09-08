@@ -1,17 +1,5 @@
 [
   {
-    "title": "Romeoville Aquatic Center - Closed for Labor Day",
-    "date": "September 7, 2026",
-    "time": "06:00 AM - 09:00 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
-    "title": "Romeoville Recreation Center - Closed for Labor Day",
-    "date": "September 7, 2026",
-    "time": "09:00 AM - 09:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "September 8, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -316,5 +304,41 @@
     "date": "September 21, 2026",
     "time": "01:00 PM - 06:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 22, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "September 22, 2026",
+    "time": "09:00 AM - 01:00 PM",
+    "location": "1125 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "September 22, 2026",
+    "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "September 22, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "September 22, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Computer Class: ebooks with Hoopla &amp; Libby",
+    "date": "September 22, 2026",
+    "time": "07:00 PM - 08:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
