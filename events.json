@@ -1,11 +1,5 @@
 [
   {
-    "title": "White Oak Library presents Doodle Hour: 3D Pens",
-    "date": "September 10, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Rockin&#39; the VIlle: Anthem (Rescheduled)",
     "date": "September 10, 2026",
     "time": "07:00 PM - 09:00 PM",
@@ -192,16 +186,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Drive-Thru Shred Event - 9/19/26",
-    "date": "September 19, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
     "date": "September 19, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Drive-Thru Shred Event - 9/19/26",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
