@@ -102,6 +102,12 @@
     "location": "201 W. Normantown Road"
   },
   {
+    "title": "Fire and Police Commission - Special Meeting",
+    "date": "September 15, 2026",
+    "time": "06:30 PM - 07:30 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 16, 2026",
     "time": "08:00 AM - 08:00 PM",
@@ -192,16 +198,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
-    "date": "September 19, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "524 Belmont Drive"
-  },
-  {
     "title": "Drive-Thru Shred Event - 9/19/26",
     "date": "September 19, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
