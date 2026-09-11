@@ -1,15 +1,15 @@
 [
   {
-    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
-    "date": "September 12, 2026",
-    "time": "08:00 AM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Community Garage Sale",
     "date": "September 12, 2026",
     "time": "08:00 AM - 04:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 12, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "Route 66 Car Show",
@@ -304,5 +304,47 @@
     "date": "September 24, 2026",
     "time": "02:30 PM - 04:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
+    "date": "September 25, 2026",
+    "time": "08:00 AM - 08:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "September 25, 2026",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "September 25, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "September 25, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Bling Bling Preview Sale/Fundraiser",
+    "date": "September 25, 2026",
+    "time": "01:00 PM - 06:00 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Art Studio Hour",
+    "date": "September 25, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Hispanic Heritage Celebration",
+    "date": "September 25, 2026",
+    "time": "06:00 PM - 10:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
