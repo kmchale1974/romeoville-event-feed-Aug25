@@ -1,21 +1,9 @@
 [
   {
-    "title": "Community Garage Sale",
-    "date": "September 12, 2026",
-    "time": "08:00 AM - 04:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 12, 2026",
     "time": "08:00 AM - 08:00 PM",
     "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Route 66 Car Show",
-    "date": "September 12, 2026",
-    "time": "09:00 AM - 04:00 PM",
-    "location": "1050 W Romeo Road"
   },
   {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
@@ -168,16 +156,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Drive-Thru Shred Event - 9/19/26",
-    "date": "September 19, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
     "date": "September 19, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Drive-Thru Shred Event - 9/19/26",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
@@ -354,15 +342,15 @@
     "location": "1050 W Romeo Road"
   },
   {
-    "title": "Bling Bling Preview Sale/Fundraiser",
-    "date": "September 26, 2026",
-    "time": "10:00 AM - 03:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
     "date": "September 26, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Bling Bling Preview Sale/Fundraiser",
+    "date": "September 26, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
