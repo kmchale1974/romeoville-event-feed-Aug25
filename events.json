@@ -7,18 +7,6 @@
   },
   {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
-    "date": "September 15, 2026",
-    "time": "08:00 AM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Fire and Police Commission - Special Meeting",
-    "date": "September 15, 2026",
-    "time": "06:30 PM - 07:30 PM",
-    "location": "1050 W. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 16, 2026",
     "time": "08:00 AM - 08:00 PM",
     "location": "501 E. Romeo Rd."
@@ -339,6 +327,30 @@
     "title": "White Oak Library presents Painting Pals",
     "date": "September 29, 2026",
     "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Projecto 7 Salsa and Latin Jazz Band",
+    "date": "September 30, 2026",
+    "time": "07:30 AM - 08:45 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "September 30, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "September 30, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Renaissance Faire for Kids!",
+    "date": "September 30, 2026",
+    "time": "04:30 PM - 06:00 PM",
     "location": "201 W. Normantown Road"
   }
 ]
