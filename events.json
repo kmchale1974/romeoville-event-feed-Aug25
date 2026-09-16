@@ -12,12 +12,6 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Coffee with a Cop",
-    "date": "September 16, 2026",
-    "time": "09:00 AM - 10:00 AM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents American Mahjong",
     "date": "September 16, 2026",
     "time": "12:30 PM - 02:30 PM",
@@ -96,16 +90,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
-    "date": "September 19, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "524 Belmont Drive"
-  },
-  {
     "title": "Drive-Thru Shred Event - 9/19/26",
     "date": "September 19, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
