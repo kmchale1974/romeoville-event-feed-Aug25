@@ -6,24 +6,6 @@
     "location": "TBA"
   },
   {
-    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
-    "date": "September 16, 2026",
-    "time": "08:00 AM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Village Board Meeting",
-    "date": "September 16, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
-    "title": "White Oak Library presents Teen Volunteer Night",
-    "date": "September 16, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Wet &amp; Wacky Wednesday",
     "date": "September 16, 2026",
     "time": "06:30 PM - 09:00 PM",
@@ -78,16 +60,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Drive-Thru Shred Event - 9/19/26",
-    "date": "September 19, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Oak Tree Planting at O’Hara Woods Nature Preserve",
     "date": "September 19, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Drive-Thru Shred Event - 9/19/26",
+    "date": "September 19, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "1050 W. Romeo Road"
   },
   {
     "title": "Aquatic Fitness Pop-Up: Rivalry Riptide",
@@ -228,16 +210,16 @@
     "location": "900 West Romeo Road"
   },
   {
-    "title": "White Oak Library presents Budding Builders",
-    "date": "September 25, 2026",
-    "time": "10:00 AM - 11:00 AM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
     "date": "September 25, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Budding Builders",
+    "date": "September 25, 2026",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Bling Bling Preview Sale/Fundraiser",
