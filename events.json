@@ -304,5 +304,29 @@
     "date": "October 2, 2026",
     "time": "05:00 PM - 09:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Autumn Colors Craft Show",
+    "date": "October 3, 2026",
+    "time": "09:00 AM - 03:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "October 3, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Super Saturday Storytime-Bluey",
+    "date": "October 3, 2026",
+    "time": "11:00 AM - 11:45 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents Northern Illinois Raptor Rehab and Education",
+    "date": "October 3, 2026",
+    "time": "01:00 PM - 02:00 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
