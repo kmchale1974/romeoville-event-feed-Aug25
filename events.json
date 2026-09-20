@@ -1,12 +1,6 @@
 [
   {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
-    "date": "September 19, 2026",
-    "time": "08:00 AM - 08:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 20, 2026",
     "time": "08:00 AM - 08:00 PM",
     "location": "501 E. Romeo Rd."
@@ -310,5 +304,23 @@
     "date": "October 3, 2026",
     "time": "01:00 PM - 02:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "White Oak Library presents The Inspiring True Story of the Twelve Navy Nurse POWs in WWII",
+    "date": "TBA",
+    "time": "09:00 AM - 08:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "October 4, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Bark-tober Fest",
+    "date": "October 4, 2026",
+    "time": "03:00 PM - 05:00 PM",
+    "location": "400 W Romeo Rd"
   }
 ]
