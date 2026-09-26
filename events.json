@@ -1,11 +1,5 @@
 [
   {
-    "title": "Hispanic Heritage Celebration",
-    "date": "September 25, 2026",
-    "time": "06:00 PM - 10:00 PM",
-    "location": "1050 W Romeo Road"
-  },
-  {
     "title": "Isle a la Cache Museum presents Recycle Your Bicycle",
     "date": "September 26, 2026",
     "time": "08:00 AM - 08:00 PM",
@@ -268,5 +262,17 @@
     "date": "October 9, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Fire Prevention Week Open House",
+    "date": "October 10, 2026",
+    "time": "09:00 AM - 01:00 PM",
+    "location": "18 Montrose Dr."
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "October 10, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
