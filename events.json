@@ -252,16 +252,16 @@
     "location": "18 Montrose Dr."
   },
   {
-    "title": "Special Events Commission Meeting",
-    "date": "October 13, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
     "title": "White Oak Library presents STEAM Experiment",
     "date": "October 13, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Special Events Commission Meeting",
+    "date": "October 13, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "900 West Romeo Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
@@ -280,5 +280,41 @@
     "date": "October 13, 2026",
     "time": "07:00 PM - 08:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "October 14, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents American Mahjong",
+    "date": "October 14, 2026",
+    "time": "12:30 PM - 02:30 PM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "October 14, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Opportunity Matters Workshop",
+    "date": "October 14, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Conservation and Sustainabitity Committee Meeting",
+    "date": "October 14, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Wet &amp; Wacky Wednesday",
+    "date": "October 14, 2026",
+    "time": "06:30 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
