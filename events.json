@@ -6,12 +6,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
-    "date": "October 4, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Bark-tober Fest",
     "date": "October 4, 2026",
     "time": "03:00 PM - 05:00 PM",
@@ -162,16 +156,16 @@
     "location": "18 Montrose Dr."
   },
   {
-    "title": "White Oak Library presents STEAM Experiment",
-    "date": "October 13, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "Special Events Commission Meeting",
     "date": "October 13, 2026",
     "time": "04:30 PM - 05:30 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents STEAM Experiment",
+    "date": "October 13, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   },
   {
     "title": "Planning and Zoning Commission Meeting",
@@ -276,18 +270,6 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "Geocoinfest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 03:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
-    "title": "Geocoin Fest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "Joliet Junior College&#39;s Fall Repair Cafe",
     "date": "October 17, 2026",
     "time": "10:00 AM - 03:00 PM",
@@ -298,6 +280,18 @@
     "date": "October 17, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Geocoin Fest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Geocoinfest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "55 Phelps Ave."
   },
   {
     "title": "White Oak Library presents Super Saturday Storytime-Clifford",
