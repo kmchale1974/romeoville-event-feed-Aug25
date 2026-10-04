@@ -276,18 +276,6 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "Joliet Junior College&#39;s Fall Repair Cafe",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 03:00 PM",
-    "location": "1125 W. Romeo Rd."
-  },
-  {
-    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Geocoinfest",
     "date": "October 17, 2026",
     "time": "10:00 AM - 03:00 PM",
@@ -298,6 +286,18 @@
     "date": "October 17, 2026",
     "time": "10:00 AM - 11:59 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Joliet Junior College&#39;s Fall Repair Cafe",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "1125 W. Romeo Rd."
+  },
+  {
+    "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 04:00 PM",
+    "location": "501 E. Romeo Rd."
   },
   {
     "title": "White Oak Library presents Super Saturday Storytime-Clifford",
