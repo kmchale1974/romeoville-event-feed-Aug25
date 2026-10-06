@@ -6,12 +6,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Teen Dungeons &amp; Dragons: Hunger Games One-shot",
-    "date": "October 5, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "October 6, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -246,6 +240,18 @@
     "location": "524 Belmont Drive"
   },
   {
+    "title": "Geocoinfest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Geocoin Fest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
     "title": "Joliet Junior College&#39;s Fall Repair Cafe",
     "date": "October 17, 2026",
     "time": "10:00 AM - 03:00 PM",
@@ -256,18 +262,6 @@
     "date": "October 17, 2026",
     "time": "10:00 AM - 04:00 PM",
     "location": "501 E. Romeo Rd."
-  },
-  {
-    "title": "Geocoin Fest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
-    "title": "Geocoinfest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 03:00 PM",
-    "location": "55 Phelps Ave."
   },
   {
     "title": "White Oak Library presents Super Saturday Storytime-Clifford",
@@ -292,5 +286,23 @@
     "date": "October 19, 2026",
     "time": "01:00 PM - 06:00 PM",
     "location": "1293 Windham Parkway"
+  },
+  {
+    "title": "White Oak Library presents Painting Pals",
+    "date": "October 20, 2026",
+    "time": "10:30 AM - 11:00 AM",
+    "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Veterans Commission Meeting",
+    "date": "October 20, 2026",
+    "time": "04:00 PM - 05:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "White Oak Library presents Tween Crafting Club",
+    "date": "October 20, 2026",
+    "time": "04:30 PM - 05:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
