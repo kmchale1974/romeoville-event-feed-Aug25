@@ -6,18 +6,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents Doodle Hour: 3D Pens",
-    "date": "October 8, 2026",
-    "time": "04:30 PM - 05:30 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
-    "title": "28th Annual Citizens Against Abuse Rally",
-    "date": "October 8, 2026",
-    "time": "05:30 PM - 08:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "White Oak Library presents Budding Builders",
     "date": "October 9, 2026",
     "time": "09:30 AM - 11:30 AM",
@@ -192,15 +180,15 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "Geocoinfest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 03:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "Geocoin Fest",
     "date": "October 17, 2026",
     "time": "10:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Geocoinfest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 03:00 PM",
     "location": "55 Phelps Ave."
   },
   {
