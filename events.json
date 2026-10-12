@@ -6,12 +6,6 @@
     "location": "201 W. Normantown Road"
   },
   {
-    "title": "White Oak Library presents ESL Reading &amp; Conversation Group",
-    "date": "October 12, 2026",
-    "time": "11:00 AM - 12:00 PM",
-    "location": "201 W. Normantown Road"
-  },
-  {
     "title": "White Oak Library presents Pinochle Club",
     "date": "October 13, 2026",
     "time": "09:30 AM - 12:30 PM",
@@ -144,16 +138,10 @@
     "location": "524 Belmont Drive"
   },
   {
-    "title": "Geocoinfest",
+    "title": "Joliet Junior College&#39;s Fall Repair Cafe",
     "date": "October 17, 2026",
     "time": "10:00 AM - 03:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
-    "title": "Geocoin Fest",
-    "date": "October 17, 2026",
-    "time": "10:00 AM - 11:59 PM",
-    "location": "55 Phelps Ave."
+    "location": "1125 W. Romeo Rd."
   },
   {
     "title": "The Nature Foundation of Will County presents &#39;The Stick&#39; Traveling Exhibition by Clay Rice",
@@ -162,10 +150,16 @@
     "location": "501 E. Romeo Rd."
   },
   {
-    "title": "Joliet Junior College&#39;s Fall Repair Cafe",
+    "title": "Geocoin Fest",
+    "date": "October 17, 2026",
+    "time": "10:00 AM - 11:59 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Geocoinfest",
     "date": "October 17, 2026",
     "time": "10:00 AM - 03:00 PM",
-    "location": "1125 W. Romeo Rd."
+    "location": "55 Phelps Ave."
   },
   {
     "title": "White Oak Library presents Super Saturday Storytime-Clifford",
