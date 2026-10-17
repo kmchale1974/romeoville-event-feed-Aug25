@@ -208,5 +208,17 @@
     "date": "October 30, 2026",
     "time": "09:30 AM - 11:30 AM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Romeoville Recreation Center - Holiday Hours for Halloween",
+    "date": "October 31, 2026",
+    "time": "05:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Holiday Hours for Halloween",
+    "date": "October 31, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
