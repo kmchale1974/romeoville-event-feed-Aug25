@@ -136,5 +136,11 @@
     "date": "November 5, 2026",
     "time": "04:30 PM - 06:00 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Glow Night",
+    "date": "November 6, 2026",
+    "time": "05:00 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
   }
 ]
