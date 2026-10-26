@@ -124,5 +124,11 @@
     "date": "November 8, 2026",
     "time": "12:00 PM - 03:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Blood Drive",
+    "date": "November 9, 2026",
+    "time": "01:00 PM - 06:00 PM",
+    "location": "1293 Windham Parkway"
   }
 ]
