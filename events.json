@@ -124,5 +124,29 @@
     "date": "November 10, 2026",
     "time": "06:30 PM - 07:30 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Romeoville Recreation Center - Holiday Hours for Veterans Day",
+    "date": "November 11, 2026",
+    "time": "05:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Veterans Day",
+    "date": "November 11, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Veterans Day",
+    "date": "November 11, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Veteran&#39;s Day Breakfast &amp; Ceremony",
+    "date": "November 11, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "TBA"
   }
 ]
