@@ -118,5 +118,17 @@
     "date": "November 18, 2026",
     "time": "06:30 PM - 09:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Festival of Lights",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Festival of Lights - Tree Lighting",
+    "date": "November 19, 2026",
+    "time": "05:00 PM - 06:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
