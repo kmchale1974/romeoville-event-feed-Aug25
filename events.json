@@ -1,11 +1,5 @@
 [
   {
-    "title": "Glow Night",
-    "date": "November 6, 2026",
-    "time": "05:00 PM - 09:00 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Triple Play: Catapult a Pumpkin, Shred Confidential Documents &amp; Recycle Electronics",
     "date": "November 7, 2026",
     "time": "09:00 AM - 12:00 PM",
@@ -124,5 +118,23 @@
     "date": "November 20, 2026",
     "time": "06:00 PM - 09:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Junior Historians",
+    "date": "November 21, 2026",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
