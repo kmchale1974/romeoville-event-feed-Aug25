@@ -1,11 +1,5 @@
 [
   {
-    "title": "Isle a la Cache Museum presents Living History Encounter: 18th-century Weaponry &amp; Tools",
-    "date": "November 8, 2026",
-    "time": "12:00 PM - 03:00 PM",
-    "location": "501 E. Romeo Rd."
-  },
-  {
     "title": "Last Day for Courts in Field House",
     "date": "November 9, 2026",
     "time": "09:00 AM - 09:00 PM",
@@ -114,16 +108,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "O’Hara Woods Volunteer Workdays",
-    "date": "November 21, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "524 Belmont Drive"
-  },
-  {
     "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
     "date": "November 21, 2026",
     "time": "09:00 AM - 02:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
   },
   {
     "title": "Isle a la Cache Museum presents Junior Historians",
