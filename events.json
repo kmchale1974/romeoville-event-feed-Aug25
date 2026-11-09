@@ -84,6 +84,12 @@
     "location": "1050 W. Romeo Road"
   },
   {
+    "title": "Pace ReVision Virtual Meeting",
+    "date": "November 18, 2026",
+    "time": "06:00 PM - 11:59 PM",
+    "location": "TBA"
+  },
+  {
     "title": "Wet &amp; Wacky Wednesday",
     "date": "November 18, 2026",
     "time": "06:30 PM - 09:00 PM",
@@ -130,5 +136,11 @@
     "date": "November 22, 2026",
     "time": "05:00 PM - 07:00 PM",
     "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "First Day for Turf in Field House",
+    "date": "November 23, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "55 Phelps Ave."
   }
 ]
