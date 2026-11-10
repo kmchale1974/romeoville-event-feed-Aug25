@@ -1,11 +1,5 @@
 [
   {
-    "title": "Last Day for Courts in Field House",
-    "date": "November 9, 2026",
-    "time": "09:00 AM - 09:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "Finance Committee Meeting",
     "date": "November 10, 2026",
     "time": "04:00 PM - 05:00 PM",
@@ -136,5 +130,11 @@
     "date": "November 23, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "November 24, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
   }
 ]
