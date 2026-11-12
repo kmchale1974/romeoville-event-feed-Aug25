@@ -1,17 +1,5 @@
 [
   {
-    "title": "Romeoville Recreation Center - Holiday Hours for Veterans Day",
-    "date": "November 11, 2026",
-    "time": "05:00 AM - 09:00 PM",
-    "location": "900 West Romeo Road"
-  },
-  {
-    "title": "Romeoville Aquatic Center - Closed for Veterans Day",
-    "date": "November 11, 2026",
-    "time": "06:00 AM - 09:00 PM",
-    "location": "630 Townhall Drive"
-  },
-  {
     "title": "Dive In Movie: Toy Story",
     "date": "November 13, 2026",
     "time": "05:00 PM - 11:59 PM",
@@ -106,5 +94,23 @@
     "date": "November 24, 2026",
     "time": "06:00 PM - 07:00 PM",
     "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
   }
 ]
