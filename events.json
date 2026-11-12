@@ -1,1 +1,116 @@
-[]
+[
+  {
+    "title": "Dive In Movie: Toy Story",
+    "date": "November 13, 2026",
+    "time": "05:00 PM - 11:59 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Thanks for Giving Luncheon for Romeoville Veterans",
+    "date": "November 14, 2026",
+    "time": "12:00 PM - 04:00 PM",
+    "location": "301 Normantown Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents You Are a Story: Memoir &amp; Illinois Novelists",
+    "date": "November 14, 2026",
+    "time": "01:00 PM - 02:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Police Pension Board Meeting",
+    "date": "November 16, 2026",
+    "time": "01:00 PM - 02:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "November 18, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "Pace ReVision Virtual Meeting",
+    "date": "November 18, 2026",
+    "time": "06:00 PM - 11:59 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Wet &amp; Wacky Wednesday",
+    "date": "November 18, 2026",
+    "time": "06:30 PM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Festival of Lights",
+    "date": "TBA",
+    "time": "12:00 AM - 11:59 PM",
+    "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Festival of Lights - Tree Lighting",
+    "date": "November 19, 2026",
+    "time": "05:00 PM - 06:00 PM",
+    "location": "1050 W Romeo Road"
+  },
+  {
+    "title": "Bingo",
+    "date": "November 20, 2026",
+    "time": "06:00 PM - 09:00 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Junior Historians",
+    "date": "November 21, 2026",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Full Moon: Beaver Bonfire",
+    "date": "November 22, 2026",
+    "time": "05:00 PM - 07:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "First Day for Turf in Field House",
+    "date": "November 23, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "55 Phelps Ave."
+  },
+  {
+    "title": "Planning and Zoning Commission Meeting",
+    "date": "November 24, 2026",
+    "time": "06:00 PM - 07:00 PM",
+    "location": "1050 W. Romeo Rd."
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Thanksgiving",
+    "date": "November 26, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  }
+]
