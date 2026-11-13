@@ -112,5 +112,29 @@
     "date": "November 26, 2026",
     "time": "09:00 AM - 09:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Romeoville Aquatic Center - Closed for Black Friday",
+    "date": "November 27, 2026",
+    "time": "06:00 AM - 09:00 PM",
+    "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Village Offices Closed - Thanksgiving",
+    "date": "November 27, 2026",
+    "time": "08:00 AM - 04:00 PM",
+    "location": "TBA"
+  },
+  {
+    "title": "Romeoville Recreation Center - Closed for Black Friday",
+    "date": "November 27, 2026",
+    "time": "09:00 AM - 09:00 PM",
+    "location": "900 West Romeo Road"
+  },
+  {
+    "title": "Blood Drive",
+    "date": "November 27, 2026",
+    "time": "10:00 AM - 03:00 PM",
+    "location": "1293 Windham Parkway"
   }
 ]
