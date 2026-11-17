@@ -36,16 +36,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
-    "date": "November 21, 2026",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "O’Hara Woods Volunteer Workdays",
     "date": "November 21, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "TBA"
   },
   {
     "title": "Isle a la Cache Museum presents Junior Historians",
@@ -118,5 +118,11 @@
     "date": "November 30, 2026",
     "time": "09:00 AM - 03:00 PM",
     "location": "900 West Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents Pinochle Club",
+    "date": "December 1, 2026",
+    "time": "09:30 AM - 12:30 PM",
+    "location": "201 W. Normantown Road"
   }
 ]
