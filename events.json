@@ -124,5 +124,11 @@
     "date": "December 1, 2026",
     "time": "09:30 AM - 12:30 PM",
     "location": "201 W. Normantown Road"
+  },
+  {
+    "title": "Village Board Meeting",
+    "date": "December 2, 2026",
+    "time": "06:00 PM - 08:00 PM",
+    "location": "1050 W. Romeo Road"
   }
 ]
