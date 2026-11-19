@@ -1,11 +1,5 @@
 [
   {
-    "title": "Pace ReVision Virtual Meeting",
-    "date": "November 18, 2026",
-    "time": "06:00 PM - 11:59 PM",
-    "location": "TBA"
-  },
-  {
     "title": "Festival of Lights",
     "date": "TBA",
     "time": "12:00 AM - 11:59 PM",
@@ -24,16 +18,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
-    "date": "November 21, 2026",
-    "time": "09:00 AM - 02:00 PM",
-    "location": "TBA"
-  },
-  {
     "title": "O’Hara Woods Volunteer Workdays",
     "date": "November 21, 2026",
     "time": "09:00 AM - 11:00 AM",
     "location": "524 Belmont Drive"
+  },
+  {
+    "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 02:00 PM",
+    "location": "TBA"
   },
   {
     "title": "Isle a la Cache Museum presents Junior Historians",
@@ -118,5 +112,17 @@
     "date": "December 2, 2026",
     "time": "06:00 PM - 08:00 PM",
     "location": "1050 W. Romeo Road"
+  },
+  {
+    "title": "White Oak Library presents WonderKids: ‘The Stick’",
+    "date": "December 3, 2026",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Isle a la Cache Museum presents Festive Flora",
+    "date": "December 3, 2026",
+    "time": "06:00 PM - 07:30 PM",
+    "location": "501 E. Romeo Rd."
   }
 ]
