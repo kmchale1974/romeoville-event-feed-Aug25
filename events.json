@@ -1,21 +1,9 @@
 [
   {
-    "title": "Village Board Meeting",
-    "date": "November 18, 2026",
-    "time": "06:00 PM - 08:00 PM",
-    "location": "1050 W. Romeo Road"
-  },
-  {
     "title": "Pace ReVision Virtual Meeting",
     "date": "November 18, 2026",
     "time": "06:00 PM - 11:59 PM",
     "location": "TBA"
-  },
-  {
-    "title": "Wet &amp; Wacky Wednesday",
-    "date": "November 18, 2026",
-    "time": "06:30 PM - 09:00 PM",
-    "location": "630 Townhall Drive"
   },
   {
     "title": "Festival of Lights",
@@ -36,16 +24,16 @@
     "location": "55 Phelps Ave."
   },
   {
-    "title": "O’Hara Woods Volunteer Workdays",
-    "date": "November 21, 2026",
-    "time": "09:00 AM - 11:00 AM",
-    "location": "524 Belmont Drive"
-  },
-  {
     "title": "Northern Will County&#39;s 33rd Annual Harvest Saturday Food Drive",
     "date": "November 21, 2026",
     "time": "09:00 AM - 02:00 PM",
     "location": "TBA"
+  },
+  {
+    "title": "O’Hara Woods Volunteer Workdays",
+    "date": "November 21, 2026",
+    "time": "09:00 AM - 11:00 AM",
+    "location": "524 Belmont Drive"
   },
   {
     "title": "Isle a la Cache Museum presents Junior Historians",
