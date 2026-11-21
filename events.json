@@ -6,12 +6,6 @@
     "location": "1050 W Romeo Road"
   },
   {
-    "title": "Bingo",
-    "date": "November 20, 2026",
-    "time": "06:00 PM - 09:00 PM",
-    "location": "55 Phelps Ave."
-  },
-  {
     "title": "O’Hara Woods Volunteer Workdays",
     "date": "November 21, 2026",
     "time": "09:00 AM - 11:00 AM",
@@ -130,5 +124,17 @@
     "date": "December 4, 2026",
     "time": "05:00 PM - 09:00 PM",
     "location": "630 Townhall Drive"
+  },
+  {
+    "title": "Isle a la Cache Museum presents Forest Bathing",
+    "date": "December 5, 2026",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "501 E. Romeo Rd."
+  },
+  {
+    "title": "Winter Wonderland &amp; Holiday Parade",
+    "date": "December 5, 2026",
+    "time": "04:00 PM - 08:00 PM",
+    "location": "1050 W Romeo Road"
   }
 ]
